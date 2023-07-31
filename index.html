@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim Burton</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+      
+        $(function(){   
+
+            //section 찾아가기
+            var nav = $("#menu ul li");
+            var contents = $("#contents > div");
+    
+            nav.click(function () {
+            var target = $(this);
+            var index = target.index();
+            var section = contents.eq(index);
+            var offset = section.offset().top;
+            
+            $("html, body").animate({ scrollTop: offset }, 400);
+            });
+    
+    
+            $(window).scroll(function () {
+                var wScroll = $(this).scrollTop();
+        
+                for (i = 0; i < nav.length; i++) {
+                    if (wScroll >= contents.eq(i).offset().top) {
+                    nav.find('.circle').removeClass("active");
+                    nav.eq(i).find('.circle').addClass("active");
+                    }
+                };
+            });
+
+
+
+            //메뉴 바 누르면 사이드 메뉴 보임
+            $('.menu_trigger').on('click', function(e){
+                e.preventDefault();
+                $(this).toggleClass('push');
+                $('#mynav').toggleClass('right');
+                $('.menu_trigger span').toggleClass('spanch');
+            });
+
+
+            $('#menu li a').hover(function(){
+                $(this).prev().css('opacity','1')
+            },function(){
+                $(this).prev().css('opacity','0')
+            });
+
+
+        })
+  
+      </script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div id="menu">
+      
+                <h1>Tim Burton</h1>
+            
+                <ul>  
+                  <li><span class="circle active"></span><a href="#section1">About him</a></li>  
+                  <li><span class="circle"></span><a href="#section2">Story</a></li>  
+                  <li><span class="circle"></span><a href="#section3">Cinema</a></li>  
+                  <li><span class="circle"></span><a href="#section4">Art</a></li>
+                </ul>
+
+                <form>
+                    <input type="search" value="Type something" class="type">
+                    <input type="submit" value="Search" class="search">
+                </form>
+            
+            </div>
+        </header>
+        
+        
+        
+        <div id="contents">  
+            <div id="section1">section1</div>  
+            <div id="section2">section2</div>  
+            <div id="section3">section3</div>  
+            <div id="section4">section4</div>  
+            <div id="section5">section5</div>  
+            <div id="section6">section6</div>  
+            <div id="section7">section7</div>  
+            <div id="section8">section8</div>  
+        </div> 
+        
+        
+    </div>
+</body>
+</html>
