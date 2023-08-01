@@ -1,0 +1,971 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+                                                                                <head>
+                <script type="text/javascript">if (!window.T) { window.T = {} }
+window.T.config = {"TOP_SSL_URL":"https://www.tistory.com","PREVIEW":false,"ROLE":"guest","PREV_PAGE":"","NEXT_PAGE":"","BLOG":{"id":1162129,"name":"mika2volley","title":"미까의 제멋대로 세상","isDormancy":true},"NEED_COMMENT_LOGIN":false,"COMMENT_LOGIN_CONFIRM_MESSAGE":"","LOGIN_URL":"https://www.tistory.com/auth/login/?redirectUrl=https://mika2volley.tistory.com/21","DEFAULT_URL":"https://mika2volley.tistory.com","USER":{"name":null,"homepage":null,"id":0,"profileImage":null},"SUBSCRIPTION":{"status":"none","isConnected":false,"isPending":false,"isWait":false,"isProcessing":false,"isNone":true},"IS_LOGIN":false,"HAS_BLOG":false,"IS_SUPPORT":false,"TOP_URL":"http://www.tistory.com","JOIN_URL":"https://www.tistory.com/member/join","ROLE_GROUP":"visitor"};
+window.appInfo = {"domain":"tistory.com","topUrl":"https://www.tistory.com","loginUrl":"https://www.tistory.com/auth/login","logoutUrl":"https://www.tistory.com/auth/logout"};
+window.initData = {};
+
+window.TistoryBlog = {
+    basePath: "",
+    url: "https://mika2volley.tistory.com",
+    tistoryUrl: "https://mika2volley.tistory.com",
+    manageUrl: "https://mika2volley.tistory.com/manage",
+    token: "fWGyCfPswTDtnVtI/VYYdpS0pB6c/+KFFgyQoAyU/2IVvjrr1nWEe3AGPFdoaAI0"
+};
+var servicePath = "";
+var blogURL = "";</script>
+
+                
+                
+                
+                        <!-- BusinessLicenseInfo - START -->
+        
+            <link href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/plugin/BusinessLicenseInfo/style.css" rel="stylesheet" type="text/css"/>
+
+            <script>function switchFold(entryId) {
+    var businessLayer = document.getElementById("businessInfoLayer_" + entryId);
+
+    if (businessLayer) {
+        if (businessLayer.className.indexOf("unfold_license") > 0) {
+            businessLayer.className = "business_license_layer";
+        } else {
+            businessLayer.className = "business_license_layer unfold_license";
+        }
+    }
+}
+</script>
+
+        
+        <!-- BusinessLicenseInfo - END -->
+        <!-- DaumShow - START -->
+        <style type="text/css">#daumSearchBox {
+    height: 21px;
+    background-image: url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+    margin: 5px auto;
+    padding: 0;
+}
+
+#daumSearchBox input {
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#daumSearchBox #daumLogo {
+    width: 34px;
+    height: 21px;
+    float: left;
+    margin-right: 5px;
+    background-image: url(//i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+}
+
+#daumSearchBox #show_q {
+    background-color: transparent;
+    border: none;
+    font: 12px Gulim, Sans-serif;
+    color: #555;
+    margin-top: 4px;
+    margin-right: 15px;
+    float: left;
+}
+
+#daumSearchBox #show_btn {
+    background-image: url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+    width: 37px;
+    height: 21px;
+    float: left;
+    margin: 0;
+    cursor: pointer;
+    text-indent: -1000em;
+}
+</style>
+
+        <!-- DaumShow - END -->
+
+<!-- System - START -->
+
+<!-- System - END -->
+
+        <!-- TistoryProfileLayer - START -->
+        <link href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/plugin/TistoryProfileLayer/style.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/plugin/TistoryProfileLayer/script.js"></script>
+
+        <!-- TistoryProfileLayer - END -->
+
+                
+                <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="format-detection" content="telephone=no">
+<script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="//t1.daumcdn.net/tistory_admin/lib/lightbox/js/lightbox-v2.10.0.min.js" defer></script>
+<script type="text/javascript" src="//t1.daumcdn.net/tiara/js/v1/tiara.min.js"></script><meta name="referrer" content="always"/>
+<meta name="google-adsense-platform-account" content="ca-host-pub-9691043933427338"/>
+<meta name="google-adsense-platform-domain" content="tistory.com"/>
+<meta name="description" content="스위니 토드: 어느 잔혹한 이발사의 이야기 (Sweeney Todd: The Demon Barber Of Fleet Street)복수는 복수를 낳는다는 오래된 교훈이 있다. 맨 처음 당한 놈의 입장에서는 결국 자신이 복수를 해도 다시 복수를 당한다는 참으로 억울하기 짝이 없는 말이다. 결국 당하면 참을 수 밖에 없는가라는 묘한 논리를 설파하고 있는데, 사실 우리로서는 납득하기 어렵다. 특히나 우리의 착하고 용감한 주인공이 어쩌다 악당에게 당해 억울한 피해를 당하고 나서 이에 복수하기 위해 들고 일어서 악당들을 쳐죽인다는 내용은 그야말로 유쾌통쾌상쾌 3박자를 고루 갖춘 한여름의 수박화채와도 같은 짭짤한 재미 되시겠다. 그래서 대부분의 외국 영화에서는 일단 착한 놈의 복수는 무조건 당연한 것이고 해피엔딩이어.."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://mika2volley.tistory.com/21"/>
+<meta property="og.article.author" content="미까"/>
+<meta property="og:site_name" content="미까의 제멋대로 세상"/>
+<meta property="og:title" content="스위니 토드:  어느 잔혹한 이발사의 이야기 (Sweeney Todd)"/>
+<meta name="by" content="미까"/>
+<meta property="og:description" content="스위니 토드: 어느 잔혹한 이발사의 이야기 (Sweeney Todd: The Demon Barber Of Fleet Street)복수는 복수를 낳는다는 오래된 교훈이 있다. 맨 처음 당한 놈의 입장에서는 결국 자신이 복수를 해도 다시 복수를 당한다는 참으로 억울하기 짝이 없는 말이다. 결국 당하면 참을 수 밖에 없는가라는 묘한 논리를 설파하고 있는데, 사실 우리로서는 납득하기 어렵다. 특히나 우리의 착하고 용감한 주인공이 어쩌다 악당에게 당해 억울한 피해를 당하고 나서 이에 복수하기 위해 들고 일어서 악당들을 쳐죽인다는 내용은 그야말로 유쾌통쾌상쾌 3박자를 고루 갖춘 한여름의 수박화채와도 같은 짭짤한 재미 되시겠다. 그래서 대부분의 외국 영화에서는 일단 착한 놈의 복수는 무조건 당연한 것이고 해피엔딩이어.."/>
+<meta property="og:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F176EAB3D50588AAE20"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@TISTORY"/>
+<meta name="twitter:title" content="스위니 토드:  어느 잔혹한 이발사의 이야기 (Sweeney Todd)"/>
+<meta name="twitter:description" content="스위니 토드: 어느 잔혹한 이발사의 이야기 (Sweeney Todd: The Demon Barber Of Fleet Street)복수는 복수를 낳는다는 오래된 교훈이 있다. 맨 처음 당한 놈의 입장에서는 결국 자신이 복수를 해도 다시 복수를 당한다는 참으로 억울하기 짝이 없는 말이다. 결국 당하면 참을 수 밖에 없는가라는 묘한 논리를 설파하고 있는데, 사실 우리로서는 납득하기 어렵다. 특히나 우리의 착하고 용감한 주인공이 어쩌다 악당에게 당해 억울한 피해를 당하고 나서 이에 복수하기 위해 들고 일어서 악당들을 쳐죽인다는 내용은 그야말로 유쾌통쾌상쾌 3박자를 고루 갖춘 한여름의 수박화채와도 같은 짭짤한 재미 되시겠다. 그래서 대부분의 외국 영화에서는 일단 착한 놈의 복수는 무조건 당연한 것이고 해피엔딩이어.."/>
+<meta property="twitter:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F176EAB3D50588AAE20"/>
+<meta content="https://mika2volley.tistory.com/21" property="dg:plink" content="https://mika2volley.tistory.com/21"/>
+<meta name="plink"/>
+<meta name="title" content="스위니 토드:  어느 잔혹한 이발사의 이야기 (Sweeney Todd)"/>
+<meta name="article:media_name" content="미까의 제멋대로 세상"/>
+<meta property="article:mobile_url" content="https://mika2volley.tistory.com/m/21"/>
+<meta property="article:pc_url" content="https://mika2volley.tistory.com/21"/>
+<meta property="article:mobile_view_url" content="https://mika2volley.tistory.com/m/21"/>
+<meta property="article:pc_view_url" content="https://mika2volley.tistory.com/21"/>
+<meta property="article:talk_channel_view_url" content="https://mika2volley.tistory.com/m/21"/>
+<meta property="article:pc_service_home" content="https://www.tistory.com"/>
+<meta property="article:mobile_service_home" content="https://www.tistory.com/m"/>
+<meta property="article:txid" content="1162129_21"/>
+<meta property="article:published_time" content="2009-09-08T16:06:00+09:00"/>
+<meta property="og:regDate" content="20090908040600"/>
+<meta property="article:modified_time" content="2009-09-08T16:06:00+09:00"/>
+<link rel="icon" sizes="any" href="https://t1.daumcdn.net/tistory_admin/favicon/tistory_favicon_32x32.ico"/>
+<link rel="icon" type="image/svg+xml" href="https://t1.daumcdn.net/tistory_admin/top_v2/bi-tistory-favicon.svg"/>
+<link rel="apple-touch-icon" href="https://t1.daumcdn.net/tistory_admin/top_v2/tistory-apple-touch-favicon.png"/>
+<link rel="stylesheet" type="text/css" href="https://t1.daumcdn.net/tistory_admin/lib/lightbox/css/lightbox.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/style/font.css"/>
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/style/content.css"/>
+<script type="text/javascript">(function() {
+    var tjQuery = jQuery.noConflict(true);
+    window.tjQuery = tjQuery;
+    window.orgjQuery = window.jQuery; window.jQuery = tjQuery;
+    window.jQuery = window.orgjQuery; delete window.orgjQuery;
+})()</script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/script/base.js"></script>
+<script type="text/javascript" src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+                
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="미까의 제멋대로 세상" href="https://mika2volley.tistory.com/rss" />
+<link rel="stylesheet" media="screen" type="text/css" href="https://tistory1.daumcdn.net/tistory/0/tis_MovieGoer_White/style.css" />
+<link rel="stylesheet" media="print" type="text/css" href="https://tistory1.daumcdn.net/tistory/0/tis_MovieGoer_White/images/print.css" />
+<link rel="shortcut icon" href="https://mika2volley.tistory.com/favicon.ico" />
+<title>미까의 제멋대로 세상 :: 스위니 토드:  어느 잔혹한 이발사의 이야기 (Sweeney Todd)</title>
+
+                
+                
+                <style type="text/css">.another_category {
+    border: 1px solid #E5E5E5;
+    padding: 10px 10px 5px;
+    margin: 10px 0;
+    clear: both;
+}
+
+.another_category h4 {
+    font-size: 12px !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #E5E5E5 !important;
+    padding: 2px 0 6px !important;
+}
+
+.another_category h4 a {
+    font-weight: bold !important;
+}
+
+.another_category table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+* html .another_category table {
+    width: auto !important;
+}
+
+*:first-child + html .another_category table {
+    width: auto !important;
+}
+
+.another_category th, .another_category td {
+    padding: 0 0 4px !important;
+}
+
+.another_category th {
+    text-align: left;
+    font-size: 12px !important;
+    font-weight: normal;
+    word-break: break-all;
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+.another_category td {
+    text-align: right;
+    width: 80px;
+    font-size: 11px;
+}
+
+.another_category th a {
+    font-weight: normal;
+    text-decoration: none;
+    border: none !important;
+}
+
+.another_category th a.current {
+    font-weight: bold;
+    text-decoration: none !important;
+    border-bottom: 1px solid !important;
+}
+
+.another_category th span {
+    font-weight: normal;
+    text-decoration: none;
+    font: 10px Tahoma, Sans-serif;
+    border: none !important;
+}
+
+.another_category_color_gray, .another_category_color_gray h4 {
+    border-color: #E5E5E5 !important;
+}
+
+.another_category_color_gray * {
+    color: #909090 !important;
+}
+
+.another_category_color_gray th a.current {
+    border-color: #909090 !important;
+}
+
+.another_category_color_gray h4, .another_category_color_gray h4 a {
+    color: #737373 !important;
+}
+
+.another_category_color_red, .another_category_color_red h4 {
+    border-color: #F6D4D3 !important;
+}
+
+.another_category_color_red * {
+    color: #E86869 !important;
+}
+
+.another_category_color_red th a.current {
+    border-color: #E86869 !important;
+}
+
+.another_category_color_red h4, .another_category_color_red h4 a {
+    color: #ED0908 !important;
+}
+
+.another_category_color_green, .another_category_color_green h4 {
+    border-color: #CCE7C8 !important;
+}
+
+.another_category_color_green * {
+    color: #64C05B !important;
+}
+
+.another_category_color_green th a.current {
+    border-color: #64C05B !important;
+}
+
+.another_category_color_green h4, .another_category_color_green h4 a {
+    color: #3EA731 !important;
+}
+
+.another_category_color_blue, .another_category_color_blue h4 {
+    border-color: #C8DAF2 !important;
+}
+
+.another_category_color_blue * {
+    color: #477FD6 !important;
+}
+
+.another_category_color_blue th a.current {
+    border-color: #477FD6 !important;
+}
+
+.another_category_color_blue h4, .another_category_color_blue h4 a {
+    color: #1960CA !important;
+}
+
+.another_category_color_violet, .another_category_color_violet h4 {
+    border-color: #E1CEEC !important;
+}
+
+.another_category_color_violet * {
+    color: #9D64C5 !important;
+}
+
+.another_category_color_violet th a.current {
+    border-color: #9D64C5 !important;
+}
+
+.another_category_color_violet h4, .another_category_color_violet h4 a {
+    color: #7E2CB5 !important;
+}
+</style>
+
+                
+                <link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/style/dialog.css"/>
+<link rel="stylesheet" type="text/css" href="//t1.daumcdn.net/tistory_admin/www/style/top/font.css"/>
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/style/postBtn.css"/>
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/style/comment.css"/>
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/style/tistory.css"/>
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/style/revenue.css"/>
+<link rel="canonical" href="https://mika2volley.tistory.com/21"/>
+
+<!-- BEGIN STRUCTURED_DATA -->
+<script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@id":"https://mika2volley.tistory.com/21","name":null},"url":"https://mika2volley.tistory.com/21","headline":"스위니 토드:  어느 잔혹한 이발사의 이야기 (Sweeney Todd)","description":"스위니 토드: 어느 잔혹한 이발사의 이야기 (Sweeney Todd: The Demon Barber Of Fleet Street)복수는 복수를 낳는다는 오래된 교훈이 있다. 맨 처음 당한 놈의 입장에서는 결국 자신이 복수를 해도 다시 복수를 당한다는 참으로 억울하기 짝이 없는 말이다. 결국 당하면 참을 수 밖에 없는가라는 묘한 논리를 설파하고 있는데, 사실 우리로서는 납득하기 어렵다. 특히나 우리의 착하고 용감한 주인공이 어쩌다 악당에게 당해 억울한 피해를 당하고 나서 이에 복수하기 위해 들고 일어서 악당들을 쳐죽인다는 내용은 그야말로 유쾌통쾌상쾌 3박자를 고루 갖춘 한여름의 수박화채와도 같은 짭짤한 재미 되시겠다. 그래서 대부분의 외국 영화에서는 일단 착한 놈의 복수는 무조건 당연한 것이고 해피엔딩이어..","author":{"@type":"Person","name":"미까","logo":null},"image":{"@type":"ImageObject","url":"https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F176EAB3D50588AAE20","width":"800px","height":"800px"},"datePublished":"20090908T16:06:00","dateModified":"20090908T16:06:00","publisher":{"@type":"Organization","name":"TISTORY","logo":{"@type":"ImageObject","url":"https://t1.daumcdn.net/tistory_admin/static/images/openGraph/opengraph.png","width":"800px","height":"800px"}}}
+</script>
+<!-- END STRUCTURED_DATA -->
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/script/common.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/script/comment.js" defer=""></script>
+
+                
+                </head>
+                                <body id="tt-body-page">
+                
+                
+
+	<div id="container">
+		<div id="header">
+<!-- 블로그 타이틀 모듈 -->
+
+			<div class="wrapHeadMenu">
+				<div class="wrap_title">
+					<div class="wrap_title_right">
+						<h1><a href="https://mika2volley.tistory.com/"><span>미까의 제멋대로 세상</a></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- close header -->
+		<hr />
+		<div id="blogMenu">
+			<ul>
+  <li class="t_menu_home first"><a href="/" target="">home</a></li>
+  <li class="t_menu_tag"><a href="/tag" target="">tag</a></li>
+  <li class="t_menu_medialog"><a href="/media" target="">media log</a></li>
+  <li class="t_menu_location"><a href="/location" target="">location log</a></li>
+  <li class="t_menu_guestbook"><a href="/guestbook" target="">guestbook</a></li>
+  <li class="t_menu_admin"><a href="/manage" target="">admin</a></li>
+  <li class="t_menu_write last"><a href="/manage/newpost/" target="">write</a></li>
+</ul>
+		</div>
+		<div id="wrapBody">
+			<div id="sidebar1" class="sidebar">
+			
+						<div class="wrap_user_intro">
+<!-- 블로그 이미지 모듈 -->
+							<div id="blogImage"><img src="https://t1.daumcdn.net/tistory_admin/static/manage/images/r3/default_L.png" alt="블로그 이미지" /></div>
+<!-- 블로그 설명 모듈 -->
+							<div id="blogDesc">미까의 세상은 남들과 다른 세상~ 지금까지의 편견과 고정관념은 사라져라~!!!!! 미까의 눈으로 바라본 또다른 세상이 펼쳐지니라~</div>
+							<div class="userID">미까</div>
+						</div>
+						
+<!-- 카테고리 모듈 -->
+						<div id="category" class="block">
+							<h3>Category</h3>
+							<ul class="tt_category"><li class=""><a href="/category" class="link_tit"> 분류 전체보기 <span class="c_cnt">(72)</span> </a>
+  <ul class="category_list"><li class=""><a href="/category/Animation" class="link_item"> Animation <span class="c_cnt">(7)</span> </a></li>
+<li class=""><a href="/category/--------------------" class="link_item"> -------------------- <span class="c_cnt">(0)</span> </a></li>
+<li class=""><a href="/category/Movie" class="link_item"> Movie <span class="c_cnt">(38)</span> </a></li>
+<li class=""><a href="/category/People" class="link_item"> People <span class="c_cnt">(3)</span> </a></li>
+<li class=""><a href="/category/Car" class="link_item"> Car <span class="c_cnt">(21)</span> </a></li>
+<li class=""><a href="/category/Marketing" class="link_item"> Marketing <span class="c_cnt">(2)</span> </a></li>
+<li class=""><a href="/category/Other" class="link_item"> Other <span class="c_cnt">(1)</span> </a></li>
+</ul>
+</li>
+</ul>
+
+						</div>
+					
+<!-- 공지사항 모듈 -->
+						
+							<div id="notice" class="block">
+								<h3>Notice</h3>
+								<ul>
+									
+								</ul>
+							</div>
+						
+					
+<!-- 글 보관함 모듈 -->
+						<div id="archive" class="block">
+							<h3>Archive</h3>
+							<ul>
+								
+									<li>
+										<a href="/archive/201008">2010/08</a>
+										<span class="c_cnt">(2)</span>
+									</li>
+								
+									<li>
+										<a href="/archive/201005">2010/05</a>
+										<span class="c_cnt">(2)</span>
+									</li>
+								
+									<li>
+										<a href="/archive/201004">2010/04</a>
+										<span class="c_cnt">(1)</span>
+									</li>
+								
+									<li>
+										<a href="/archive/201003">2010/03</a>
+										<span class="c_cnt">(1)</span>
+									</li>
+								
+									<li>
+										<a href="/archive/201002">2010/02</a>
+										<span class="c_cnt">(1)</span>
+									</li>
+								
+							</ul>
+						</div>
+					
+<!-- 링크 모듈 -->
+						<div id="link" class="block">
+							<h3>My Link</h3>
+							<ul>
+								
+							</ul>
+						</div>
+					
+<!-- 카운터 모듈 -->
+						<div id="counter">
+							<ul>
+								<li class="total">total <span class="num">136,948</span></li>
+								<li class="today">today <span class="num">5</span></li>
+								<li class="yesterday">yesterday <span class="num">9</span></li>
+							</ul>
+						</div>
+					
+<!-- 배너 모듈 - 티스토리 -->
+						<div id="adTistory">
+							<a href="http://www.tistory.com/join" title="티스토리 가입하기!">티스토리 가입하기</a>
+						</div>
+					
+<!-- RSS 링크 -->
+						<div id="btnRSS">
+							<a href="https://mika2volley.tistory.com/rss" onclick="window.open(this.href); return false" title="미까의 제멋대로 세상 구독하기">RSS FEED</a>
+						</div>
+					
+<!-- 관리자 모듈 -->
+						<!-- <div id="adminMenu">
+							<a href="https://mika2volley.tistory.com/manage" title="관리자">관리자</a>
+							<a href="https://mika2volley.tistory.com/manage/entry/post" title="글쓰기">글쓰기</a>
+						</div> -->
+					
+			</div><!-- close sidebar -->
+			<div id="sidebar2" class="sidebar">
+				
+<!-- 검색 모듈 -->
+					<div id="searchBox">
+						<h3>Search</h3>
+						
+							<input type="text" name="search" value="" onkeypress="if (event.keyCode == 13) { try {
+    window.location.href = '/search' + '/' + looseURIEncode(document.getElementsByName('search')[0].value);
+    document.getElementsByName('search')[0].value = '';
+    return false;
+} catch (e) {} }"/><input value="검색" type="button" onclick="try {
+    window.location.href = '/search' + '/' + looseURIEncode(document.getElementsByName('search')[0].value);
+    document.getElementsByName('search')[0].value = '';
+    return false;
+} catch (e) {}" class="submit"/>
+						
+					</div>
+				
+<!-- 태그목록 모듈 -->
+						<div id="tagbox" class="block">
+							<h3>Tag</h3>
+							<ul>
+								
+							</ul>
+						</div>
+					
+<!-- 최근 댓글 모듈 -->
+						<div id="recentComment" class="block">
+							<h3>Recent Comment</h3>
+							<ul id="recentComments">
+								
+									<li>
+										<a href="/11#comment13425249">최애 미드에요 ㅎㅎㅎ
+잘보고갑⋯</a>
+										<span class="info">
+											<span class="name">알버스 덤블도어</span>
+											<span class="date">12.14</span>
+										</span>
+									</li>
+								
+									<li>
+										<a href="/16#comment10808876">좋은 리뷰 감사합니다 이해하는⋯</a>
+										<span class="info">
+											<span class="name">오오</span>
+											<span class="date">2017</span>
+										</span>
+									</li>
+								
+									<li>
+										<a href="/16#comment10222775">대단히 감사합니다^^</a>
+										<span class="info">
+											<span class="name">미까</span>
+											<span class="date">2017</span>
+										</span>
+									</li>
+								
+									<li>
+										<a href="/16#comment10186281">당신의 해석 재미있게 봤습니다⋯</a>
+										<span class="info">
+											<span class="name">멎져요</span>
+											<span class="date">2017</span>
+										</span>
+									</li>
+								
+									<li>
+										<a href="/14#comment9899239">ㅎㅎ 현 rx8 r3 오너입니⋯</a>
+										<span class="info">
+											<span class="name">김영준</span>
+											<span class="date">2016</span>
+										</span>
+									</li>
+								
+							</ul>
+						</div>
+					
+<!-- 최근 포스트 모듈 -->
+						<div id="recentPost" class="block">
+							<h3>Recent Post</h3>
+							<ul>
+								
+									<li>
+										<a href="/2">아이언 맨 2 (Iron Man 2)</a>
+										<span class="c_cnt"><span id="commentCountOnRecentEntries2">2</span></span>
+									</li>
+								
+									<li>
+										<a href="/3">[TG삼보공모전] TG삼보 Paper ⋯</a>
+										<span class="c_cnt"><span id="commentCountOnRecentEntries3">8</span></span>
+									</li>
+								
+									<li>
+										<a href="/4">허트 록커 (The Hurt Locke⋯</a>
+										<span class="c_cnt"><span id="commentCountOnRecentEntries4"></span></span>
+									</li>
+								
+									<li>
+										<a href="/5">셔터 아일랜드 (Shutter Isla⋯</a>
+										<span class="c_cnt"><span id="commentCountOnRecentEntries5">2</span></span>
+									</li>
+								
+									<li>
+										<a href="/6">팬도럼 (Pandorum)</a>
+										<span class="c_cnt"><span id="commentCountOnRecentEntries6">18</span></span>
+									</li>
+								
+							</ul>
+						</div>
+					
+<!-- 달력 모듈 -->
+						<div id="calendar">
+							<h3>calendar</h3>
+							
+							<div class="cal_month">
+								<a href="/archive/202307" class="calendar_prev" title="1개월 앞의 달력을 보여줍니다.">&nbsp;<span>&laquo;</span></a>
+								<a href="/archive/202308" title="현재 달의 달력을 보여줍니다.">2023.8</a>
+								<a href="/archive/202308" class="calendar_next" title="1개월 뒤의 달력을 보여줍니다.">&nbsp;<span>&raquo;</span></a>
+							</div>
+							<table class="tt-calendar" cellpadding="0" cellspacing="0" style="table-layout: fixed">
+								
+								<thead>
+									<tr>
+										
+										<th class="cal_week2">일</th>
+										
+										<th class="cal_week1">월</th>
+										
+										<th class="cal_week1">화</th>
+										
+										<th class="cal_week1">수</th>
+										
+										<th class="cal_week1">목</th>
+										
+										<th class="cal_week1">금</th>
+										
+										<th class="cal_week1">토</th>
+										
+									</tr>
+								</thead>
+								
+								
+								<tbody>
+									
+									<tr class="cal_week cal_current_week">
+										
+										<td class="cal_day1 cal_day2"></td>
+										
+										<td class="cal_day1 cal_day2"></td>
+										
+										<td class="cal_day cal_day4">1</td>
+										
+										<td class="cal_day cal_day3">2</td>
+										
+										<td class="cal_day cal_day3">3</td>
+										
+										<td class="cal_day cal_day3">4</td>
+										
+										<td class="cal_day cal_day3">5</td>
+										
+									</tr>
+									
+									<tr class="cal_week">
+										
+										<td class="cal_day cal_day3 cal_day_sunday">6</td>
+										
+										<td class="cal_day cal_day3">7</td>
+										
+										<td class="cal_day cal_day3">8</td>
+										
+										<td class="cal_day cal_day3">9</td>
+										
+										<td class="cal_day cal_day3">10</td>
+										
+										<td class="cal_day cal_day3">11</td>
+										
+										<td class="cal_day cal_day3">12</td>
+										
+									</tr>
+									
+									<tr class="cal_week">
+										
+										<td class="cal_day cal_day3 cal_day_sunday">13</td>
+										
+										<td class="cal_day cal_day3">14</td>
+										
+										<td class="cal_day cal_day3">15</td>
+										
+										<td class="cal_day cal_day3">16</td>
+										
+										<td class="cal_day cal_day3">17</td>
+										
+										<td class="cal_day cal_day3">18</td>
+										
+										<td class="cal_day cal_day3">19</td>
+										
+									</tr>
+									
+									<tr class="cal_week">
+										
+										<td class="cal_day cal_day3 cal_day_sunday">20</td>
+										
+										<td class="cal_day cal_day3">21</td>
+										
+										<td class="cal_day cal_day3">22</td>
+										
+										<td class="cal_day cal_day3">23</td>
+										
+										<td class="cal_day cal_day3">24</td>
+										
+										<td class="cal_day cal_day3">25</td>
+										
+										<td class="cal_day cal_day3">26</td>
+										
+									</tr>
+									
+									<tr class="cal_week">
+										
+										<td class="cal_day cal_day3 cal_day_sunday">27</td>
+										
+										<td class="cal_day cal_day3">28</td>
+										
+										<td class="cal_day cal_day3">29</td>
+										
+										<td class="cal_day cal_day3">30</td>
+										
+										<td class="cal_day cal_day3">31</td>
+										
+										<td class="cal_day1 cal_day2"></td>
+										
+										<td class="cal_day1 cal_day2"></td>
+										
+									</tr>
+									
+								</tbody>
+								
+							</table>
+							
+						</div>
+					
+				</div>
+			<div id="content"><div class="wrapContent">
+<!-- 태그 -->
+				
+<!-- 지역로그 -->
+				
+				
+<!-- 본문검색리스트 -->
+				
+<!-- 댓글검색리스트 -->
+				
+<!-- 공지사항글 -->
+				
+<!-- 보호글 -->
+				
+<!-- 포스트의 본문 시작 -->
+				                
+                    
+					<div class="entry"><div class="wrapEntryCnt">
+						<div class="titleWrap">
+							<h2><a href="/21">스위니 토드:  어느 잔혹한 이발사의 이야기 (Sweeney Todd)</a></h2>
+<!-- 포스트관리 -->
+							
+						</div><!-- close titleWrap -->
+						<div class="wrapEntryHead">
+							<span class="category"><a href="/category/Movie">Movie</a> </span>
+						</div>
+						<div class="wrapEntryHead">
+							<span class="author">
+								<span class="text">posted by</span> 미까
+							</span>
+							<span class="date">2009. 9. 8. 16:06</span>
+						</div>
+<!-- 포스트 본문 내용 -->
+						<div class="article">
+							            <!-- System - START -->
+
+<!-- System - END -->
+
+            <div class="contents_style"><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체></FONT></SPAN><FONT color=#177fcd></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; FONT-FAMILY: '새굴림','serif'"><STRONG><FONT face=굴림체><FONT color=#177fcd>스위니 토드<SPAN lang=EN-US>:<SPAN style="mso-spacerun: yes"> </SPAN></SPAN>어느 잔혹한 이발사의 이야기<SPAN lang=EN-US> (Sweeney Todd: The Demon Barber Of Fleet Street)<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></FONT></FONT></STRONG></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><o:p><STRONG><FONT face=굴림체 color=#000000></FONT></STRONG></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>복수는 복수를 낳는다는 오래된 교훈이 있다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>맨 처음 당한 놈의 입장에서는 결국 자신이 복수를 해도 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>다시 복수를 당한다는 참으로 억울하기 짝이 없는 말이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>결국 당하면 참을 수 밖에 없는가라는 묘한 논리를 설파하고 있는데<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>사실 우리로서는 납득하기 어렵다<SPAN lang=EN-US>. </SPAN>특히나 우리의 착하고 용감한 주인공이 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>어쩌다 악당에게 당해 억울한 피해를 당하고 나서 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이에 복수하기 위해 들고 일어서 악당들을 쳐죽인다는 내용은 그야말로 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>유쾌통쾌상쾌<SPAN lang=EN-US> 3</SPAN>박자를 고루 갖춘 한여름의 수박화채와도 같은 짭짤한 재미 되시겠다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그래서 대부분의 외국 영화에서는 일단 착한 놈의 복수는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>무조건 당연한 것이고 해피엔딩이어야 한다는 나름의 법칙이 있다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>하지만<SPAN lang=EN-US>, </SPAN>오래 전부터 브로드웨이 뮤지컬 무대에서는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이러한 고정관념을 깬 아주 독특하고 기괴한 작품이 존재했었더랬다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>장르는 호러<SPAN lang=EN-US>, </SPAN>연출은 하드고어 엽기 잔혹<SPAN lang=EN-US>, </SPAN>스토리는 피칠갑이 난무하는 비극적인 결말<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>도저히 뮤지컬로는 구현조차 어려울 것만 같은 독특한 작품이 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>엄청난 인기를 끌어왔다는 것이 신기하지 않은가<SPAN lang=EN-US>? <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그리고 드디어 비싼 돈 주고 브로드웨이로 비행기 타고 가서나 볼 수 있었던 그 작품이 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>극장가 스크린에서 볼 수 있게 되었으니<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그야말로 엽기로 똘똘 뭉친 작품<SPAN lang=EN-US> &lt;</SPAN>스위니 토드<SPAN lang=EN-US>&gt;</SPAN>가 그 것이다<SPAN lang=EN-US>.</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/176EAB3D50588AAE20" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F176EAB3D50588AAE20" width="600" filename="1252392395_F2838-02.jpg" filemime="image/jpg"/></div>
+</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체 color=#000000>&lt;팀 버튼이 크리스마스에 유독 집착하는듯한 느낌이 드는 문제적 포스터&gt;</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체></FONT></o:p></SPAN></SPAN><FONT color=#000000></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>일단<SPAN lang=EN-US>, </SPAN>시작은 무조건 스토리부터 걸고 넘어지는 것이다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>안개가 자욱이 낀 어두운 바다 위 한 척의 배가 런던을 향하고 있다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>음흉한 날씨와는 달리 런던 가서 신난다고 노래를 불러제끼는 한 청년이 있었으니<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>넓은 이마빡을 자랑하는 말라깽이 사나이 안소니<SPAN lang=EN-US>(</SPAN>제이미 캠벨 보웬<SPAN lang=EN-US>)</SPAN>이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>하지만 음흉한 날씨에 딱 맞는 또 다른 사나이가 등장하니<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><FONT face=굴림체><FONT color=#000000><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">15</SPAN><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">년만에 런던을 오게 되었다는 스위니 토드<SPAN lang=EN-US>(</SPAN>죠니 뎁<SPAN lang=EN-US>)</SPAN>라는 똥씹은 표정의 사나이 되시겠다<SPAN lang=EN-US>.<o:p></o:p></SPAN></SPAN></FONT></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>런던에 도착한 스위니 토드는 갑자기 안소니에게 옛 이발사의 이야기를 들려준다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>아름다운 여자와 결혼을 하고 아이도 낳았지만<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>아내를 노리던 나쁜 놈에 의해 남자는 어디론가 끌려가버렸다는 이야기<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>원래 스위니 토드의 옛 이야기이지만 안소니는 누구 얘기일까 하고 궁금해 한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그 와중에 스위니 토드는 작별의 인사를 하고 사라진다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>스위니 토드가 플릿 거리를 거닐다가 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>예전 자신의 이발소가 있었던 집<SPAN lang=EN-US> 1</SPAN>층의 빵가게를 들어가게 된다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>겉 모습부터 음침한 그 빵가게는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>일대에서 아주 유명한 러빗 부인<SPAN lang=EN-US>(</SPAN>헬레나 본햄 카터<SPAN lang=EN-US>)</SPAN>의 빵가게였던 것<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>무엇으로 유명한고 하니<SPAN lang=EN-US>, </SPAN>바로 위생<SPAN lang=EN-US>, </SPAN>청결<SPAN lang=EN-US>, </SPAN>깔끔<SPAN lang=EN-US>, </SPAN>신선과 전쟁을 선포한 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>지저분하기 짝이 없는 문제아적 점포였던 것이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>결국 바퀴벌레 양념된 빵을 집어드시고 피자판 만들기 직전으로 급행하시는 스위니 토드<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>결국 러빗 부인의 배려로 제대로 된 술로 속을 비운 스위니 토드는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>러빗 부인에게 텅빈<SPAN lang=EN-US> 2</SPAN>층에 대해 이야기한다<SPAN lang=EN-US>.</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/1242503750588AAE10" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1242503750588AAE10" width="600" filename="1252392395_F2838-23.jpg" filemime="image/jpg"/></div>
+</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체 color=#000000>&lt;시종일관 인상만 찌푸리고 사는 스위니 토드와 이마반을 자랑하는 안소니&gt;</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center></o:p></SPAN></SPAN><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>러빗 부인은<SPAN lang=EN-US> 2</SPAN>층이 비게 된 이유에 대해 이야기를 해주다가 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>벤자민 바커라 불리었던 비운의 이발사가 바로 스위니 토드임을 알게 된다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>스위니 토드는 러빗 부인에게 자신의 아내인 루시<SPAN lang=EN-US>(</SPAN>로라 미쉘 켈리<SPAN lang=EN-US>)</SPAN>가 어떻게 되었는지 묻자<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>러빗 부인은 그녀가 비소가 든 독을 마시고 죽었다고 얘기해준다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>더 충격적인 사실은 하나뿐이었던 딸이 자신을 이렇게 만든 주범 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>터핀 판사<SPAN lang=EN-US>(</SPAN>알란 릭맨<SPAN lang=EN-US>)</SPAN>에 의해 입양되었다는 것<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이에<SPAN lang=EN-US> 15</SPAN>년간의 억울한 옥살이 끝에 한 줄기 빛과도 같았던 희망이 사라져버린 스위니 토드는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><FONT face=굴림체><FONT color=#000000><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">2</SPAN><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">층에 숨겨두었던 자신의 은빛 면도칼을 치켜세우며 그야말로 복수의 칼을 간다<SPAN lang=EN-US>.</SPAN></SPAN></FONT></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>한편 홀로 런던거리에서 똥폼 잡고 간지좀 내고 있던 안소니는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>우연히 건물 안에서 창문 밖 세상을 바라보는 아름다운 여인을 보게 된다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>둘이 지대로 눈이 맞아버린 청춘남녀<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>하지만 누군가로부터 감시를 당하고 있던 여인은 이내 모습을 감추고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>안소니는 지나가던 거리여인에게 미모의 여인에 대해 물어본다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>터핀 판사의 양녀 조안나<SPAN lang=EN-US>(</SPAN>제인 와이즈너<SPAN lang=EN-US>)</SPAN>라고 알려준 거지여인은 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>절대로 접근하지 말 것을 경고하고 사라지지만<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>개념없이 계속 찝적대다가 터핀 판사에게 딱 걸리고 만다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>결국 죽도록 쳐맞고 쫓겨난 안소니는 계속 조안나를 훔친다는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>범죄적 가사를 읊조리며 자리를 떠난다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>러빗 부인과 함께 거리로 나온 스위니 토드는<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>광장에서 우연히 터핀 판사의 똘마니인 비들<SPAN lang=EN-US>(</SPAN>티모시 스펄<SPAN lang=EN-US>)</SPAN>을 보게 된다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>당장이라도 가서 때려죽이고 싶지만 이를 말리는 러빗<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>마침 광장에서는 북치고 장구치며 요란스럽게 짝퉁 약을 파는 행사가 진행되고 있었다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>일명 피렐리의 기적의 약이라는 발모제였는데<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>짝퉁 티가 확 나다보니 스위니 토드와 러빗 부인은 바로 때려치우라고 한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이 때 이에 발끈하고 등장하는 사내가 있었으니<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>바로 피렐리의 기적의 약을 직접 제조하고 판매하는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>콧수염 사나이 아돌프 피렐리<SPAN lang=EN-US>(</SPAN>사차 아론 코헨<SPAN lang=EN-US>)</SPAN>이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>나름<SPAN lang=EN-US> VIP</SPAN>의 면상만 상대했다는 피렐리에게 급제안을 하는 스위니 토드<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>누가 더 깔끔하게 이발을 하는지 내기를 하자는 것이었다<SPAN lang=EN-US>.</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/1815C03850588AAF01" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1815C03850588AAF01" width="600" filename="1252392395_F2838-30.jpg" filemime="image/jpg"/></div>
+</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체 color=#000000>&lt;대충 이 모습만 봐도 "앗! 저 배우!!!"하고 무릎을 탁 칠 수 있겠다. 대체 댁은 뉘기??&gt;</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center></o:p></SPAN></SPAN><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>드디어 세기<SPAN lang=EN-US>(?)</SPAN>의 대결이 펼쳐지고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>피렐리는 온갖 오도방정을 다 떨면서 특유의 주둥아리를 나불대며 이발을 하지만<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>정말로<SPAN lang=EN-US> 5</SPAN>초도 안 걸리고 끝나버린 스위니 토드에게 제대로 카운터어택을 당하고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그 자리에서 내깃돈도 잃고 개망신만 당한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이 사건으로 인해 졸지에 이발사로서의 능력을 재평가받게 된 스위니 토드<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>갑자기 사람들이 이발소가 어디있냐고 물어보고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>비들도 그 능력에 탄복해 조만간 찾아간다고 얘기한다<SPAN lang=EN-US>. </SPAN>이게 왠 굴러들어온 떡<SPAN lang=EN-US>!<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이제 신장개업을 준비하고 있는 스위니 토드<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그때 안소니가 찾아와서 한 가지 부탁을 한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>자기가 조안나라는 가엾은 여자를 데리고 도망을 가려고 하는데<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>마차가 올 때까지 잠깐만 이발소에 있게 해달라는 것이었다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>어쨌든 부탁을 받아들인 스위니 토드<SPAN lang=EN-US>. </SPAN>안소니는 좋아라 하고 달려나가고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이내 첫 손님이 찾아온다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>첫 손님은 다름아닌 짝퉁 물약의 제조범 피렐리<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>친히 쪼수 토비어스<SPAN lang=EN-US>(</SPAN>에드 샌더스<SPAN lang=EN-US>)</SPAN>까지 데리고 왕림하시어 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>스위니 토드에게 은근슬쩍 협박을 가한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>어린 토비어스가 러빗 부인에게 이끌려 맛 드럽게 없는 빵조가리로 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>습관성복부허탈감을 해결하고 있는 동안<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><FONT face=굴림체><FONT color=#000000><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">2</SPAN><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">층에서는 피렐리와 스위니 토드의 신경전이 펼쳐진다<SPAN lang=EN-US>. <o:p></o:p></SPAN></SPAN></FONT></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그런데 이게 웬일<SPAN lang=EN-US>! </SPAN>피렐리가 스위니 토드의 정체를 알고 있었던 것<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>결국 스위니 토드는 더 이상의 위험을 막기 위해 복수의 뜻을 담았던 은빛 면도날을 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>피렐리의 목에 살포시 테스트해본다<SPAN lang=EN-US>. </SPAN>전격 피렐리 사망<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이 사실을 모르는 토비어스는 엄마처럼 따뜻한 온정을 베푸는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>러빗 부인에게 서서히 감화되어 간다<SPAN lang=EN-US>.</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/1878AF3850588AAF1E" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1878AF3850588AAF1E" width="600" filename="1252392395_F2838-52.jpg" filemime="image/jpg"/></div>
+</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체 color=#000000>&lt;맨 얼굴 자체가 가장 호러틱한 인물인 조안나&gt;</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center></o:p></SPAN></SPAN><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>한편 법정에서 닥치고 사형만 외치는 개념없는 악질 판사 터핀이 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>오늘도 어김없이 개념머리 없는 판정을 마치고 돌아가려던 찰나에<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>비들의 제안으로 신정개업한 이발소에 들러 이발을 하기로 결심한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그렇게 뜬금없이 마주치게 된 스위니 토드와 터핀<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>스위니 토드는 이 아닌 밤 중의 홍두깨 선생님스러운 시츄에이션에 므흣한 미소를 지으며 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>서서히 은빛 면도날로 터핀 판사의 목덜미의 털을 베어 나가기 시작한다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>드디어 하이라이트의 순간<SPAN lang=EN-US>!!! </SPAN>하지만<SPAN lang=EN-US>, </SPAN>깜놀 들이닥친 안소니로 인해 복수가 실패하고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>안소니와 스위니 토드가 아는 사이라는 것을 알게 된 터핀 판사는 화를 내며 그대로 돌아가버린다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>다 된 밥에 재뿌린 안소니만 또 죽어라 욕 얻어먹고 쫓겨나게 되고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>열받은 스위니 토드는 이제 본격적으로 복수의 화신이 되기로 결심한다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이제 세상 모든 사람들이 고깃덩어리로 보이기 시작한 스위니 토드<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이발 의자를 개조해서 사형집행대로 만들어 버리고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>찾아오는 손님들마다 모두 지옥행 급행열차를 태워보낸다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>하루 하루 죽어나가는 시체가 만을 수록 희한하게도<SPAN lang=EN-US> 1</SPAN>층 빵가게에서는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>구수하고 먹음직스러운 빵굽는 냄세가 거리를 가득 메워 사람들을 꼬이게 한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>거기에 어느 새 러빗 부인의 쪼수로 직장을 옮긴 토비어스가 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>호객 행위를 해서 런던에서 가장 형편없던 빵 가게는 한 순간에 런던에서 가장 맛있는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>빵 가게로 탈바꿈하게 된다<SPAN lang=EN-US>.</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/115A8D3A50588AAF0D" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F115A8D3A50588AAF0D" width="600" filename="1252392395_F2838-56.jpg" filemime="image/jpg"/></div>
+</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체 color=#000000>&lt;신동엽의 러브러브 하우스를 보듯 놀라운 변신을 하게 되는 러빗 부인의 빵 가게&gt;</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center></o:p></SPAN></SPAN><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>잘 죽이고<SPAN lang=EN-US>, </SPAN>잘 팔리는 세상이 도래하게 된 두 주인공<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>결국 러빗 부인은 스위니 토드에게 사랑을 고백하고<SPAN lang=EN-US>, </SPAN>결혼까지 하자고 프로포즈한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>사태가 점점 러브러브 모드로 흐를 즈음<SPAN lang=EN-US>, </SPAN>갑자기 안소니가 찾아와 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>터핀이 조안나를 정신병원에 가둬버렸다는 사실을 알린다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이에 정신병원 잠입 노하우를 전수하는 스위니 토드<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그리고 토비어스를 불러서 터핀에게 한번 보자는 편지를 보낸다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그런데 토비어스 이 놈도 갑자기 러브러브 모드로 돌변하여 띠동갑을 제곱으로 해도 모자를 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>연상의 여인 러빗 부인에게 대뜸 사랑 고백을 해버리고 만다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이 어이없는 시츄에이션에 일단 러빗 부인이 입을 틀어막고자 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>토비어스를 며느리도 모른다는 빵 맛의 비밀인 지하 제조실로 데리고 간다<SPAN lang=EN-US>.</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/2072334250588AAF26" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2072334250588AAF26" width="350" filename="1252392395_스포일러주의(2).gif" filemime="image/gif"/></div>
+</FONT></P></o:p></SPAN></SPAN><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>한편 안소니는 정신병원에 들어가서 조안나를 데리고 나오는데 성공하고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>리들은 빵 맛의 비밀을 캐고 싶어 러빗 부인을 찾아온다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>무언가 의심스런 눈치를 보이는 리들에게 스위니 토드는 마찬가지로 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>지옥행<SPAN lang=EN-US> 1</SPAN>등석 급행열차 티켓을 선물로 주고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>늘 그래왔듯이 바로 지하의 시체처리장으로 보내버린다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>그런데 아차<SPAN lang=EN-US>! </SPAN>지하에 토비어스가 있었던 것<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>토비어스는 그 광경을 보고 기똥차게 맛있었던 빵 맛의 비밀이 바로 인육이었다는 것을 알게 된다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>이 엄청난 충격에 토비어스는 지하로 몸을 숨기고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>스위니 토드와 러빗 부인은 입을 틀어막기 위해 토비어스를 쫓아나선다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><o:p><FONT face=굴림체 color=#ff0000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>이 와중에 무사히 구출된 안소니는 조안나를 텅 빈 이발소에 두고 잠시 마차를 가지러 사라진다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>잠깐 혼자 놀고 있던 조안나<SPAN lang=EN-US>. </SPAN>그런데 밖에서 누군가가 리들을 부르며 접근한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>일단 박스 안에 몸을 숨기는 조안나<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>이발소로 들어온 이는 다름 아닌 거지 여인이었던 것<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>사실 이 거지 여인은 빵가게가 대박날 때부터 무언가 의심을 품고 지켜봐 온 터였다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>뒤늦게 나타난 스위니 토드는 왠지 모든 진실을 알고 있는 것만 같은 거지여인을 경계한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>그런데 그 거지여인이 스위니 토드를 보고 <SPAN lang=EN-US>“</SPAN>혹시 당신이 나를 알지 않나요<SPAN lang=EN-US>?”</SPAN>라는 말을 뱉자<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>자신의 정체를 들켰다고 생각하여 이내 면도날로 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>치명타율<SPAN lang=EN-US> 200% </SPAN>오라를 건 일도양단의 스킬을 구사하며 사뿐히 골로 보낸다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>이에 깜짝 놀란 조안나가 스위니 토드에게 들키고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>스위니 토드는 <SPAN lang=EN-US>“</SPAN>너도 죽고싶냐<SPAN lang=EN-US>”</SPAN>며 겁을 주지만<SPAN lang=EN-US>, </SPAN>뜬금없이 터핀 판사가 등장<SPAN lang=EN-US>!</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/1753583B50588AAF40" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1753583B50588AAF40" width="600" filename="1252392395_F2838-21.jpg" filemime="image/jpg"/></div>
+</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체 color=#000000>&lt;아줌씨. 이 면도날로 따질 것 같으면 머리카락을 가만히 놓아도 둘로 잘리만하다굽쇼&gt;</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center></o:p></SPAN></SPAN><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>용서의 편지를 받고 기분이 좋아져 면도나 해야겠다고 찾아온 터핀 판사에게 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>스위니 토드는 부드러운 미소를 보이며 면도를 시작하고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>이내 자신의 아내 루시의 이름과 자신의 본명 벤자민 바커를 외치며 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>터핀 판사의 목에 은빛 면도날을 작렬한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>드디어 모든 복수가 끝나고<SPAN lang=EN-US>, </SPAN>스위니 토드는 희열을 느끼며 러빗 부인과 함께 지하실로 향한다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><o:p><FONT face=굴림체 color=#ff0000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>그런데<SPAN lang=EN-US>, </SPAN>지하실에 널부러져 있던 시체들 중 아까 죽인 거지여인의 시체에서 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>무언가 이상한 점을 발견한 스위니 토드<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>얼굴을 자세히 보니 바로 자신의 사랑스런 아내였던 루시였던 것<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>러빗 부인이 분명 죽었다고 했는데<SPAN lang=EN-US>, </SPAN>멀쩡히 살아있었던 것이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>이에 러빗 부인을 향해 분노를 표출하는 스위니 토드<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>결국 스위니 토드는 러빗 부인을 용서해주는 척 하다가 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>빵굽는 기계로 집어넣어 잿더미로 만들어버리고 만다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><o:p><FONT face=굴림체 color=#ff0000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>너무나도 허무하게 되어버린 자신의 인생을 한탄하며 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>자기가 스스로 죽여버리고 만 아내 루시를 끌어안은 채 눈물을 흘리는 스위니 토드<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>그 때 뒤에서 조심스럽게 하수도 뚜껑을 열고 나타나는 이가 있었으니<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>바로 도망쳤던 토비어스였다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>토비어스는 러빗 부인에게 약속했던 것처럼 러빗 부인을 헤치는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>모든 사람을 없애버리겠다는 신념을 불사르며<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>스위니 토드의 면도날을 들고 그의 목에 살포시<SPAN lang=EN-US> 1</SPAN>자 라인을 그어준다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>결국 자신이 그토록 보고싶어하던 아내 루시를 스스로 죽인 죄를 되돌려 받듯 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><FONT face=굴림체><FONT color=#ff0000>스위니 토드 역시 자신의 목이 베인 채로 루시와 함께 지하실 어두운 곳에서 생을 마감하고 만다<SPAN lang=EN-US>.</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: '새굴림','serif'"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/1570893F50588AAF32" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1570893F50588AAF32" width="600" filename="1252392395_F2838-31.jpg" filemime="image/jpg"/></div>
+</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체 color=#000000>&lt;저렇게 얌전했던 개기름 좔좔 헤어가 어쩌다 폭탄맞은 것처럼 변했지?&gt;</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체></FONT></o:p></SPAN></SPAN><FONT color=#000000></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이 영화는 피로 시작해서 피로 끝나는 영화이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>인트로부터 피가 주룩주룩 흘러서 온 천지를 피칠갑으로 만들더니<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>엔딩 장면에서도 피가 줄줄 흐르면서 그 끔찍한 결말을 더욱 비장하게 만든다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그만큼 이 영화가 추구하는 장르는 엄연히 호러이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>중간 중간 펼쳐지는 피의 향연은 정말 역겨울 정도로 리얼하고 잔인하다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>사람 목을 그어버릴 때 사방으로 피가 튀고 찢겨진 살이 다 드러나 보이는 장면은 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>노약자나 임산부<SPAN lang=EN-US>, </SPAN>어린애들<SPAN lang=EN-US>, </SPAN>그리고 심장이 약한 분들은 절대 보지 않을 것을 권한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그럼에도 불구하고 이 영화는 무섭다는 느낌은 전혀 없다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그것은 이 영화가 다른 호러영화와 다른<SPAN lang=EN-US> 2</SPAN>가지 특징을 가지고 있기 때문이다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>첫 번째는 바로 이 영화의 원작이 뮤지컬이라는 것<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그런데 영화도 놀랍게도 뮤지컬 방식으로 만든 것이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>즉<SPAN lang=EN-US>, </SPAN>원작의 무대를 단지 스크린으로만 옮겼다고 보면 된다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이미 뮤지컬을 베이스로 한 여러 명작들이 존재했더랬다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>웨스트 사이드 스토리<SPAN lang=EN-US>, </SPAN>시카고<SPAN lang=EN-US>, </SPAN>헤어스프레이 등이 그것인데<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이 작품도 그에 결코 뒤지지 않은 정도로 완벽한 싱크로율을 자랑한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>배우들의 노래 실력과 춤<SPAN lang=EN-US>, </SPAN>연기 등등 그야말로 뮤지컬을 보는 그대로이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그러면서도 보다 더 웅장하고 완벽한 무대를 배경으로 하다 보니 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>무섭다는 느낌 보다는 뮤지컬 특유의 생동감 넘치는 숨소리가 느껴진다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>게다가 아무리 무섭더라도 일단 노래 부르고 춤추고 하면 그게 어디 공포인가<SPAN lang=EN-US>? <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그야말로 활기 넘치는 무대가 되는 것 아닌가<SPAN lang=EN-US>?<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>또 다른 특징은 이 작품의 감독이 바로 팀 버튼이라는 것<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>팀 버튼<SPAN lang=EN-US>, </SPAN>이 인간이 누구인가<SPAN lang=EN-US>? <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><FONT face=굴림체><FONT color=#000000><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">&lt;</SPAN><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">배트맨<SPAN lang=EN-US>&gt;, &lt;</SPAN>비틀 쥬스<SPAN lang=EN-US>&gt;, &lt;</SPAN>가위손<SPAN lang=EN-US>&gt;, &lt;</SPAN>화성 침공<SPAN lang=EN-US>&gt;, &lt;</SPAN>슬리피 할로우<SPAN lang=EN-US>&gt;, &lt;</SPAN>빅 피쉬<SPAN lang=EN-US>&gt;, <o:p></o:p></SPAN></SPAN></FONT></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><FONT face=굴림체><FONT color=#000000><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">&lt;</SPAN><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">찰리와 초콜릿 공장<SPAN lang=EN-US>&gt;, &lt;</SPAN>유령 신부<SPAN lang=EN-US>&gt;, &lt;</SPAN>크리스마스 악몽<SPAN lang=EN-US>&gt; </SPAN>등 <SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></FONT></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>기괴하고 비현실적인 세계관을 보여준 엽기 감독의 대명사 중 대명사 아니겠는가<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>늘 정상과 비정상을 뒤집어버리고<SPAN lang=EN-US>, </SPAN>공포를 유머로<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>유머를 공포로 바꾸어 버리는 천재적인 감각을 소유한 감독<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>게다가 늘 고정관념을 깬 독특한 시각과 연출로 늘 영화계에 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>센세이션을 일으키는 감독이 아니던가<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그러다보니 스위니 토드도 팀 버튼식 해석에 충실하여 상당히 그로태스크하고 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>엽기적이면서도 잔인하기 짝이 없지만<SPAN lang=EN-US>, </SPAN>기괴한만큼 유머스럽고 해학적이며 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>어딘가 모르게 동화 같은 느낌이 들어버리고 만다<SPAN lang=EN-US>.</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/192F4B3C50588AAF19" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F192F4B3C50588AAF19" width="600" filename="1252392395_F2838-36.jpg" filemime="image/jpg"/></div>
+</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체 color=#000000>&lt;저 암울하고도 환상적인 런던의 모습을 보라. 팀 버튼만이 가능한 연출이다&gt;</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center></o:p></SPAN></SPAN><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이<SPAN lang=EN-US> 2</SPAN>가지 요소가 필자에게는 무척 매력적임이 틀림없다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>일찌감치 필자의 리뷰를 접해온 분들이라면 필자가 필시 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>정상적인 두뇌를 가지고 있지는 않겠구나 하는 생각을 했을 것이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>아무튼 필자는 팀 버튼식 세계관을 좋아라한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>늘 새롭고 이채로우며 기괴한 현실<SPAN lang=EN-US>, </SPAN>그리고 상상을 불허하는 유머와 호러의 절묘한 짬뽕<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그야말로 동화 속에서나 상상할 수 있었던 세상이 눈 앞에 그려진다니 대단하지 않은가<SPAN lang=EN-US>? <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그것도 유별나고 무섭기까지 한 공포의 동화라면<SPAN lang=EN-US>?<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>팀 버튼 감독은 삶 자체가 기괴한 인물이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>얼마 전 방송매체를 통해서도 팀 버튼의 일대기를 광고 형식으로 언급하면서 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>성공하는 자의 자세를 그린 것을 본 적이 있는데<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그만큼 팀 버튼은 천재 감독들이 즐비한 영화계에서 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>자기만의 색깔을 확고히 자리매김한 슈퍼 울트라 감독 중의 한 명임이 틀림없다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그런데 문제는 어렸을 적부터 괴상한 사고방식 때문에 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>친구들에게 따 당하고 집단 괴롭힘도 당하며 우울증까지 시달렸다고 하는데<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그럼에도 불구하고 자기만의 꿈을 위해 끝까지 노력하여 그 꿈을 이룬 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>지금의 팀 버튼의 모습은 정말 존경받을 경지가 아닌가 싶다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>대체 팀 버튼이 어떻길래 이상하다는 것인가<SPAN lang=EN-US>? </SPAN>하고 궁금하시다면<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그의 몇몇 대표작들을 보면 하나같이 공통된 코드가 있음을 금새 알 수 있다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>동화 같은 스토리와 주인공들<SPAN lang=EN-US>, </SPAN>그리고 동화 같은 배경<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>게다가 동화 같은 이색적인 연출까지<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>마치 아직도 어릴 적 꿈 속에서 허우적대고 있는 어린 아이의 동심을 보는 듯하다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그의 이러한 컬러는 심지어 전혀 동화스럽지 않은 작품에서도 그대로 드러난다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그 대표적 작품이 바로<SPAN lang=EN-US> &lt;</SPAN>배트맨<SPAN lang=EN-US>&gt;</SPAN>인데<SPAN lang=EN-US>, </SPAN>만화를 원작으로 하는 액션 히어로물임에도 불구하고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>팀 버튼 특유의 꽈배기 버릇이 제대로 녹아들어서 그야말로 컬트식 배트맨이 탄생하게 되었다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><FONT face=굴림체><FONT color=#000000><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">&lt;</SPAN><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">화성침공<SPAN lang=EN-US>&gt;</SPAN>도 보면<SPAN lang=EN-US>, </SPAN>분명 원작 소설은 동해안 오징어처럼 생긴 외계잡것들이 <SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></FONT></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>무시무시한 침공을 감행한다는 얘기인데<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>팀 버튼은 외계인을 너무도 징그러우면서도 귀엽고 익살맞게 그려서 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>배꼽을 잡아야 할 지 소름이 돋아야 할 지 알 수 없는 초특급 딜레마를 선사했더랬다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>마찬가지로 이번 작품도 분명 소름끼칠 정도로 잔인하고 엽기적이지만 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>한 편으로는 같이 노래를 따라부르며 칼질하고픈 욕망을 불러일으키는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>묘한 매력을 보여주기도 한다<SPAN lang=EN-US>.</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/19329F3550588AB032" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F19329F3550588AB032" width="600" filename="1252392395_F2838-22.jpg" filemime="image/jpg"/></div>
+</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체 color=#000000>&lt;난 일단 망가져야 대박난단 말이다&gt;</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center></o:p></SPAN></SPAN><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이토록 독특한 컬러의 팀 버튼인 만큼<SPAN lang=EN-US>, </SPAN>주연 배우를 고르는 데도 상당히 엄격한 기준이 있다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그래서 팀 버튼에게는 그의 페르소나 격인 배우가 존재한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>바로 이 시대 최고의 섹시가이 죠니 뎁<SPAN lang=EN-US>. </SPAN>어쩌다 섹시가이가 팀 버튼의 페르소나까지<SPAN lang=EN-US>? <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>재미있게도 죠니 뎁이 데뷔한 작품은 호러물인<SPAN lang=EN-US> &lt;</SPAN>나이트메어<SPAN lang=EN-US>&gt;</SPAN>였는데<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이후의 작품은 모두 자신의 시건방적 이미지와 맞아떨어지는 청소년물이 대부분이었다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>하지만 정작 그가 유명해진 계기는 바로 팀 버튼 감독의 괴상한 영화였는데<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>손에는 티타늄 가위가 장착되고 헤어스타일은 수세미 꼬부라진 것 같으며<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>눈썹 하나 없고 창백한 표정으로 닥치는 대로 가위질만 해대는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>에드워드 역으로 나온<SPAN lang=EN-US> &lt;</SPAN>가위손<SPAN lang=EN-US>&gt; </SPAN>되겠다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>위노나 라이더의 예쁘장한 미모도 대단했지만<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>에드워드로 분한 죠니 뎁의 독특한 연기와 캐릭터는 그를 일약 스타의 덤으로 올려놓게 되었다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그 이후 팀 버튼과 죠니 뎁은 배창호<SPAN lang=EN-US> &amp; </SPAN>안성기 듀엣의 찰떡궁합에 준하는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>놀라운 궁합을 선보이게 된다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><FONT face=굴림체><FONT color=#000000><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">&lt;</SPAN><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">슬리피 할로우<SPAN lang=EN-US>&gt;</SPAN>와<SPAN lang=EN-US> &lt;</SPAN>찰리와 초콜릿 공장<SPAN lang=EN-US>&gt;</SPAN>에서 또 다른 기괴한 캐릭터를 맡아 <SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></FONT></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>팀 버튼 특유의 캐릭터를 완벽하게 구현하는 실력을 보여주었고<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>곧 개봉 예정인<SPAN lang=EN-US> &lt;</SPAN>이상한 나라의 엘리스<SPAN lang=EN-US>&gt;</SPAN>에서도 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>또 한번 개성넘치는 연기를 선 보일 예정이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>어쨌든 팀 버튼 때문에 죠니 뎁은 일단 괴상한 분장을 해야 대박 터뜨린다는 속설까지 생긴 터이니<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>멀쩡한 얼굴로 등장하는 마이클 만 감독의<SPAN lang=EN-US> &lt;</SPAN>퍼블릭 에너미<SPAN lang=EN-US>&gt;</SPAN>가 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>얼마나 대박 성공을 하는지 지켜보는 재미도 있겠다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>말이 나온 김에<SPAN lang=EN-US>, </SPAN>필자가 좋아하는 배우인 죠니 뎁에 대해서 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>몇 마디 더 재미있지만 쓸데없는 말을 하자면<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>죠니 뎁이 스위니 토드 역을 맡아서 당해<SPAN lang=EN-US> MTV </SPAN>최고의 악당상을 뽑히기도 했었다는 사실<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>아니<SPAN lang=EN-US>, </SPAN>주인공 역을 맡고 나서 악당상을 받아<SPAN lang=EN-US>? <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>정말 우스운 결과가 아닌가<SPAN lang=EN-US>? <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>또한 죠니 뎁은<SPAN lang=EN-US> &lt;</SPAN>캐러비안 해적<SPAN lang=EN-US>&gt;</SPAN>의 잭 스패로우 연기를 통해 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><FONT face=굴림체><FONT color=#000000><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">MTV </SPAN><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">최고의 코미디 연기상을 타기도 했다<SPAN lang=EN-US>. <o:p></o:p></SPAN></SPAN></FONT></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>정말 기괴한 역할 만큼이나 엉뚱한 상을 타기도 하는 것 같다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그렇더라도 스위니 토드로 남우주연상을<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>캐러비안 해적으로 남우연기상과 최고의 연기상을 타기도 했으니<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>연기력도 단연 일품인 것이 바로 죠니 뎁의 매력인 것이다<SPAN lang=EN-US>.</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/154BC43550588AB00F" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F154BC43550588AB00F" width="600" filename="1252392395_F2838-24.jpg" filemime="image/jpg"/></div>
+</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체 color=#000000>&lt;연기와 노래, 춤 모두를 완벽하게 소화해낸 죠니 뎁. 필자는 그의 노래실력에 깜딱 놀랬다!</FONT></P><P align=center><FONT face=굴림체 color=#000000>(알고보니 죠니 뎁은 과거 밴드 멤버로 활동하기도 했었다는...)&gt;</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center></o:p></SPAN></SPAN><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>어찌보면 엉뚱해 보이면서도 섹시한 매력이 있는 죠니 뎁<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그런데 그를 영화계로 끌어들인 베프가 누군지 아는가<SPAN lang=EN-US>? <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>바로 케서방<SPAN lang=EN-US>, </SPAN>니콜라스 케이지라고 한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>억<SPAN lang=EN-US>!!!! </SPAN>전<SPAN lang=EN-US>~~~</SPAN>혀 안 어울리는 두 사람이 베프라니<SPAN lang=EN-US>. </SPAN>엽기 아닌가<SPAN lang=EN-US>? <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그리고 죠니 뎁의 취미가 놀랍게도 담배피기이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>말보로라면 자다가도 벌떡 일어나 피운다는 대단한 말보로 매니아이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>아마 폐 안쪽에 말보로라고 거멓게 그을려 있을지도 모르겠다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>팀 버튼에겐 죠니 뎁만 있는 것은 아니다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>동화의 주인공에 남자만 있어서 될까<SPAN lang=EN-US>? </SPAN>팀 버튼의 여성 페르소나<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>바로 헬레나 본햄 카터가 존재한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>일단 팀 버튼의 작품에서 단골손님은 바로 이 인물이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그다지 예쁘다는 느낌은 들지 않지만<SPAN lang=EN-US>, </SPAN>영국에서는 가장 영국적인 여성이라는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>얘기까지 있을 정도로 인기 절정인 히로인다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이 여자도 사실 개성 하나는 왓따<SPAN lang=EN-US>!</SPAN>이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>죠니 뎁 못지 않게 분장했다 하면 엽기라는 찬사가 너무도 잘 어울리는 배우이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그런데<SPAN lang=EN-US>, </SPAN>어째서 멀쩡한 여자가 팀 버튼 영화만 출연하면서 죄다 망가지는 건가<SPAN lang=EN-US>? <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그것은 바로 이 여자가 팀 버튼의 아내이기 때문이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>으하하하<SPAN lang=EN-US>~ </SPAN>그럼 말 다했지<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>사고방식이 비슷한 것인지 아무튼 최고의 스타커플인 것 같다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>만약 팀 버튼의 작품에서 헬레나 본햄 카터가 등장하지 않는다면<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>아마도 부부싸움했으리라 짐작하면 될 듯<SPAN lang=EN-US>.</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/1950AF3550588AB00A" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1950AF3550588AB00A" width="600" filename="1252392395_F2838-47.jpg" filemime="image/jpg"/></div>
+</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체 color=#000000>&lt;팀 버튼의 마누라인 헬레나 본햄 카터. &lt;유령 신부&gt;의 그 유령 신부 같지 않나?&gt;</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center></o:p></SPAN></SPAN><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이 작품에는 죠니 뎁과 헬레나 본햄 카터 말고도 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>또 한 명의 개성 폭발하는 배우가 등장한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>바로 멋진 콧수염을 자랑하는 아돌프 피렐리 역으로 등장하는 사차 바론 코헨<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이 사람이 누구이던가<SPAN lang=EN-US>? <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>바로 <SPAN lang=EN-US>&lt;</SPAN>보랏<SPAN lang=EN-US>: </SPAN>카자흐스탄 킹카의 미국문화 빨아들이기<SPAN lang=EN-US>&gt;</SPAN>라는 기발한 소재의 영화에서 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>카자흐스탄의 뉴스 기자 보랏 역을 맡아 전세계인의 주목을 받은 그 친구이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그는 이 영화로 인해 골든글로브 남우주연상과<SPAN lang=EN-US> LA</SPAN>비평가협회<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>시카고 비평가협회<SPAN lang=EN-US>, </SPAN>토론토 영화제 등 영향력 있는 시상식에서 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>최우수 배우상을 한꺼번에 휩쓰는 영광을 안기도 한 놀라운 배우이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그만큼 센세이션 하나로 똘똘 뭉친 사내가 역시 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>개성있는 캐릭터로 등장한다는 것도 상당히 재미있다<SPAN lang=EN-US>.</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/1610023450588AB006" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1610023450588AB006" width="600" filename="1252392395_F2838-50.jpg" filemime="image/jpg"/></div>
+</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체 color=#000000>&lt;좀 굵직하다 싶으면 죄다 악당인 역할로 나오는 이 아저씨. 한스 그루버라는 이름이 너무도 친숙하다&gt;</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center></o:p></SPAN></SPAN><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>터핀 판사 역을 맡은 알란 릭맨도<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>비록 노래는 남들에 비해 조금 딸리는 듯하지만 멋진 연기를 보여주고 있다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><FONT face=굴림체><FONT color=#000000><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">(</SPAN><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">적어도<SPAN lang=EN-US> &lt;</SPAN>맘마미아<SPAN lang=EN-US>&gt;</SPAN>의 피어스 브루스넌보단 낫다<SPAN lang=EN-US>)<o:p></o:p></SPAN></SPAN></FONT></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그런데 이 사람 어디서 많이 본 것 같지 않나<SPAN lang=EN-US>? <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>크리스마스만 되면 지상파에서 사정없이 재탕해먹는 추억의 명작 영화<SPAN lang=EN-US> &lt;</SPAN>다이 하드<SPAN lang=EN-US>&gt;</SPAN>에서<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>악당 한스 그루버 역으로 나온 바로 그 배우이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>재미있게도 다이 하드가 데뷔작이었다는 이 배우는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그 이후에 악당 이미지가 고정되어서 죄다 악당 역으로 나온다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>캐빈 코스트너가 주연한<SPAN lang=EN-US> &lt;</SPAN>로빈 후드<SPAN lang=EN-US>&gt;</SPAN>에서도 악당 노팅햄으로 등장하는 괴력을 보여주다가 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>역시 이번 작품에서도 또 악당<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그래도 필자는 악당 치고 매력있는 악당만 골라 맡은 괜찮은 배우라고 여겨진다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이 작품의 배경이 되는 곳은 영국 런던인데<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>재미있게도<SPAN lang=EN-US> 18</SPAN>세기에 실제로 스위니 토드 같은 인물이 있었다는 소문이 있다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>아직 확실한 것은 밝혀지지 않았지만<SPAN lang=EN-US>, </SPAN>실제로 있었다는 설과 거짓이라는 설이 팽팽하다고 한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>어쨌든<SPAN lang=EN-US>, </SPAN>런던이 배경인 만큼 배우들도 런던의 암울한 느낌을 정말 잘 살리고 있다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>배경 연출도 대단하지만<SPAN lang=EN-US>, </SPAN>배우들의 표정도 그렇고<SPAN lang=EN-US>, </SPAN>의상도 훌륭하다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>나름 스위니 토드가 오토바이 타다가 하이바를 갓 벗은 듯한 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><FONT face=굴림체><FONT color=#000000><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">23</SPAN><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">세기 지향적 헤어스타일을 보여주고 있지만<SPAN lang=EN-US>, <o:p></o:p></SPAN></SPAN></FONT></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그 외 등장인물들은 세세한 부분까지 완벽하다 할 수 있겠다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>필자가 놀랍다고 생각한 것은 죠니 뎁의 영국식 발음인데<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>이 친구 원래 미국물 먹고 자랐으면서 어째서 영국 발음을 밥 먹듯이 잘 하나 신기하다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>보면 다른 작품에서도 영국식 발음을 구사하는데<SPAN lang=EN-US>, </SPAN>어렸을 적부터 이렇게 자랐나<SPAN lang=EN-US>?<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>엽기를 떠나고서라도 필자가 이 작품에서 크게 동감하는 부분은 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>바로 스위니 토드가 아주 비극적인 운명을 겪게 된다는 것이다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><FONT face=굴림체><FONT color=#000000><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">&lt;</SPAN><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">매트릭스<SPAN lang=EN-US>&gt;</SPAN>에서 네오가 말했듯이<SPAN lang=EN-US>, </SPAN>시작이 곧 끝이라는 결말<SPAN lang=EN-US>. <o:p></o:p></SPAN></SPAN></FONT></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>즉<SPAN lang=EN-US>, </SPAN>피로 시작된 복수는 결국 자신마저 피로 물들이고 만다는 비극적 교훈을 보여주고 있다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>오로지 복수심에 불타올라 자신의 사랑하는 사람마저 몰라보고 죽이는 현실 하며<SPAN lang=EN-US>, <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>자신의 딸 조차도 알아보지 못하고 그저 스쳐지나가는 운명이란<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그렇기 때문에 스위니 토드의 마지막 결말은 비록 잔인한 결말이라 하더라도 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>나름 또 한편의 슬픔을 안겨주기도 한다<SPAN lang=EN-US>. </SPAN>무언가 끝이 계속되는 여운으로 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>돌돌 감싸진 영화인 만큼<SPAN lang=EN-US>, </SPAN>정말 딱 필자의 취향인 것이다<SPAN lang=EN-US>.</SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><FONT face=굴림체></FONT></SPAN></SPAN><FONT color=#000000></FONT></P><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><SPAN lang=EN-US><o:p><P align=center><FONT face=굴림체 color=#000000><div class="imageblock " style="display:inline;"><img src="https://t1.daumcdn.net/cfile/tistory/1808823450588AB10F" style="max-width: 100%; height: auto;" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1808823450588AB10F" width="600" filename="1252392395_F2838-85.jpg" filemime="image/jpg"/></div>
+</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center><FONT face=굴림체 color=#000000>&lt;궁합도 안보고 결혼...아니, 파트너를 맺었다는 팀 버튼과 죠니 뎁&gt;</FONT></P><P align=center><FONT face=굴림체></FONT><FONT color=#000000></FONT></P><P align=center></o:p></SPAN></SPAN><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>비록 잔인하고 엽기적이며 피칠갑으로 화면을 가득 채우는 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><FONT face=굴림체><FONT color=#000000><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">B</SPAN><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1">급 냄새의 호러 영화이지만<SPAN lang=EN-US>, </SPAN>팀 버튼 특유의 놀라운 감각과 배우들의 열연<SPAN lang=EN-US>, <o:p></o:p></SPAN></SPAN></FONT></FONT></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>그리고 뮤지컬을 그대로 옮겨온 듯한 춤과 노래의 향연이 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>완벽을 보여줌으로써<SPAN lang=EN-US> 21</SPAN>세기 최고의 뮤지컬영화로 추앙받고 있는 스위니 토드<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>도무지 머리 속에 무엇이 들어있는지 가늠조차 할 수 없는 팀 버튼의 머리 속에서 <SPAN lang=EN-US><o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>무려<SPAN lang=EN-US> 10</SPAN>년이나 가까이 구상에 대한 목표로 자리매김하고 있었다는 이 작품<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>아직 작품을 보지 못한 독자라면 한번쯤 꼭 보기를 원한다<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>물론 시청 전에 우황청심환은 하나씩 먹어두길<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN lang=EN-US style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><o:p><FONT face=굴림체 color=#000000></FONT></o:p></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>참고로<SPAN lang=EN-US>, </SPAN>영상미만 감상하지 말고 음악도 꼭 주의깊게 감상해 보자<SPAN lang=EN-US>. <o:p></o:p></SPAN></FONT></FONT></SPAN></P><P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=center><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: '새굴림','serif'; mso-themecolor: text1"><FONT face=굴림체><FONT color=#000000>음악 자체만으로도 수작이다<SPAN lang=EN-US>.<o:p></o:p></SPAN></FONT></FONT></SPAN></P></div>
+            <!-- System - START -->
+
+<!-- System - END -->
+
+                    <div class="container_postbtn #post_button_group">
+  <div class="postbtn_like"><script>window.ReactionButtonType = 'reaction';
+window.ReactionApiUrl = '//mika2volley.tistory.com/reaction';
+window.ReactionReqBody = {
+    entryId: 21
+}</script>
+<div class="wrap_btn" id="reaction-21"></div>
+<script src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/script/reaction-button-container.min.js"></script><div class="wrap_btn wrap_btn_share"><button type="button" class="btn_post sns_btn btn_share" aria-expanded="false" data-thumbnail-url="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F176EAB3D50588AAE20" data-title="스위니 토드:  어느 잔혹한 이발사의 이야기 (Sweeney Todd)" data-description="스위니 토드: 어느 잔혹한 이발사의 이야기 (Sweeney Todd: The Demon Barber Of Fleet Street)복수는 복수를 낳는다는 오래된 교훈이 있다. 맨 처음 당한 놈의 입장에서는 결국 자신이 복수를 해도 다시 복수를 당한다는 참으로 억울하기 짝이 없는 말이다. 결국 당하면 참을 수 밖에 없는가라는 묘한 논리를 설파하고 있는데, 사실 우리로서는 납득하기 어렵다. 특히나 우리의 착하고 용감한 주인공이 어쩌다 악당에게 당해 억울한 피해를 당하고 나서 이에 복수하기 위해 들고 일어서 악당들을 쳐죽인다는 내용은 그야말로 유쾌통쾌상쾌 3박자를 고루 갖춘 한여름의 수박화채와도 같은 짭짤한 재미 되시겠다. 그래서 대부분의 외국 영화에서는 일단 착한 놈의 복수는 무조건 당연한 것이고 해피엔딩이어.." data-profile-image="https://t1.daumcdn.net/tistory_admin/static/manage/images/r3/default_L.png" data-profile-name="미까" data-pc-url="https://mika2volley.tistory.com/21" data-relative-pc-url="/21" data-blog-title="미까의 제멋대로 세상"><span class="ico_postbtn ico_share">공유하기</span></button>
+  <div class="layer_post" id="tistorySnsLayer"></div>
+</div><div class="wrap_btn wrap_btn_etc" data-entry-id="21" data-entry-visibility="public" data-category-visibility="public"><button type="button" class="btn_post btn_etc2" aria-expanded="false"><span class="ico_postbtn ico_etc">게시글 관리</span></button>
+  <div class="layer_post" id="tistoryEtcLayer"></div>
+</div></div>
+<button type="button" class="btn_menu_toolbar btn_subscription  #subscribe" data-blog-id="1162129" data-url="https://mika2volley.tistory.com/21" data-device="web_pc"><em class="txt_state">구독하기</em><strong class="txt_tool_id">미까의 제멋대로 세상</strong><span class="img_common_tistory ico_check_type1"></span></button></div>
+
+                    <!-- PostListinCategory - START -->
+<div class="another_category another_category_color_gray">
+  <h4>'<a href="/category/Movie">Movie</a>' 카테고리의 다른 글</h4>
+  <table>
+    <tr>
+      <th><a href="/19">디스트릭트 9 (District 9)</a>&nbsp;&nbsp;<span>(38)</span></th>
+      <td>2009.09.28</td>
+    </tr>
+    <tr>
+      <th><a href="/20">블랙 호크 다운 (Black Hawk Down)</a>&nbsp;&nbsp;<span>(26)</span></th>
+      <td>2009.09.21</td>
+    </tr>
+    <tr>
+      <th><a href="/22">신부들의 전쟁 (Bride Wars)</a>&nbsp;&nbsp;<span>(3)</span></th>
+      <td>2009.09.02</td>
+    </tr>
+    <tr>
+      <th><a href="/23">박물관이 살아있다 2 (Night At The Museum 2: Battle Of The Smithsonian)</a>&nbsp;&nbsp;<span>(4)</span></th>
+      <td>2009.08.26</td>
+    </tr>
+    <tr>
+      <th><a href="/26">더 레슬러 (The Wrestler)</a>&nbsp;&nbsp;<span>(4)</span></th>
+      <td>2009.08.10</td>
+    </tr>
+  </table>
+</div>
+
+<!-- PostListinCategory - END -->
+
+						</div><!-- close article -->
+
+<!-- 태그트레일 -->
+						
+						<div class="actionTrail">
+							<a href="#tb" onclick="" title="트랙백" class="wrapTrackback"></a>
+							<a href="#rp" onclick="" title="댓글" class="wrapComment"><span id="commentCount21_0"><span class="st">Comment</span> <span class="num">10</span></span></a>
+						</div>
+<!-- 트랙백 -->
+						
+						<div id="entry21Comment">
+							<div class="comment">
+								<h3>댓글을 달아 주세요 </h3>
+<!-- 댓글읽기 -->
+								<div class="commentList">
+									
+									<ol>
+										            
+
+            <li id="none_display_division_for_comment_list_21" style="display: none;"></li>
+<script type="text/javascript">
+    setInitialEntryComments(21, 1690874772)
+</script>
+									</ol>
+									
+								</div><!-- close commentList -->
+<!-- 댓글쓰기 -->
+								   <form method="post" action="/comment/add/21" onsubmit="return false" style="margin: 0">
+       
+<div class="commentWrite">
+	
+		
+			<p class="wrapNamePass">
+			<span class="t_name">
+				<label for="name_21"><span>name</span></label><input type="text" name="name" value="" id="name_21" class="text name" />
+			</span>
+			<span class="t_password">
+				<label for="password_21"><span>password</span></label><input type="password" name="password" value="" id="password_21" class="text password" />
+			</span>
+			</p>
+			<p class="t_homepage">
+				<label for="homepage_21"><span>homepage</span></label>
+				<input type="text" name="homepage" value="http://" id="homepage_21" class="text homepage" />
+			</p>
+		
+		<p class="secretWrap">
+			<input type="checkbox" name="secret" id="secret_21" class="checkbox" /><label for="secret_21"><span>secret</span></label>
+		</p>
+	
+	<p class="t_comment"><label for="comment"><span>comment</span></label><textarea name="comment" rows="6" cols="50"></textarea></p>
+	<p class="button"><button type="submit" onclick="addComment(this, 21); return false;" class="submit">&nbsp;<span>댓글 달기</span></button></p>
+</div><!-- close commentWrite -->
+
+   </form>
+							</div><!-- close comment -->
+						</div>
+<script type="text/javascript">loadedComments[21]=true;
+findFragmentAndHighlight(21);</script>
+
+					</div></div><!-- close entry -->
+				
+                    
+                
+<!-- 페이지 -->
+				
+			</div><!-- close wrapContent -->
+			<hr />
+			<div id="footer">
+	<!-- 푸터메뉴 -->
+				<div id="footMenu">
+					<ul>
+					<!-- 블로그 사용 환경 (설치형/티스토리)에 맞게 아래 주석으로 처리된 메뉴를 활성화 시키시기 바랍니다. -->
+					<li class="home"><a href="https://mika2volley.tistory.com/" title="home">home</a>
+					<li><a href="https://mika2volley.tistory.com/tag" title="tag">tag</a>
+					<li><a href="https://mika2volley.tistory.com/location" title="location log">location log</a></li>
+					<!-- <li><a href="https://mika2volley.tistory.com/keylog" title="key log">key log</a></li> -->
+					<li><a href="https://mika2volley.tistory.com/guestbook" title="guest book">guest book</a></li>
+					<li><a href="https://mika2volley.tistory.com/manage" title="admin">admin</a></li>
+					<li><a href="https://mika2volley.tistory.com/manage/entry/post" title="write">write</a></li>
+					</ul>
+				</div>
+	<!-- 카피라이트 -->
+				<div id="copyright">
+				<a href="https://mika2volley.tistory.com/">미까</a>'s blog is powered by <a href="http://daum.net" onclick="window.open(this.href); return false" title="Daum 바로가기">Daum</a> / designed by <a href="http://www.tistory.com" title="Tistory 바로가기">Tistory</a>
+				</div>
+			</div><!-- close footer -->
+			</div><!-- close content -->
+		</div><!-- close body -->
+	</div><!-- close container -->
+
+<div class="#menubar menu_toolbar ">
+  <h2 class="screen_out">티스토리툴바</h2>
+</div>
+<div class="#menubar menu_toolbar "></div>
+<iframe id="editEntry" style="position:absolute;width:1px;height:1px;left:-100px;top:-100px" src="//mika2volley.tistory.com/api"></iframe>
+
+                        <!-- CallBack - START -->
+        <script>                (function () { 
+                    var blogTitle = '미까의 제멋대로 세상';
+                    
+                    (function () {
+    function isShortContents () {
+        return window.getSelection().toString().length &lt; 30;
+    }
+
+    function copyWithSource (event) {
+        if (isShortContents()) {
+            return;
+        }
+        var range = window.getSelection().getRangeAt(0);
+        var contents = range.cloneContents();
+        var temp = document.createElement('div');
+
+        temp.appendChild(contents);
+
+        var url = document.location.href;
+        var decodedUrl = decodeURI(url);
+        var postfix = ' [' + blogTitle + ':티스토리]';
+
+        event.clipboardData.setData('text/plain', temp.innerText + '\n출처: ' + decodedUrl + postfix);
+        event.clipboardData.setData('text/html', '&lt;pre data-ke-type=&quot;codeblock&quot;&gt;' + temp.innerHTML + '&lt;/pre&gt;' + '출처: &lt;a href=&quot;' + url + '&quot;&gt;' + decodedUrl + '&lt;/a&gt;' + postfix);
+        event.preventDefault();
+    }
+
+    document.addEventListener('copy', copyWithSource);
+})()
+
+                })()</script>
+
+        <!-- CallBack - END -->
+
+<!-- DragSearchHandler - START -->
+<script src="//search1.daumcdn.net/search/statics/common/js/g/search_dragselection.min.js"></script>
+
+<!-- DragSearchHandler - END -->
+
+                
+                <script>window.tiara = {"svcDomain":"user.tistory.com","section":"글뷰","trackPage":"글뷰_보기","page":"글뷰","key":"1162129-21","customProps":{"userId":"0","blogId":"1162129","entryId":"21","role":"guest","trackPage":"글뷰_보기","filterTarget":false},"entry":{"entryId":"21","categoryName":"Movie","categoryId":"381723","author":"878219","image":"cfile7.uf@176EAB3D50588AAE2057F5.jpg","plink":"/21","tags":[]},"kakaoAppKey":"3e6ddd834b023f24221217e370daed18","appUserId":"null"}</script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/script/tiara.min.js"></script>
+<script type="text/javascript">(function($) {
+    $(document).ready(function() {
+        lightbox.options.fadeDuration = 200;
+        lightbox.options.resizeDuration = 200;
+        lightbox.options.wrapAround = false;
+        lightbox.options.albumLabel = "%1 / %2";
+    })
+})(tjQuery);</script>
+<div style="margin:0; padding:0; border:none; background:none; float:none; clear:none; z-index:0"></div>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/script/common.js"></script>
+<script type="text/javascript">window.roosevelt_params_queue = window.roosevelt_params_queue || [{channel_id: 'dk', channel_label: '{tistory}'}]</script>
+<script type="text/javascript" src="//t1.daumcdn.net/midas/rt/dk_bt/roosevelt_dk_bt.js" async="async"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-5547da48f664a3a704d2bf3fa1be259a3b59dbe6/static/script/menubar.min.js"></script>
+<script>            (function (win, doc, src) {
+    win.Wpm = win.Wpm || function (name, param) {
+        win.Wpm.queue = win.Wpm.queue || [];
+        const { queue } = win.Wpm;
+        queue.push([name, param]);
+    };
+    const script = doc.createElement('script');
+    script.src = src;
+    script.async = 1;
+    const [elem] = doc.getElementsByTagName('script');
+    elem.parentNode.insertBefore(script, elem);
+})(window, document, 'https://t1.kakaocdn.net/malibu_prod/wpm.js');
+            const APP_KEY = 'd3cda7e82e6e4144bdc998b8e25f125d';
+            Wpm('appKey', APP_KEY);</script>
+
+                </body>
+</html>
