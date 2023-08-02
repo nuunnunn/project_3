@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,31 +10,41 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script>
-      
-        $(function(){   
+
+        $(function () {
+
+            //첫 방문 시 보임
+            $('#about').css({
+                'opacity': '1', 'transition-delay': '1.5s',
+                "transform": "translateX(0px)"
+            });
+            $('#imgbox').css({
+                'opacity': '1', 'transition-delay': '2s',
+                "transform": "translateX(0px)"
+            })
 
             //section 찾아가기
             var nav = $("#menu ul li");
             var contents = $("#contents > div");
-    
+
             nav.click(function () {
-            var target = $(this);
-            var index = target.index();
-            var section = contents.eq(index);
-            var offset = section.offset().top;
-            
-            $("html, body").animate({ scrollTop: offset }, 400);
+                var target = $(this);
+                var index = target.index();
+                var section = contents.eq(index);
+                var offset = section.offset().top;
+
+                $("html, body").animate({ scrollTop: offset }, 400);
             });
-    
-    
+
+
             //스크롤 내리면 해당 메뉴에 원 생김
             $(window).scroll(function () {
                 var wScroll = $(this).scrollTop();
-        
+
                 for (i = 0; i < nav.length; i++) {
                     if (wScroll >= contents.eq(i).offset().top) {
-                    nav.find('.circle').removeClass("active");
-                    nav.eq(i).find('.circle').addClass("active");
+                        nav.find('.circle').removeClass("active");
+                        nav.eq(i).find('.circle').addClass("active");
                     }
                 };
             });
@@ -41,7 +52,7 @@
 
 
             //메뉴 바 누르면 사이드 메뉴 보임
-            $('.menu_trigger').on('click', function(e){
+            $('.menu_trigger').on('click', function (e) {
                 e.preventDefault();
                 $(this).toggleClass('push');
                 $('#mynav').toggleClass('right');
@@ -50,90 +61,222 @@
 
 
             //hover 하면 메뉴 원 보임
-            $('#menu li a').hover(function(){
-                $(this).prev().css('opacity','1')
-            },function(){
-                $(this).prev().css('opacity','0')
+            $('#menu li a').hover(function () {
+                $(this).prev().css('opacity', '1')
+            }, function () {
+                $(this).prev().css('opacity', '0')
             });
 
 
             //검색창 focus,blur
-            $('.type').focus(function(){
+            $('.type').focus(function () {
                 $(this).val('')
             });
-            $('.type').blur(function(){
+            $('.type').blur(function () {
                 $(this).val('Type something')
             });
 
 
             //글씨 올라옴
             // var first = $('#firsttxt p').index();
-            var text = $('#firsttxt p')
-            for(var i in text){
-                let delay = i*0.3;
-                text.eq(i).css({"transform":"translateY(0px)", "opacity":"1", 'transition-delay': delay+'s'});                
-            }
+            var text = $('#full p')
+            for (var i in text) {
+                let delay = i * 0.2;
+                text.eq(i).css({ "transform": "translateY(0px)", "opacity": "1", 'transition-delay': delay + 's' });
+            };
 
+
+            //span 누르면 텍스트 바뀜
+            $('#change p').click(function () {
+                let idx = $(this).index();
+                $(this).parent().next().children().hide();
+                $(this).parent().next().children().eq(idx).fadeIn('slow');                
+                
+            });
 
         })
-  
-      </script>
+
+    </script>
 </head>
+
 <body>
     <div id="wrap">
         <header>
             <div id="menu">
-      
+
                 <h1>Tim Burton</h1>
-            
-                <ul>  
-                  <li><span class="circle active"></span><a href="#section1">Main</a></li>  
-                  <li><span class="circle"></span><a href="#section2">About him</a></li>  
-                  <li><span class="circle"></span><a href="#section3">Filmography</a></li>  
-                  <li><span class="circle"></span><a href="#section4">Art</a></li>
+
+                <ul>
+                    <li><span class="circle active"></span><a href="#section1">Main</a></li>
+                    <li><span class="circle"></span><a href="#section2">About him</a></li>
+                    <li><span class="circle"></span><a href="#section3">Filmography</a></li>
+                    <li><span class="circle"></span><a href="#section4">Art</a></li>
                 </ul>
 
                 <form>
                     <input type="text" value="Type something" class="type">
                     <input type="submit" value="Search" class="search">
                 </form>
-            
+
             </div>
         </header>
-        
-        
-        
-        <div id="contents">  
+
+
+
+        <div id="contents">
             <div id="section1">
                 <div id="full">
-                    <div id="firsttxt">
-                        <p>T</p>
-                        <p>i</p>
-                        <p>m</p>
-                        <p>o</p>
-                        <p>t</p>
-                        <p>h</p>
-                        <p>y</p>
-                    </div>
-                    <p>Walter</p>
-                    <p>Burton</p>
+                    <p>T</p>
+                    <p>i</p>
+                    <p>m</p>
+                    <p>o</p>
+                    <p>t</p>
+                    <p>h</p>
+                    <p>y&nbsp;</p>
+
+                    <p>W</p>
+                    <p>a</p>
+                    <p>l</p>
+                    <p>t</p>
+                    <p>e</p>
+                    <p>r&nbsp;</p>
+
+                    <p>B</p>
+                    <p>u</p>
+                    <p>r</p>
+                    <p>t</p>
+                    <p>o</p>
+                    <p>n</p>
                 </div>
-            </div>  
+
+                <div id="at">
+                    <div id="about">
+                        <p>“누군가에게 정상인 것이 다른 누군가에게는 비정상일 수 있으니까요.” </p>
+                        <p>&lt; 팀 버튼이 말하는 팀 버튼 &gt;</p>
+                    </div>
+
+                    <div id="imgbox">
+                        <div class="line">
+                            <span>◆</span>
+                            <span></span>
+                            <span>◆</span>
+                        </div>
+
+                        <img src="img/timburton.jpg" alt="timburton">
+                    </div>
+                </div>
+
+            </div>
 
 
 
-            <div id="section2">section2</div>  
+            <div id="section2">
+                <div id="title">
+                    <div class="line2">
+                        <h1>About him</h1>
+                        <span></span>
+                    </div>
+                    <div id="change">
+                        <p>Story</p>
+                        <p>Style</p>
+                        <p>Character</p>
+                    </div>
+
+                    <div id="changecon">
+
+                        <div id="st">
+                            <p>
+                                팀버튼은 혼자 있는 것을 좋아하는 편이었다. 내성적인 성격에 수줍음을 많이
+                                타는 성격이었기 때문이다.<br>
+                                동네의 공동 묘지를 보며 편안한 감정을 느꼈고 공동 묘지를
+                                '완전한' 세상이라고 인식하였다.<br>
+                                팀버튼이 살던 버뱅크 도시는 당시 교외 주택 지역 '살아있는 시체의 밤'처럼
+                                느꼈다고 한다. <br>
+                                그는 이때부터 죽은 것이나 다름없는 사람들에게 관심을 갖기 시작했다. <br><br>
+    
+                                고등학교 시절, 그는 예술을 통해 자신의 영혼을 풀어놓고자 했다.
+                                그 때 만난 선생님은 그의 그림 스타일을 존중해주었다.<br>
+                                고등학교를 졸업한 후 캘리포니아 예술학교(California Institute of Art)에서
+                                애니메이션을 공부했다.<br><br>
+    
+                                2년 뒤 디즈니의 애니메이터로 일하기 시작했다.<br>
+                                그러나 그의 기괴한 상상은 디즈니가 추구하는 방향과 맞지 않았고 프랑캔 위니
+                                배급을 디즈니가 거부하면서  디즈니를 나오게 된다. <br><br>
+
+                                그 후 워너 브러더스 발탁되어 피위의 대모험(1985)을 연출했다. <br>
+                                1988년에는 비틀쥬스(1988)를 발표해 전미 10위권 안에 드는 히트를 치게 된다. <br>
+                                이 작품은 기괴함과 기묘함을 굉장히 잘 드러낸 작품으로 팀 버튼의 스타일을
+                                확립하는 중요한 작품이 된다.
+                            </p>
+
+                            <div class="stimg">
+                                <img src="img/timburton_thr.jpg.png" alt="timburton">
+                            </div>
+                        </div>
+
+                        <div id="sy">
+                            <p>
+                                팀 버튼의 영화세계는 동화와 현실사이를 오가는 몽환적인 미학적 요소가 차용된다. <br>
+                                몽환적이면서 기이한 세트,독특한 분장과 독보적인 미장센이 그의 영화를 구성한다. <br><br>
+                                
+                                그의 영화는 판타지적이라는 인식이 강하지만 실은 일반적인 판타지 영화와는 거리가 있다. <br>
+                                현실 사회에 대한 비판과 소외된 자들, 결함있는 자들에 대한 묘사와 감독의 개인적인
+                                가치관을 보여준다.<br><br>
+                            
+                                아름다우면서도 기괴하고 꿈을 꾸고 있는 듯한 분위기를 표현하며 놀라운 아이디어와 기발한 
+                                상상력과 독특한 감수성을 보여준다. <br>
+                                고딕풍의 고성을 등장 시킨다는 점도 특징이다. <br>
+                                가위 손에서 에드워드가 살고 있는 외딴 성,
+                                배트맨에서 음침한 분위기가 가득한 고담시, 
+                                유령 신부에서 중세 유럽의 고딕 양식을 본뜬 집이 그 예이다.<br><br>
+                            
+                                팀 버튼은 애니메이션보다 실사 영화감독으로 유명하다. <br>
+                                하지만 버튼의 애니메이션적 사고 방식은 자서전 '버튼이 버튼을 말한다'에서 
+                                스스로 자신의 영화는 이야기체가 아닌 비주얼 중심의 영화라고 했다.<br>
+                                특히 팀 버튼은 스스로 일반적인 애니메이션의 로케이션 디자인과 
+                                캐릭터 디자인의 요소이자 기본적 시각화의
+                                요소(공간, 선, 형태, 톤, 컬러, 움직임, 리듬)들을 기본으로 삼아 영상을 디자인한다.
+                            </p>
+                        </div>
+
+                        <div id="cha">
+                            <p>
+                                어린시절부터 괴물 영화를 좋아했기 때문에 
+                                자연스럽게 시체, 혹은 죽은 것이나 다름없는 사람들에게 관심을 가졌다. <br>
+                                팀 버튼은 죽은 자들을 위한 날이 있는 멕시코와 가까운 곳에도 거주했다. <br>
+                                이 행사에서 해골들이 거리를 활보하고 유머, 음악, 춤, 삶에 대한
+                                축복을 보며 죽음을 긍정적으로 접근하는 데 영향을 받았다.<br><br>
+                            
+                                팀 버튼은 소외된 괴짜들을 개성 있고 따뜻하게 보듬어줌과 동시에 상업성과 예술성을 보여준다.<br>
+                            
+                                동화와 현실을 넘나드는 팀 버튼만의 독특한 감수성이 특징이다. <br>
+                                팀 버튼 감독의 영화는 자칫 판타지적인 영화를
+                                제작한다고 생각할 수 있으나 사실 일반적인 판타지 영화와는 
+                                달리 사회에 대한 풍자도 담고 있다.<br><br>
+                            
+                                그가 창조한 영화 속 주인공 대부분은 자신을 받아주지 않는 세상에서 외롭게 투쟁한다.<br>
+                                또한 팀 버튼 감독의 캐릭터들은 기괴하고 우울하지만 사랑스러운 매력을 가지고 있다. <br>
+                                그가 직접 쓴 시나리오의
+                                캐릭터들은 어떤 불가피한 이유로 외면 받으나 주변 인식을 뒤바꾸고 세상을 변화 시킨다.<br> 
+                                이들 대부분은 신체적인 결함을 가지고 있거나, 
+                                태생부터 외롭고 '어둠의 자식'에 속하지만 늘 밝은 세상에 나오려 애쓴다는 특징이 있다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
-            <div id="section3">section3</div>  
+            <div id="section3">section3</div>
 
 
 
             <div id="section4">section4</div>
-        </div> 
-        
-        
+        </div>
+
+
     </div>
 </body>
+
 </html>

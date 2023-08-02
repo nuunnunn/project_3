@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-#wrap{width: 100%; height: auto; overflow: hidden; background: #6b6b6b; color: #e2e2e2;}
+#wrap{width: 100%; height: auto; overflow: hidden; background: #6b6b6b; 
+    color: #e2e2e2;
+}
 
 
 header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px;
@@ -9,10 +11,12 @@ header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px
 }
 #menu {width: 1280px; height: 100%; display: flex; justify-content: space-between; 
     align-items: center;}
-#menu h1 {font-size:40px; padding:12px 5px 5px 20px;  }
+#menu h1 {font-size: 4vh; }
 #menu ul {display: flex; width: 30%; justify-content: space-between;}
 #menu ul li {}
-#menu ul li a {padding: 20px 10px; color: #e2e2e2; text-decoration: none; display:inline-block;}
+#menu ul li a {padding: 20px 10px; color: #e2e2e2; text-decoration: none; 
+    display:inline-block; font-size: 1.7vh;
+}
 #menu ul li .circle{ background: #e2e2e2; width: 5px; height: 5px;
     display: inline-block; border-radius: 5px; margin-bottom: 2px; opacity: 0;
 }
@@ -20,12 +24,12 @@ header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px
 
 #menu .type{background: transparent; border: 1px solid #e2e2e2;  
     padding: 7px 0px 7px 30px; border-radius: 20px; background: url(../img/search_col.png); 
-    background-position: 8px 50%;
+    background-position: 8px 50%; font-size: 1.3vh;
     background-size: 15px; background-repeat: no-repeat; color: #e2e2e2;
 }
 #menu .type:focus{outline: none;}
 #menu .search{background: #e2e2e2; color: #6b6b6b; padding: 7px 10px; 
-    border-radius: 20px; border: none;}
+    border-radius: 20px; border: none; font-size: 1.4vh;}
 #menu .search:hover{cursor: pointer;}
 
 
@@ -39,40 +43,117 @@ header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px
 
 
 
-#section1 {height: auto;}
+#section1 {height: auto; margin: 0 auto;}
 
-#section1 #full{width: 100%; display: flex; justify-content: space-evenly;}
-#full p{font-size: 120px;}
+#section1 #full{width: 100%; display: flex; justify-content: center;}
+#full p{font-size: 12.8vh;}
 
-
-#full #firsttxt{display: flex; justify-content: center; }
-#full #firsttxt p:first-child{transform: translateY(100px); transition: all 1.5s ease-in-out; 
+#full p:first-child{transform: translateY(100px); transition: all 1.5s ease-in-out; 
     opacity: 0;
 }
-#full #firsttxt p:nth-child(2){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+#full p:nth-child(2){transform: translateY(100px); transition: all 1.5s ease-in-out; 
     opacity: 0;
 }
-#full #firsttxt p:nth-child(3){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+#full p:nth-child(3){transform: translateY(100px); transition: all 1.5s ease-in-out; 
     opacity: 0;
 }
-#full #firsttxt p:nth-child(4){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+#full p:nth-child(4){transform: translateY(100px); transition: all 1.5s ease-in-out; 
     opacity: 0;
 }
-#full #firsttxt p:nth-child(5){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+#full p:nth-child(5){transform: translateY(100px); transition: all 1.5s ease-in-out; 
     opacity: 0;
 }
-#full #firsttxt p:nth-child(6){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+#full p:nth-child(6){transform: translateY(100px); transition: all 1.5s ease-in-out; 
     opacity: 0;
 }
-#full #firsttxt p:last-child{transform: translateY(100px); transition: all 1.5s ease-in-out; 
+#full p:nth-child(7){transform: translateY(100px); transition: all 1.5s ease-in-out; 
     opacity: 0;
 }
+
+#full p:nth-child(8){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+    opacity: 0;
+}
+#full p:nth-child(9){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+    opacity: 0;
+}
+#full p:nth-child(10){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+    opacity: 0;
+}
+#full p:nth-child(11){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+    opacity: 0;
+}
+#full p:nth-child(12){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+    opacity: 0;
+}
+#full p:nth-child(13){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+    opacity: 0;
+}
+
+#full p:nth-child(14){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+    opacity: 0;
+}
+#full p:nth-child(15){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+    opacity: 0;
+}
+#full p:nth-child(16){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+    opacity: 0;
+}
+#full p:nth-child(17){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+    opacity: 0;
+}
+#full p:nth-child(18){transform: translateY(100px); transition: all 1.5s ease-in-out; 
+    opacity: 0;
+}
+#full p:last-child{transform: translateY(100px); transition: all 1.5s ease-in-out; 
+    opacity: 0;
+}
+
+#section1 #at{width: 100%; height: auto; display: flex; flex-wrap: wrap; 
+    margin-top: 50px; 
+}
+
+#at #about{width: 100%; opacity: 0; transition: all 3s;
+    transform: translateX(-200px);
+}
+#about p{font-size: 2.5vh;}
+
+#at #imgbox{width: 100%; margin-top: 50px; opacity: 0; transition: all 3s;
+    transform: translateX(-200px);
+}
+#imgbox .line{width: 100%; display: flex; align-items: center; 
+    justify-content: space-between; margin-bottom: 10px;}
+.line span:nth-of-type(2){width: 90%; height: 2px; background-color: #e2e2e2;}
+#imgbox img{width: 100%; height: auto;}
 
 
 
 
-#section2 {background-color: green;}
+#section2 {height: auto; margin: 0 auto; padding-top: 100px;}
 
+#section2 #title{width: 100%; display: flex; flex-wrap: wrap;}
+
+#title .line2{width: 100%; display: flex; align-items: center; margin-bottom: 40px;
+    justify-content: space-between;}
+#title h1{font-size: 4vh; width: 20%;}
+.line2 > span{width: 90%; background: #e2e2e2; height: 2px; display: inline-block;}
+
+#title #change{width: 20%; display: flex; justify-content: space-between;}
+#change p{border: 1px solid #e2e2e2; padding: 3px 10px 5px; border-radius: 15px;}
+#change p:hover{cursor: pointer; background: #777777;}
+
+#title #changecon{width: 100%; height: auto; margin-top: 30px; }
+
+#changecon #st{display: none; width: 100%; }
+#st p{font-size: 1.6vh; width: 77%; float: left;}
+#st .stimg{width: 22%; float: right; padding: 10px; background: #e2e2e2; filter: grayscale(90%);
+}
+#st .stimg:hover{filter: grayscale(0%); cursor: pointer;}
+.stimg img{width: 100%; height: auto;}
+
+
+#sy{display: block; width: 100%;}
+
+#cha{display: none; width: 100%;}
 
 
 
