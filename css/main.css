@@ -13,7 +13,7 @@ header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px
     align-items: center;}
 #menu h1 {font-size: 4vh; }
 #menu ul {display: flex; width: 30%; justify-content: space-between;}
-#menu ul li {}
+#menu ul li {display: block;}
 #menu ul li a {padding: 20px 10px; color: #e2e2e2; text-decoration: none; 
     display:inline-block; font-size: 1.7vh;
 }
@@ -36,10 +36,6 @@ header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px
 
 
 #contents {width: 1280px; margin: 0 auto; position: relative; padding: 150px 0 0 0;}
-
-
-
-#contents > div {height: 960px;}
 
 
 
@@ -122,7 +118,7 @@ header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px
 }
 #imgbox .line{width: 100%; display: flex; align-items: center; 
     justify-content: space-between; margin-bottom: 10px;}
-.line span:nth-of-type(2){width: 90%; height: 2px; background-color: #e2e2e2;}
+.line> span:nth-of-type(2){width: 90%; height: 2px; background-color: #e2e2e2;}
 #imgbox img{width: 100%; height: auto;}
 
 
@@ -145,41 +141,82 @@ header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px
 
 #changecon #st{display: none; width: 100%; }
 #st p{font-size: 1.6vh; width: 77%; float: left;}
-#st .stimg{width: 22%; float: right; padding: 10px; background: #e2e2e2; filter: grayscale(90%);
+#st p> span{width: 100%; display: inline-block; background: #e2e2e2; height: 2px;
+    margin-top: 87px;
+}
+#st .stimg{width: 22%; float: right; padding: 0px 0px 20px; background: #e2e2e2; filter: grayscale(90%);
 }
 #st .stimg:hover{filter: grayscale(0%); cursor: pointer;}
 .stimg img{width: 100%; height: auto;}
+/* .stimg .msc{width: 20px; height: 20px; background: #777777; position: absolute;
+    border-radius: 10px; opacity: 0; transition: all .3s ease; z-index: 3;
+} */
 
+#sy{display: none; width: 100%;}
+#sy p{font-size: 1.6vh; width: 98%;}
+#sy .syimg{width: 100%; display: flex; justify-content: space-between; flex-direction: row-reverse;
+    margin-top: 20px; position: absolute; 
+}
+.syimg img{width: 35%; height: auto; padding: 0px 0px 20px; background: #e2e2e2; 
+    filter: grayscale(90%);}
+.syimg img:hover{filter: grayscale(0%); cursor: pointer;}
+.syimg> span{width: 64%; background: #e2e2e2; height: 2px; display: inline-block;
+    align-self: flex-end;
+}
 
-#sy{display: block; width: 100%;}
-
-#cha{display: none; width: 100%;}
-
-
-
-#section3 {background-color: cyan;}
-
-
-
-
-#section4 {background-color: gray;}
-
-
-
-
-#section5 {background-color: purple;}
-
-
-
-
-#section6 {background-color: yellowgreen;}
-
-
-
-
-#section7 {background-color: gold;}
+#cha{display: block; width: 100%;}
+#cha p{font-size: 1.6vh; width: 98%;}
+#cha .chaimg{width: 100%; display: flex; justify-content: space-between;
+    margin-top: 20px; position: absolute; 
+}
+.chaimg img{width: 40%; height: auto; padding: 0px 0px 20px; background: #e2e2e2; 
+    filter: grayscale(90%);}
+.chaimg img:hover{filter: grayscale(0%); cursor: pointer;}
+.chaimg> span{width: 59%; background: #e2e2e2; height: 2px; display: inline-block;
+    align-self: flex-end;
+}
 
 
 
 
-#section8 {background-color: tomato;}
+#section3 {height: auto; margin: 600px auto 300px;}
+#section3 .line3{width: 100%; display: flex; align-items: center; margin-bottom: 100px;
+    justify-content: space-between;}
+.line3 h1{font-size: 4vh; width: 18%;}
+.line3 p{width: 35%; height: 2px; background: #e2e2e2;}
+
+
+#section3 #vincent{width: 100%; height: auto; display: flex; justify-content: space-between;
+    flex-wrap: wrap;
+}
+#vincent> h1{font-size: 17vh;}
+#vincent> h1 small{font-size: 7vh;}
+#vincent> p{width: 100%;}
+
+#vincent div:first-of-type{margin-top: 50px; width: 30%; height: auto; opacity: 0;
+    transform: translateX(-200px); transition: all 2s;}
+#vincent div:first-of-type img{width: 100%;}
+
+#vincent div:nth-of-type(2){margin-top: 100px; width: 15%; height: auto; opacity: 0;
+    transform: translateY(200px); transition: all 2s;} 
+#vincent div:nth-of-type(2) img{width: 100%; height: auto;}
+
+#vincent div:nth-of-type(3){width: 35%; height: auto; opacity: 0;
+    transform: translateX(200px); transition: all 2s;}
+#vincent div:nth-of-type(3) img{width: 100%; height: auto;}
+
+
+#section3 #beetleJuice{width: 100%; height: auto; margin-top: 100px;
+}
+#beetleJuice> h1{font-size: 17vh; text-align: right;}
+#beetleJuice> h1 small{font-size: 7vh;}
+#beetleJuice> p{width: 74%;}
+
+#beetleJuice> #synopsis{width: 89%; margin-top: 20px;}
+#synopsis h3{font-size: 7vh; }
+
+
+
+
+
+#section4 {background-color: tomato; height: 960px;}

@@ -47,6 +47,29 @@
                         nav.eq(i).find('.circle').addClass("active");
                     }
                 };
+
+                
+
+
+                //scroll event
+                var currentScrollTop = $(this).scrollTop();
+                //vincent 사라짐
+                var section1 = $('#section1').offset().top;
+                var section2 = $('#section2').offset().top;
+               
+                if(0 < currentScrollTop < section2){
+                    $('#vincent div:first-of-type').css("transform","translateX(-200px)").css("opacity","0");
+                    $('#vincent div:nth-of-type(2)').css("transform","translateY(200px)").css("opacity","0");
+                    $('#vincent div:nth-of-type(3)').css("transform","translateX(200px)").css("opacity","0");
+                }
+
+                //vincent 나타남
+                var vincent = $('#vincent').offset().top;
+                if(currentScrollTop > vincent - 700){
+                    $('#vincent div:first-of-type').css("transform","translateX(0px)").css("opacity","1");
+                    $('#vincent div:nth-of-type(2)').css("transform","translateY(0px)").css("opacity","1");
+                    $('#vincent div:nth-of-type(3)').css("transform","translateX(0px)").css("opacity","1");
+                }console.log(vincent-700)
             });
 
 
@@ -89,10 +112,24 @@
             //span 누르면 텍스트 바뀜
             $('#change p').click(function () {
                 let idx = $(this).index();
-                $(this).parent().next().children().hide();
-                $(this).parent().next().children().eq(idx).fadeIn('slow');                
+                $(this).parent().next().children().slideUp();
+                $(this).parent().next().children().eq(idx).slideDown('slow');                
                 
             });
+
+
+            //img hover circle
+            // $('.stimg').mousemove(function(event){
+            //     var x = event.pageX;
+            //     var y = event.pageY;
+            //     $('.msc').css({
+            //         left: x + 10, 
+            //         top: y - 20,
+            //         'opacity' : 0.8
+            //     })
+            // }).mouseleave(function(){
+            //     $('.msc').css('opacity',0);
+            // });
 
         })
 
@@ -186,81 +223,96 @@
 
                         <div id="st">
                             <p>
-                                팀버튼은 혼자 있는 것을 좋아하는 편이었다. 내성적인 성격에 수줍음을 많이
+                                &nbsp;팀버튼은 혼자 있는 것을 좋아하는 편이었다. 내성적인 성격에 수줍음을 많이
                                 타는 성격이었기 때문이다.<br>
                                 동네의 공동 묘지를 보며 편안한 감정을 느꼈고 공동 묘지를
                                 '완전한' 세상이라고 인식하였다.<br>
-                                팀버튼이 살던 버뱅크 도시는 당시 교외 주택 지역 '살아있는 시체의 밤'처럼
+                                &nbsp;팀버튼이 살던 버뱅크 도시는 당시 교외 주택 지역 '살아있는 시체의 밤'처럼
                                 느꼈다고 한다. <br>
                                 그는 이때부터 죽은 것이나 다름없는 사람들에게 관심을 갖기 시작했다. <br><br>
     
-                                고등학교 시절, 그는 예술을 통해 자신의 영혼을 풀어놓고자 했다.
+                                &nbsp;고등학교 시절, 그는 예술을 통해 자신의 영혼을 풀어놓고자 했다.
                                 그 때 만난 선생님은 그의 그림 스타일을 존중해주었다.<br>
                                 고등학교를 졸업한 후 캘리포니아 예술학교(California Institute of Art)에서
                                 애니메이션을 공부했다.<br><br>
     
-                                2년 뒤 디즈니의 애니메이터로 일하기 시작했다.<br>
+                                &nbsp;2년 뒤 디즈니의 애니메이터로 일하기 시작했다.<br>
                                 그러나 그의 기괴한 상상은 디즈니가 추구하는 방향과 맞지 않았고 프랑캔 위니
                                 배급을 디즈니가 거부하면서  디즈니를 나오게 된다. <br><br>
 
-                                그 후 워너 브러더스 발탁되어 피위의 대모험(1985)을 연출했다. <br>
+                                &nbsp;그 후 워너 브러더스 발탁되어 피위의 대모험(1985)을 연출했다. <br>
                                 1988년에는 비틀쥬스(1988)를 발표해 전미 10위권 안에 드는 히트를 치게 된다. <br>
                                 이 작품은 기괴함과 기묘함을 굉장히 잘 드러낸 작품으로 팀 버튼의 스타일을
                                 확립하는 중요한 작품이 된다.
+                                
+                                <span></span>
                             </p>
 
                             <div class="stimg">
-                                <img src="img/timburton_thr.jpg.png" alt="timburton">
+                                <img src="img/timburton_thr.png" alt="timburton">
+                                <!-- <div class="msc"></div> -->
                             </div>
                         </div>
 
                         <div id="sy">
                             <p>
-                                팀 버튼의 영화세계는 동화와 현실사이를 오가는 몽환적인 미학적 요소가 차용된다. <br>
+                                &nbsp;팀 버튼의 영화세계는 동화와 현실사이를 오가는 몽환적인 미학적 요소가 차용된다. <br>
                                 몽환적이면서 기이한 세트,독특한 분장과 독보적인 미장센이 그의 영화를 구성한다. <br><br>
                                 
-                                그의 영화는 판타지적이라는 인식이 강하지만 실은 일반적인 판타지 영화와는 거리가 있다. <br>
+                                &nbsp;그의 영화는 판타지적이라는 인식이 강하지만 실은 일반적인 판타지 영화와는 거리가 있다. <br>
                                 현실 사회에 대한 비판과 소외된 자들, 결함있는 자들에 대한 묘사와 감독의 개인적인
                                 가치관을 보여준다.<br><br>
                             
-                                아름다우면서도 기괴하고 꿈을 꾸고 있는 듯한 분위기를 표현하며 놀라운 아이디어와 기발한 
+                                &nbsp;아름다우면서도 기괴하고 꿈을 꾸고 있는 듯한 분위기를 표현하며 놀라운 아이디어와 기발한 
                                 상상력과 독특한 감수성을 보여준다. <br>
                                 고딕풍의 고성을 등장 시킨다는 점도 특징이다. <br>
                                 가위 손에서 에드워드가 살고 있는 외딴 성,
                                 배트맨에서 음침한 분위기가 가득한 고담시, 
                                 유령 신부에서 중세 유럽의 고딕 양식을 본뜬 집이 그 예이다.<br><br>
                             
-                                팀 버튼은 애니메이션보다 실사 영화감독으로 유명하다. <br>
+                                &nbsp;팀 버튼은 애니메이션보다 실사 영화감독으로 유명하다. <br>
                                 하지만 버튼의 애니메이션적 사고 방식은 자서전 '버튼이 버튼을 말한다'에서 
                                 스스로 자신의 영화는 이야기체가 아닌 비주얼 중심의 영화라고 했다.<br>
                                 특히 팀 버튼은 스스로 일반적인 애니메이션의 로케이션 디자인과 
                                 캐릭터 디자인의 요소이자 기본적 시각화의
                                 요소(공간, 선, 형태, 톤, 컬러, 움직임, 리듬)들을 기본으로 삼아 영상을 디자인한다.
+
+                                <div class="syimg">
+                                    <img src="img/miss_tim.jpg" alt="timburton">
+                                    <!-- <div class="msc"></div> -->
+                                    <span></span>
+                                </div>
                             </p>
                         </div>
 
                         <div id="cha">
                             <p>
-                                어린시절부터 괴물 영화를 좋아했기 때문에 
+                                &nbsp;어린시절부터 괴물 영화를 좋아했기 때문에 
                                 자연스럽게 시체, 혹은 죽은 것이나 다름없는 사람들에게 관심을 가졌다. <br>
                                 팀 버튼은 죽은 자들을 위한 날이 있는 멕시코와 가까운 곳에도 거주했다. <br>
                                 이 행사에서 해골들이 거리를 활보하고 유머, 음악, 춤, 삶에 대한
                                 축복을 보며 죽음을 긍정적으로 접근하는 데 영향을 받았다.<br><br>
                             
-                                팀 버튼은 소외된 괴짜들을 개성 있고 따뜻하게 보듬어줌과 동시에 상업성과 예술성을 보여준다.<br>
+                                &nbsp;팀 버튼은 소외된 괴짜들을 개성 있고 따뜻하게 보듬어줌과 동시에 상업성과 예술성을 보여준다.<br>
                             
                                 동화와 현실을 넘나드는 팀 버튼만의 독특한 감수성이 특징이다. <br>
                                 팀 버튼 감독의 영화는 자칫 판타지적인 영화를
                                 제작한다고 생각할 수 있으나 사실 일반적인 판타지 영화와는 
                                 달리 사회에 대한 풍자도 담고 있다.<br><br>
                             
-                                그가 창조한 영화 속 주인공 대부분은 자신을 받아주지 않는 세상에서 외롭게 투쟁한다.<br>
+                                &nbsp;그가 창조한 영화 속 주인공 대부분은 자신을 받아주지 않는 세상에서 외롭게 투쟁한다.<br>
                                 또한 팀 버튼 감독의 캐릭터들은 기괴하고 우울하지만 사랑스러운 매력을 가지고 있다. <br>
-                                그가 직접 쓴 시나리오의
-                                캐릭터들은 어떤 불가피한 이유로 외면 받으나 주변 인식을 뒤바꾸고 세상을 변화 시킨다.<br> 
+                                직접 쓴 시나리오의 캐릭터들은 어떤 불가피한 이유로 외면 받으나 주변 인식을 
+                                뒤바꾸고 세상을 변화 시킨다.<br> 
                                 이들 대부분은 신체적인 결함을 가지고 있거나, 
                                 태생부터 외롭고 '어둠의 자식'에 속하지만 늘 밝은 세상에 나오려 애쓴다는 특징이 있다.
                             </p>
+
+                            <div class="chaimg">
+                                <img src="img/exhibit.jpg" alt="exhibit">
+                                <!-- <div class="msc"></div> -->
+                                <span></span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -268,7 +320,47 @@
 
 
 
-            <div id="section3">section3</div>
+            <div id="section3">
+                <div class="line3">
+                    <p></p>
+                    <h1>Filmography</h1>
+                    <p></p>
+                </div>
+
+                <div id="vincent">
+                    <h1>vincent <small>1982</small></h1>
+
+                    <p>팀 버튼의 첫 단편 영화이자 데뷔작. 6분 짜리 스톱모션 애니메이션이다. </p>
+
+                    <div><img src="img/vincent_thr.jfif" alt="vincent"></div>
+                    <div><img src="img/vincent_four.jfif" alt="vincent"></div>
+                    <div><img src="img/vincent_five.jfif" alt="vincent"></div>
+                </div>
+
+                <div id="beetleJuice">
+                    <h1><small>1988</small> BeetleJuice</h1>
+
+                    <p>&nbsp;처음 국내에 출시되었을 때는 &lt; 유령수업 &gt;이라는 제목으로 배급되었다. <br>
+                       &lt; Beetlejuice &gt;라는 제목은 오리온자리의 알파성인 베텔게우스&#40; Betelgeuse &#41;의 
+                       영문식 발음을 소리나는대로 재미있게 쓴 것으로, 제목과 달리 영화속 비틀쥬스의 이름은 Betelgeuse가 맞다.
+                    </p>
+
+                    <div id="synopsis">
+                        <h3>synopsis</h3>
+                        <p>&nbsp;뉴잉글랜드의 한적한 시골 동네에 살고 있던 젊은 부부 아담과 바바라는 큰 저택을 
+                            장만해서 나름대로 행복하게 살고 있었다.<br> 그러나 자동차를 타고 동네에 다녀오던 중, 
+                            길가의 개를 피하려다가 강물에 빠져버리는 어처구니없는 사고를 당하고 사망하여 유령이 되어버린다. <br>
+                            &nbsp;이들 부부는 행복했던 지난날을 잊지 못하여 자신들의 집에서 계속 생활하는데, 
+                            찰스 가족이 이사를 와서 초현대적이고 으시시한 분위기로 집을 개조해버리자 그 가족을 쫓아낼 궁리를 한다.<br>
+                            여러 차례의 귀신 소동이 다 실패로 돌아가서 낙담한 아담 부부에게 장난이 심한 유령 
+                            비틀쥬스가 나타나 도와주겠다고 한다. <br>
+                            &nbsp;그러나 비틀쥬스는 사악한 악마이므로 이를 거절하고 사후 세계의 쥬노라는 전문가에게 도움을 청한다. <br>
+                            하지만 비틀쥬스는 단념하지 않고 찰스의 딸 리디아와의 결혼을 꿈꾸고, 
+                            찰스의 아들 오돈 때문에 아담 부부는 위기에 빠지게 된다.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
 
 
