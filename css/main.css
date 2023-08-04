@@ -5,18 +5,27 @@
 }
 
 
-header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px;
-    background-color: #6b6b6b; display: flex; justify-content: center; 
+header{position:fixed; left:0; top:0; width: 100%; 
+    /* height: 90px; */
+    background-color: #6b6b6b; 
+    display: flex; justify-content: center; 
     align-items: center; border-bottom: 1px solid #e2e2e2; z-index: 10;
 }
 #menu {width: 1280px; height: 100%; display: flex; justify-content: space-between; 
     align-items: center;}
 #menu h1 {font-size: 4vh; }
-#menu ul {display: flex; width: 30%; justify-content: space-between;}
-#menu ul li {display: block;}
-#menu ul li a {padding: 20px 10px; color: #e2e2e2; text-decoration: none; 
-    display:inline-block; font-size: 1.7vh;
+#menu> ul {display: flex; width: 50%; justify-content: space-between;}
+#menu > ul > li {display: block; height: 100%; text-align: center; width: 25%;}
+#menu > ul > li > a {padding: 20px 10px; display:inline-block; font-size: 1.7vh; 
 }
+
+#menu .fil{width: 100%; display: none; border-top: 3px solid #333; position: absolute;
+    z-index: 15;
+}
+.fil > li{width: 100%; background: #e2e2e2; text-align: center; line-height: 40px;}
+.fil > li > a{width: 100%; color: #6b6b6b; display:inline-block; font-size: 1.4vh;}
+.fil > li > a:hover{background: #aaa; color: #fff;}
+
 #menu ul li .circle{ background: #e2e2e2; width: 5px; height: 5px;
     display: inline-block; border-radius: 5px; margin-bottom: 2px; opacity: 0;
 }
@@ -124,6 +133,7 @@ header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px
 
 
 
+
 #section2 {height: auto; margin: 0 auto; padding-top: 100px;}
 
 #section2 #title{width: 100%; display: flex; flex-wrap: wrap;}
@@ -146,7 +156,7 @@ header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px
 }
 #st .stimg{width: 22%; float: right; padding: 0px 0px 20px; background: #e2e2e2; filter: grayscale(90%);
 }
-#st .stimg:hover{filter: grayscale(0%); cursor: pointer;}
+#st .stimg:hover{filter: grayscale(0%); cursor: pointer; transition: all .7s;}
 .stimg img{width: 100%; height: auto;}
 /* .stimg .msc{width: 20px; height: 20px; background: #777777; position: absolute;
     border-radius: 10px; opacity: 0; transition: all .3s ease; z-index: 3;
@@ -159,7 +169,7 @@ header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px
 }
 .syimg img{width: 35%; height: auto; padding: 0px 0px 20px; background: #e2e2e2; 
     filter: grayscale(90%);}
-.syimg img:hover{filter: grayscale(0%); cursor: pointer;}
+.syimg img:hover{filter: grayscale(0%); cursor: pointer; transition: all .7s;}
 .syimg> span{width: 64%; background: #e2e2e2; height: 2px; display: inline-block;
     align-self: flex-end;
 }
@@ -170,11 +180,12 @@ header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px
     margin-top: 20px; position: absolute; 
 }
 .chaimg img{width: 40%; height: auto; padding: 0px 0px 20px; background: #e2e2e2; 
-    filter: grayscale(90%);}
+    filter: grayscale(90%); transition: all .7s;}
 .chaimg img:hover{filter: grayscale(0%); cursor: pointer;}
 .chaimg> span{width: 59%; background: #e2e2e2; height: 2px; display: inline-block;
     align-self: flex-end;
 }
+
 
 
 
@@ -206,14 +217,105 @@ header{overflow:hidden; position:fixed; left:0; top:0; width: 100%; height: 90px
 #vincent div:nth-of-type(3) img{width: 100%; height: auto;}
 
 
-#section3 #beetleJuice{width: 100%; height: auto; margin-top: 100px;
+
+#section3 #beetleJuice{width: 100%; height: auto; margin-top: 150px;
 }
 #beetleJuice> h1{font-size: 17vh; text-align: right;}
 #beetleJuice> h1 small{font-size: 7vh;}
-#beetleJuice> p{width: 74%;}
+#beetleJuice> p{width: 70%;}
 
-#beetleJuice> #synopsis{width: 89%; margin-top: 20px;}
-#synopsis h3{font-size: 7vh; }
+#beetleJuice> #synopsis{width: 100%; margin-top: 50px; display: flex; flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#synopsis .synopsistxt{width: 75%;}
+#synopsis h3{font-size: 7vh; margin-bottom: 20px; width: 100%;}
+#synopsis p{width: 100%;}
+
+#synopsis .bit{width: 23%; position: relative; overflow: hidden; height: 80%; margin-top: 40px;
+    border-radius: 15px;
+}
+.bit img{width: 100%; height: auto; filter: grayscale(80%); border-radius: 15px;}
+
+.cover{position: absolute; bottom: 0; left: 0; z-index: 3; width: 100%; height: 0%; 
+    background-color: #fff; transition: height 1.5s ease-in-out; opacity: 0.7;}
+.cover p{color: #030303; padding: 15px; font-size: 1.3vh;} 
+.bit .cover p:nth-of-type(1){text-align: center; font-size: 1.6vh;}
+.bit:hover .cover{height: 100%; cursor: pointer;}
+.bit:hover img{ filter: grayscale(0%);}
+
+
+#beetleJuice> .btimg{width: 100%; display: flex; justify-content: space-between; align-content: center;}
+
+.btimg .adam{width: 30%; margin-top: 40px; position: relative; overflow: hidden; height: auto;
+    border-radius: 15px;
+}
+.adam img{width: 100%; height: auto; filter: grayscale(80%); border-radius: 15px;
+    /* transform: translateY(0%); transition: all .3s ease-in-out; */
+}
+.adam:hover .cover{height: 100%; cursor: pointer;}
+.adam:hover img{ filter: grayscale(0%);
+    /* transform: translateY(-100%); */
+}
+.adam .cover p:nth-of-type(1){text-align: center; font-size: 1.6vh;}
+
+.btimg .lidia{width: 35%; height: 70%; margin-top: 40px; position: relative; overflow: hidden;
+    border-radius: 15px;
+}
+.lidia img{width: 100%; height: auto; filter: grayscale(80%); border-radius: 15px; }
+.lidia:hover .cover{height: 100%; cursor: pointer;}
+.lidia:hover img{ filter: grayscale(0%);}
+.lidia .cover p:nth-of-type(1){text-align: center; font-size: 1.6vh;}
+
+.btimg .charles{width: 25%; height: auto; margin-top: -40px; position: relative; overflow: hidden;
+    border-radius: 15px;
+}
+.charles img{width: 100%; height: auto; filter: grayscale(80%); border-radius: 15px; }
+.charles:hover .cover{height: 100%; cursor: pointer;}
+.charles:hover img{ filter: grayscale(0%); }
+.charles .cover p:nth-of-type(1),.charles .cover p:nth-of-type(3){text-align: center; font-size: 1.6vh;}
+
+
+
+#section3 #scissor{width: 100%; height: auto; margin-top: 150px;
+}
+#scissor> h1{font-size: 15vh; }
+#scissor> h1 small{font-size: 7vh;}
+#scissor> p{width: 81%;}
+
+#scissor> #synopsis2{width: 100%; margin-top: 50px; display: flex; flex-wrap: wrap;
+    justify-content: space-between;
+}
+#synopsis2 img{width: 28%; filter: grayscale(90%); transition: all 1s;}
+#synopsis2 img:hover{filter: grayscale(0%); cursor: pointer;}
+#synopsis2 .synopsistxt2{width: 70%;}
+#synopsis2 h3{font-size: 7vh; margin-bottom: 20px; width: 100%;}
+#synopsis2 p{width: 100%; }
+
+#scissor .edward{margin-top: 50px; width: 100%; display: flex; flex-direction: row-reverse;
+    flex-wrap: wrap; justify-content: space-between;
+}
+.edward h1{width: 100%; text-align: right;}
+.edward> h1:first-of-type{font-size: 7vh; margin-bottom: 20px;}
+.edward> h1:last-of-type{border: 2px solid #e2e2e2; text-align: center; padding: 5px;}
+.edward img{width: 39%; margin-top: 10px;}
+.edward p{width: 60%; align-self: flex-end;}
+
+#scissor .kim{margin-top: 50px; width: 100%; display: flex; flex-wrap: wrap; 
+    justify-content: space-between;
+}
+.kim h1{width: 100%; text-align: right; margin-bottom: 20px; border: 2px solid #e2e2e2; 
+    text-align: center; padding: 5px;}
+.kim img{width: 39%; margin-top: 10px;}
+.kim p{width: 60%; align-self: flex-end;}
+
+#scissor .peg{margin-top: 50px; width: 100%; display: flex; flex-wrap: wrap; 
+    justify-content: space-between; flex-direction: row-reverse;
+}
+.peg h1{width: 100%; text-align: right; margin-bottom: 20px; border: 2px solid #e2e2e2; 
+    text-align: center; padding: 5px; }
+.peg img{width: 39%; margin-top: 10px;}
+.peg p{width: 61%; align-self: flex-end;}
 
 
 
