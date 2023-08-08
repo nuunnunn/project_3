@@ -372,8 +372,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 
 
-#section3 #big{width: 100%; height: auto; margin-top: 150px;
-}
+#section3 #big{width: 100%; height: auto; margin-top: 150px; }
 
 #big> h1{font-size: 10rem; text-align: right;}
 #big> h1 small{font-size: 4rem;}
@@ -383,86 +382,203 @@ header{position:fixed; left:0; top:0; width: 100%;
 .bigtxt> p{width: 100%; margin-top: 50px; font-size: 1rem;}
 
 #big > h3{font-size: 4rem; margin-top: 50px;}
+#big > h3:nth-of-type(2){text-align: center; margin-top: 100px;}
 
 #big .fs{width: 100%; display: flex; justify-content: space-between; margin-top: 50px;
 }
 
 .fs .mainc{width: 45%;}
 .fs .edward2{width: 100%; display: flex; flex-wrap: wrap; border-right: 2px solid #e2e2e2;
-    border-left: 2px solid #e2e2e2;
+    border-left: 2px solid #e2e2e2; justify-content: center;
 }
 .edward2 .line4{width: 100%; display: flex; justify-content: space-between; align-items: center;
     font-size: 1.5rem;
 }
 .edward2 .line4 span:first-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.edward2 .line4 span:nth-of-type(2){font-size: 2vh; text-align: center;}
+.edward2 .line4 span:nth-of-type(2){font-size: 1.5rem; text-align: center;}
 .edward2 .line4 span:last-of-type{width: 35%; height: 2px; background: #e2e2e2;}
 .edward2 p{text-align: center; width: 100%; margin-top: 10px; font-size: 1rem;}
-.edward2 img{width: 100%; margin-top: 30px; padding: 15px;}
+.edward2 img{width: 90%; margin: 30px 0 50px; }
 
 
 .fs .sandra{width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end; 
-    border-right: 2px solid #e2e2e2; border-left: 2px solid #e2e2e2;}
+    border-right: 2px solid #e2e2e2; border-left: 2px solid #e2e2e2;
+    justify-content: center;
+}
 .sandra .line5{width: 100%; display: flex; justify-content: space-between; align-items: center;
     font-size: 1.5rem;
 }
 .sandra .line5 span:first-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.sandra .line5 span:nth-of-type(2){font-size: 2vh; text-align: center;}
+.sandra .line5 span:nth-of-type(2){font-size: 1.5rem; text-align: center;}
 .sandra .line5 span:last-of-type{width: 35%; height: 2px; background: #e2e2e2;}
 .sandra p{text-align: center; width: 100%; margin-top: 10px; font-size: 1rem;}
-.sandra img{width: 100%; margin-top: 30px; padding: 15px;}
+.sandra img{width: 90%; margin-top: 30px; }
 
-.fs .subc{width: 45%;}
-.fs .witch{width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end; 
+.fs .subc{width: 45%; 
     border-right: 2px solid #e2e2e2; border-left: 2px solid #e2e2e2;}
+.fs .witch{width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end; 
+    justify-content: center;
+}
 .witch .line6{width: 100%; display: flex; justify-content: space-between; align-items: center;
     font-size: 1.5rem;
 }
 .witch .line6 span:first-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.witch .line6 span:nth-of-type(2){font-size: 2vh; text-align: center;}
+.witch .line6 span:nth-of-type(2){font-size: 1.5rem; text-align: center;}
 .witch .line6 span:last-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.witch img{width: 100%; margin-top: 30px; padding: 15px;}
+.witch img{width: 90%; margin: 30px 0 70px;}
 
 .fs .giant{width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end; 
-    border-right: 2px solid #e2e2e2; border-left: 2px solid #e2e2e2;}
+    justify-content: center;
+}
 .giant .line7{width: 100%; display: flex; justify-content: space-between; align-items: center;
     font-size: 1.5rem;
 }
 .giant .line7 span:first-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.giant .line7 span:nth-of-type(2){font-size: 2vh; text-align: center;}
+.giant .line7 span:nth-of-type(2){font-size: 1.5rem; text-align: center;}
 .giant .line7 span:last-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.giant img{width: 100%; margin-top: 30px; padding: 15px;}
+.giant img{width: 80%; margin-top: 30px; }
 
-#big .place{width: 100%; display: flex; justify-content: center;}
+#big .place{width: 100%; display: flex; justify-content: center; margin-top: 50px;}
 .place .plcwrap{width: 80%; border-right: 2px solid #e2e2e2; border-left: 2px solid #e2e2e2;}
 
-.plcwrap .flower{width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end; }
+.plcwrap .flower{width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end; 
+    justify-content: center; 
+}
 .flower .line8{width: 100%; display: flex; justify-content: space-between; align-items: center;
     font-size: 1.5rem;
 }
 .flower .line8 span:first-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.flower .line8 span:nth-of-type(2){font-size: 2vh; text-align: center;}
+.flower .line8 span:nth-of-type(2){font-size: 1.5rem; text-align: center;}
 .flower .line8 span:last-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.flower img{width: 100%; margin-top: 30px; padding: 15px;}
+.flower img{width: 90%; margin: 30px 0 50px;}
 
-.plcwrap .water{width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end; }
+.plcwrap .water{width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end; 
+    justify-content: center;
+}
 .water .line9{width: 100%; display: flex; justify-content: space-between; align-items: center;
     font-size: 1.5rem;
 }
 .water .line9 span:first-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.water .line9 span:nth-of-type(2){font-size: 2vh; text-align: center;}
+.water .line9 span:nth-of-type(2){font-size: 1.5rem; text-align: center;}
 .water .line9 span:last-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.water img{width: 100%; margin-top: 30px; padding: 15px;}
+.water img{width: 90%; margin: 30px 0 50px; }
 
-.plcwrap .ghostt{width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end; }
+.plcwrap .ghostt{width: 100%; display: flex; flex-wrap: wrap; align-self: flex-end;
+    justify-content: center;
+}
 .ghostt .line10{width: 100%; display: flex; justify-content: space-between; align-items: center;
     font-size: 1.5rem;
 }
 .ghostt .line10 span:first-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.ghostt .line10 span:nth-of-type(2){font-size: 2vh; text-align: center;}
+.ghostt .line10 span:nth-of-type(2){font-size: 1.5rem; text-align: center;}
 .ghostt .line10 span:last-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.ghostt img{width: 100%; margin-top: 30px; padding: 15px;}
+.ghostt img{width: 70%; margin-top: 30px;}
 
+#section3 #charlie{width: 100%; height: auto; margin-top: 150px; }
+#charlie> h1{font-size: 7.8rem; text-align: right; width: 100%; display: flex;}
+#charlie> h1 small{font-size: 4rem; align-self: flex-end;}
+
+#charlie> #synopsis4{width: 100%; margin-top: 50px; display: flex; flex-wrap: wrap;
+    justify-content: space-between; font-size: 1rem;
+}
+#synopsis4 img{width: 37%; height: auto; filter: grayscale(90%); transition: all 1s;}
+#synopsis4 img:hover{filter: grayscale(0%); cursor: pointer;}
+#synopsis4 .synopsistxt2{width: 62%; }
+#synopsis4 h3{font-size: 4rem; margin-bottom: 20px; width: 100%;}
+#synopsis4 p{width: 95%; font-size: 1rem; }
+
+#charlie > h3{font-size: 4rem; margin: 100px 0 50px; width: 100%; text-align: right;}
+#charlie .chocolate{width: 100%; display: flex; align-content: center; flex-wrap: wrap;
+}
+
+.chocolate #fcl{width: 100%; display: flex; justify-content: space-between;
+    align-content: center; flex-wrap: wrap;}
+.chocolate #scl{width: 100%; display: flex; justify-content: space-between;
+    align-content: center; flex-wrap: wrap;}
+
+#fcl > div{width: 30%; border: 2px solid #e2e2e2; display: flex;
+    flex-wrap: wrap; justify-content: center; padding: 20px; position: relative;
+}
+#fcl > div > h2{width: 100%; text-align: center;}
+#fcl > div > img{width: 80%;}
+#fcl > div p{font-size: 1.2rem; width: 97%; margin-top: 15px; text-align: center;}
+#fcl > div:first-of-type p{font-size: 1.1rem; }
+#fcl > div:first-of-type h2{position: absolute; top: 55%; }
+
+#scl > div{width: 30%; border: 2px solid #e2e2e2; display: flex;
+    flex-wrap: wrap; justify-content: center; margin-top: 50px; padding: 20px;
+}
+#scl > div > h2{width: 100%; text-align: center;}
+#scl > div > img{width: 80%;}
+#scl > div p{font-size: 1.2rem; margin-top: 15px; text-align: center;}
+
+.chocolate > div:last-child{width: 100%; display: flex; flex-wrap: wrap; margin-top: 50px;
+    border: 2px solid #e2e2e2; justify-content: center;
+}
+.chocolate > div:last-child h3{width: 100%; text-align: center; margin: 20px 0;}
+.chocolate > div:last-child img{width: 80%; margin: 0px 0 50px;}
+
+
+#section3 #bride{width: 100%; height: auto; margin-top: 150px; }
+#bride> h1{font-size: 7.8rem; width: 100%;}
+#bride> h1 small{font-size: 4rem;}
+#bride> p{margin-top: 50px; font-size: 1rem; width: 84%;}
+#bride> h3{font-size: 4rem; margin: 50px 0 30px;}
+
+#bride> #synopsis5{width: 100%; margin-top: 50px; display: flex; flex-wrap: wrap;
+    justify-content: space-between; font-size: 1rem;
+}
+#synopsis5 img{width: 37%; height: auto; filter: grayscale(90%); transition: all 1s;}
+#synopsis5 img:hover{filter: grayscale(0%); cursor: pointer;}
+#synopsis5 .synopsistxt2{width: 62%; }
+#synopsis5 h3{font-size: 4rem; margin-bottom: 20px; width: 100%;}
+#synopsis5 p{width: 80%; font-size: 1rem; }
+
+#bride .gstmain{width: 100%; display: flex; flex-wrap: wrap; 
+    justify-content: space-between;}
+.gstmain .victor{width: 50%; position: relative; display: flex; }
+.victor img:first-of-type{border-radius: 130px; width: 50%;}
+.victor img:last-of-type{position: absolute; bottom: -11%; left: 35%; width: 25%;}
+.victor div{width: 40%; border: 2px solid #e2e2e2; padding: 15px; border-radius: 30px;
+    height: 60%; text-align: center; position: absolute; top: 20%; right: 5%;
+}
+.victor div> h2{font-size: 1.5rem;}
+.victor div> p{font-size: 1rem; margin-top: 10px;}
+
+.gstmain .emily{width: 50%; position: relative; display: flex; }
+.emily div{width: 40%; border: 2px solid #e2e2e2; padding: 15px; border-radius: 30px;
+    height: 100%; text-align: center; position: absolute; 
+}
+.emily div> h2{font-size: 1.5rem;}
+.emily div> p{font-size: 1rem; margin-top: 10px;}
+.emily img:first-of-type{border-radius: 130px; width: 50%; position: absolute; 
+    bottom: 0%; right: 0;}
+.emily img:last-of-type{position: absolute; top: -10%; right: 33%; width: 25%;}
+
+#bride .gstsub{width: 100%; display: flex; flex-wrap: wrap; margin-top: 100px;
+    justify-content: space-between;}
+.gstsub .victorfam{width: 50%; position: relative; display: flex; 
+    justify-content: space-between;
+} 
+.victorfam div{width: 30%; border: 2px solid #e2e2e2; padding: 15px; 
+    border-radius: 30px; text-align: center; height: 70%;}
+.victorfam div> h2{font-size: 1.5rem;}
+.victorfam div> p{font-size: 1rem; margin-top: 20px; }
+.victorfam img:first-of-type{ width: 45%; border-radius: 130px;}
+.victorfam img:last-of-type{width: 20%; position: absolute; left: 30%; top: 50%;} 
+.gstsub .victorfam{width: 60%; position: relative; display: flex; 
+    justify-content: space-between;
+} 
+
+.gstsub .victoria{width: 40%; position: relative; display: flex; 
+    justify-content: space-between;
+} 
+.victoria div{width: 40%; border: 2px solid #e2e2e2; padding: 15px; position: absolute;
+    border-radius: 30px; text-align: center; right: 0; bottom: -70%;}
+.victoria div> h2{font-size: 1.5rem;}
+.victoria div> p{font-size: 1rem; margin-top: 20px; }
+.victoria img:first-of-type{ width: 50%; border-radius: 130px; position: absolute;}
+.victoria img:last-of-type{width: 20%; position: absolute; top: 50%;}   
 
 
 
