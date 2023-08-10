@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 #wrap{width: 100%; height: auto; overflow: hidden; background: #6b6b6b; 
-    color: #e2e2e2; font-size: 20px;
+    color: #e2e2e2; font-size: 20px; font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 
@@ -44,11 +44,11 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 
 
-#contents {width: 1280px; margin: 0 auto; position: relative; padding: 150px 0 0 0;}
+#contents {width: 1280px; margin: 0 auto; position: relative; }
 
 
 
-#section1 {height: auto; margin: 0 auto;}
+#section1 {height: auto; margin: 0 auto; padding: 150px 0 0 0;}
 
 #section1 #full{width: 100%; display: flex; justify-content: center;}
 #full p{font-size: 10rem;}
@@ -120,7 +120,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 #at #about{width: 100%; opacity: 0; transition: all 3s;
     transform: translateX(-200px);
 }
-#about p{font-size: 1.5rem;}
+#about p{font-size: 1.5rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #at #imgbox{width: 100%; margin-top: 50px; opacity: 0; transition: all 3s;
     transform: translateX(-200px);
@@ -150,7 +150,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 #title #changecon{width: 100%; height: auto; margin-top: 30px; }
 
 #changecon #st{display: none; width: 100%; }
-#st p{font-size: 0.9rem; width: 77%; float: left;}
+#st p{font-size: 0.9rem; width: 77%; float: left; font-family: 'IBM Plex Sans KR', sans-serif;} 
 #st p> span{width: 100%; display: inline-block; background: #e2e2e2; height: 2px;
     margin-top: 87px;
 }
@@ -163,7 +163,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 } */
 
 #sy{display: none; width: 100%;}
-#sy p{font-size: 1rem; width: 98%;}
+#sy p{font-size: 1rem; width: 98%; font-family: 'IBM Plex Sans KR', sans-serif;}
 #sy .syimg{width: 100%; display: flex; justify-content: space-between; flex-direction: row-reverse;
     margin-top: 20px; position: absolute; 
 }
@@ -175,7 +175,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 }
 
 #cha{display: block; width: 100%;}
-#cha p{font-size: 1rem; width: 98%;}
+#cha p{font-size: 1rem; width: 98%; font-family: 'IBM Plex Sans KR', sans-serif;}
 #cha .chaimg{width: 100%; display: flex; justify-content: space-between;
     margin-top: 20px; position: absolute; 
 }
@@ -202,7 +202,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 }
 #vincent> h1{font-size: 10rem;}
 #vincent> h1 small{font-size: 4rem;}
-#vincent> p{width: 100%; font-size: 1rem;}
+#vincent> p{width: 100%; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #vincent div:first-of-type{margin-top: 50px; width: 30%; height: auto; opacity: 0;
     transform: translateX(-200px); transition: all 2s;}
@@ -222,7 +222,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 }
 #beetleJuice> h1{font-size: 10rem; text-align: right;}
 #beetleJuice> h1 small{font-size: 4rem;}
-#beetleJuice> p{width: 70%; font-size: 1rem;}
+#beetleJuice> p{width: 70%; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #beetleJuice> #synopsis{width: 100%; margin-top: 50px; display: flex; flex-wrap: wrap;
     justify-content: space-between; font-size: 1rem;
@@ -230,7 +230,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 #synopsis .synopsistxt{width: 75%;}
 #synopsis h3{font-size: 7vh; margin-bottom: 20px; width: 100%;}
-#synopsis p{width: 100%;}
+#synopsis p{width: 100%; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #synopsis .bit{width: 23%; position: relative; overflow: hidden; height: 80%; margin-top: 40px;
     border-radius: 15px;
@@ -239,7 +239,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 .cover{position: absolute; bottom: 0; left: 0; z-index: 3; width: 100%; height: 0%; 
     background-color: #fff; transition: height 1.5s ease-in-out; opacity: 0.7;}
-.cover p{color: #030303; padding: 15px; font-size: 0.8rem;} 
+.cover p{color: #030303; padding: 15px; font-size: 0.8rem; font-family: 'IBM Plex Sans KR', sans-serif;} 
 .bit .cover p:nth-of-type(1){text-align: center; font-size: 1rem;}
 .bit:hover .cover{height: 100%; cursor: pointer;}
 .bit:hover img{ filter: grayscale(0%);}
@@ -257,7 +257,8 @@ header{position:fixed; left:0; top:0; width: 100%;
 .adam:hover img{ filter: grayscale(0%);
     /* transform: translateY(-100%); */
 }
-.adam .cover p:nth-of-type(1){text-align: center; font-size: 1.6vh;}
+.adam .cover p:nth-of-type(1){text-align: center; font-size: 1.6vh; 
+    font-family: 'IBM Plex Sans KR', sans-serif;}
 
 .btimg .lidia{width: 35%; height: 70%; margin-top: 40px; position: relative; overflow: hidden;
     border-radius: 15px;
@@ -265,7 +266,8 @@ header{position:fixed; left:0; top:0; width: 100%;
 .lidia img{width: 100%; height: auto; filter: grayscale(80%); border-radius: 15px; }
 .lidia:hover .cover{height: 100%; cursor: pointer;}
 .lidia:hover img{ filter: grayscale(0%);}
-.lidia .cover p:nth-of-type(1){text-align: center; font-size: 1.6vh;}
+.lidia .cover p:nth-of-type(1){text-align: center; font-size: 1.6vh;
+    font-family: 'IBM Plex Sans KR', sans-serif; }
 
 .btimg .charles{width: 25%; height: auto; margin-top: -40px; position: relative; overflow: hidden;
     border-radius: 15px;
@@ -273,7 +275,8 @@ header{position:fixed; left:0; top:0; width: 100%;
 .charles img{width: 100%; height: auto; filter: grayscale(80%); border-radius: 15px; }
 .charles:hover .cover{height: 100%; cursor: pointer;}
 .charles:hover img{ filter: grayscale(0%); }
-.charles .cover p:nth-of-type(1),.charles .cover p:nth-of-type(3){text-align: center; font-size: 1.6vh;}
+.charles .cover p:nth-of-type(1),.charles .cover p:nth-of-type(3){text-align: center; font-size: 1.6vh;
+    font-family: 'IBM Plex Sans KR', sans-serif;}
 
 
 
@@ -281,7 +284,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 }
 #scissor> h1{font-size: 9rem; }
 #scissor> h1 small{font-size: 4rem;}
-#scissor> p{width: 81%; font-size: 1rem;}
+#scissor> p{width: 81%; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #scissor> #synopsis2{width: 100%; margin-top: 50px; display: flex; flex-wrap: wrap;
     justify-content: space-between; font-size: 1rem;
@@ -290,7 +293,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 #synopsis2 img:hover{filter: grayscale(0%); cursor: pointer;}
 #synopsis2 .synopsistxt2{width: 62%; }
 #synopsis2 h3{font-size: 4rem; margin-bottom: 20px; width: 100%;}
-#synopsis2 p{width: 100%; }
+#synopsis2 p{width: 100%; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #scissor .edward{margin-top: 50px; width: 100%; display: flex; flex-direction: row-reverse;
     flex-wrap: wrap; justify-content: space-between;
@@ -299,7 +302,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 .edward> h1:first-of-type{font-size: 4rem; margin-bottom: 20px;}
 .edward> h1:last-of-type{border: 2px solid #e2e2e2; text-align: center; padding: 5px;}
 .edward img{width: 39%; margin-top: 30px;}
-.edward p{width: 60%; align-self: flex-end; font-size: 1rem;}
+.edward p{width: 60%; align-self: flex-end; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #scissor .fam{width: 100%; display: flex; justify-content: space-between; margin-top: 50px;}
 .fam .kim{ width: 49%; display: flex; flex-wrap: wrap; justify-content: center;
@@ -307,7 +310,8 @@ header{position:fixed; left:0; top:0; width: 100%;
 .kim h1{width: 100%; margin-bottom: 20px; border: 2px solid #e2e2e2; 
     text-align: center; padding: 2px; }
 .kim img{width: 90%; margin-top: 10px;}
-.kim p{width: 90%; margin-top: 10px; text-align: center; font-size: 1rem;}
+.kim p{width: 90%; margin-top: 10px; text-align: center; font-size: 1rem;
+    font-family: 'IBM Plex Sans KR', sans-serif;}
 
 .fam .peg{width: 49%; display: flex; flex-wrap: wrap;
     justify-content: center;
@@ -315,7 +319,8 @@ header{position:fixed; left:0; top:0; width: 100%;
 .peg h1{width: 100%; margin-bottom: 20px; border: 2px solid #e2e2e2; 
     text-align: center; padding: 5px; }
 .peg img{width: 90%; margin-top: 10px;}
-.peg p{width: 90%; margin-top: 10px; text-align: center; font-size: 1rem;}
+.peg p{width: 90%; margin-top: 10px; text-align: center; font-size: 1rem;
+    font-family: 'IBM Plex Sans KR', sans-serif;}
 
 
 
@@ -335,20 +340,20 @@ header{position:fixed; left:0; top:0; width: 100%;
 #christmas> img{margin-top: 30px; }
 #christmas> p{width: 100%; margin-top: 30px; }
 #christmas> h3{font-size: 4rem; width: 100%; margin-top: 50px;}
-#christmas> p{width: 67%; font-size: 1rem;}
+#christmas> p{width: 67%; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #christmas> #synopsis3{width: 100%; margin-top: 50px; display: flex; flex-wrap: wrap;
     justify-content: space-between; font-size: 1rem;
 }
 #synopsis3 h3{font-size: 4rem; margin-bottom: 20px; width: 100%;}
-#synopsis3 p{width: 68%; }
+#synopsis3 p{width: 68%; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #christmas #cjs{width: 100%; margin-top: 50px; display: flex; flex-wrap: wrap;} 
 #cjs h3{font-size: 4rem; margin-bottom: 20px; width: 100%; text-align: right;}
 #cjs .jasl{width: 100%; display: flex; justify-content: space-between; align-items: center; }
 .jasl .sally{width: 27%; text-align: center; border: 2px solid #e2e2e2; padding: 10px;}
 .sally h2{font-size: 4vh; width: 100%; font-size: 2rem;}
-.sally p{margin-top: 20px; font-size: 1rem;}
+.sally p{margin-top: 20px; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 .jasl .jsimg{ width: 50%; position: relative; display: flex;}
 .jasl img{width: 75%; margin: 0 auto;}
@@ -363,7 +368,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 .dbwrap .duck{width: 44%; height: 65%; padding: 10px; text-align: center; margin-left: 10px;}
 .dbwrap .duck img{width: 100%; border-radius: 30px; margin: 0 auto;}
 .dbwrap .duck h1{padding: 10px; font-size: 2rem;}
-.dbwrap .duck p{padding: 10px; font-size: 1rem;}
+.dbwrap .duck p{padding: 10px; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 .dbwrap .boogie{width: 49.5%; height: 60%; padding: 10px; 
     text-align: center; 
@@ -371,12 +376,12 @@ header{position:fixed; left:0; top:0; width: 100%;
 }
 .dbwrap .boogie img{width: 100%; border-radius: 30px; margin: 0 auto;}
 .dbwrap .boogie h1{padding: 10px; font-size: 2rem;}
-.dbwrap .boogie p{padding: 10px; font-size: 1rem;}
+.dbwrap .boogie p{padding: 10px; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 .stzr .zero{width: 33%; padding: 10px; border: 2px solid #e2e2e2; text-align: center;}
 .stzr .zero img{width: 100%; border-radius: 30px;}
 .stzr .zero h1{padding: 10px; font-size: 2rem;}
-.stzr .zero p{padding: 10px; font-size: 1rem;}
+.stzr .zero p{padding: 10px; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 
 
@@ -387,7 +392,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 #big .bigtxt{width: 100%; margin-top: 50px; text-align: center;}
 .bigtxt h3{font-size: 4vh; font-size: 2rem;}
-.bigtxt> p{width: 100%; margin-top: 50px; font-size: 1rem;}
+.bigtxt> p{width: 100%; margin-top: 50px; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #big > h3{font-size: 4rem; margin-top: 50px;}
 #big > h3:nth-of-type(2){text-align: center; margin-top: 100px;}
@@ -405,7 +410,8 @@ header{position:fixed; left:0; top:0; width: 100%;
 .edward2 .line4 span:first-of-type{width: 35%; height: 2px; background: #e2e2e2;}
 .edward2 .line4 span:nth-of-type(2){font-size: 1.5rem; text-align: center;}
 .edward2 .line4 span:last-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.edward2 p{text-align: center; width: 100%; margin-top: 10px; font-size: 1rem;}
+.edward2 p{text-align: center; width: 100%; margin-top: 10px; font-size: 1rem; 
+    font-family: 'IBM Plex Sans KR', sans-serif;}
 .edward2 img{width: 90%; margin: 30px 0 50px; }
 
 
@@ -419,7 +425,8 @@ header{position:fixed; left:0; top:0; width: 100%;
 .sandra .line5 span:first-of-type{width: 35%; height: 2px; background: #e2e2e2;}
 .sandra .line5 span:nth-of-type(2){font-size: 1.5rem; text-align: center;}
 .sandra .line5 span:last-of-type{width: 35%; height: 2px; background: #e2e2e2;}
-.sandra p{text-align: center; width: 100%; margin-top: 10px; font-size: 1rem;}
+.sandra p{text-align: center; width: 100%; margin-top: 10px; font-size: 1rem;
+    font-family: 'IBM Plex Sans KR', sans-serif;}
 .sandra img{width: 90%; margin-top: 30px; }
 
 .fs .subc{width: 45%; 
@@ -482,6 +489,9 @@ header{position:fixed; left:0; top:0; width: 100%;
 .ghostt .line10 span:last-of-type{width: 35%; height: 2px; background: #e2e2e2;}
 .ghostt img{width: 70%; margin-top: 30px;}
 
+
+
+
 #section3 #charlie{width: 100%; height: auto; margin-top: 150px; }
 #charlie> h1{font-size: 7.8rem; text-align: right; width: 100%; display: flex;}
 #charlie> h1 small{font-size: 4rem; align-self: flex-end;}
@@ -493,7 +503,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 #synopsis4 img:hover{filter: grayscale(0%); cursor: pointer;}
 #synopsis4 .synopsistxt2{width: 62%; }
 #synopsis4 h3{font-size: 4rem; margin-bottom: 20px; width: 100%;}
-#synopsis4 p{width: 95%; font-size: 1rem; }
+#synopsis4 p{width: 95%; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #charlie > h3{font-size: 4rem; margin: 100px 0 50px; width: 100%; text-align: right;}
 #charlie .chocolate{width: 100%; display: flex; align-content: center; flex-wrap: wrap;
@@ -510,7 +520,8 @@ header{position:fixed; left:0; top:0; width: 100%;
 }
 #fcl > div > h2{width: 100%; text-align: center;}
 #fcl > div > img{width: 80%;}
-#fcl > div p{font-size: 1.2rem; width: 97%; margin-top: 15px; text-align: center;}
+#fcl > div p{font-size: 1.2rem; width: 97%; margin-top: 15px; text-align: center;
+    font-family: 'IBM Plex Sans KR', sans-serif;}
 #fcl > div:first-of-type p{font-size: 1.1rem; }
 #fcl > div:first-of-type h2{position: absolute; top: 55%; }
 
@@ -519,7 +530,8 @@ header{position:fixed; left:0; top:0; width: 100%;
 }
 #scl > div > h2{width: 100%; text-align: center;}
 #scl > div > img{width: 80%;}
-#scl > div p{font-size: 1.2rem; margin-top: 15px; text-align: center;}
+#scl > div p{font-size: 1.2rem; margin-top: 15px; text-align: center; 
+    font-family: 'IBM Plex Sans KR', sans-serif;}
 
 .chocolate > div:last-child{width: 100%; display: flex; flex-wrap: wrap; margin-top: 50px;
     border: 2px solid #e2e2e2; justify-content: center;
@@ -528,10 +540,12 @@ header{position:fixed; left:0; top:0; width: 100%;
 .chocolate > div:last-child img{width: 80%; margin: 0px 0 50px;}
 
 
+
+
 #section3 #bride{width: 100%; height: auto; margin-top: 150px; }
 #bride> h1{font-size: 10rem; width: 100%;}
 #bride> h1 small{font-size: 4rem;}
-#bride> p{margin-top: 50px; font-size: 1rem; width: 84%;}
+#bride> p{margin-top: 50px; font-size: 1rem; width: 84%; font-family: 'IBM Plex Sans KR', sans-serif;}
 #bride> h3{font-size: 4rem; margin: 50px 0 30px;}
 
 #bride> #synopsis5{width: 100%; margin-top: 50px; display: flex; flex-wrap: wrap;
@@ -541,7 +555,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 #synopsis5 img:hover{filter: grayscale(0%); cursor: pointer;}
 #synopsis5 .synopsistxt2{width: 62%; }
 #synopsis5 h3{font-size: 4rem; margin-bottom: 20px; width: 100%;}
-#synopsis5 p{width: 80%; font-size: 1rem; }
+#synopsis5 p{width: 80%; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #bride .gstmain{width: 100%; display: flex; flex-wrap: wrap; 
     justify-content: space-between;}
@@ -552,7 +566,7 @@ header{position:fixed; left:0; top:0; width: 100%;
     height: 60%; text-align: center; position: absolute; top: 20%; right: 5%;
 }
 .gsttxt> h2{font-size: 1.5rem;}
-.gsttxt> p{font-size: 1rem; margin-top: 10px;}
+.gsttxt> p{font-size: 1rem; margin-top: 10px; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 .gstmain .emily{width: 50%; position: relative; display: flex; }
 .emily div{width: 40%; border: 2px solid #e2e2e2; padding: 15px; border-radius: 30px;
@@ -597,14 +611,14 @@ header{position:fixed; left:0; top:0; width: 100%;
 #section3 #weenie{width: 100%; height: auto; margin-top: 500px; }
 #weenie> h1{font-size: 9rem; width: 100%;}
 #weenie> h1 small{font-size: 4rem;}
-#weenie> p{font-size: 1rem; width: 84%;}
+#weenie> p{font-size: 1rem; width: 84%; font-family: 'IBM Plex Sans KR', sans-serif;}
 #weenie > h3{font-size: 4rem; margin-top: 70px; width: 100%; text-align: right;}
 
 #weenie> #synopsis6{width: 100%; margin-top: 50px; display: flex; flex-wrap: wrap;
     justify-content: space-between; font-size: 1rem;
 }
 #synopsis6 h3{font-size: 4rem; margin-bottom: 20px; width: 100%;}
-#synopsis6 p{width: 78.5%; font-size: 1rem; }
+#synopsis6 p{width: 78.5%; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #weenie .weeniecha{width: 100%; margin-top: 50px; display: flex; flex-wrap: wrap;
     justify-content: space-between;}
@@ -638,54 +652,114 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 
 
-#section3 #miss{width: 100%; height: auto; margin: 100px 0 30px; }
+#section3 #miss{width: 100%; height: auto; margin: 100px 0 100px; }
 #miss> h1{font-size: 9rem; width: 100%;}
 #miss> h1 small{font-size: 4rem;}
-#miss> p{font-size: 1rem; width: 100%; text-align: center; }
+#miss> p{font-size: 1rem; width: 100%; text-align: center; font-family: 'IBM Plex Sans KR', sans-serif;}
 
-#miss> .misscha{width: 100%; margin-top: 100px; display: flex; flex-wrap: wrap;
-    justify-content: space-between;
+#section3 .missfirst{width: 100%; display: flex; justify-content: space-between;
+    margin: 100px 0 50px; }
+.missfirst .jake{width: 40%; position: relative; border: 7px double #e2e2e2; 
+    padding: 10px; box-shadow: 2px 2px 10px #333;
 }
-.misscha .jake{width: 45%; position: relative; border-color: #e2e2e2;
-    border-width: 7px; border-style: double double none none; padding: 10px;
-}
-.jake img{width: 100%; height: 100%;}
+.missfirst .jake img{width: 100%; height: 100%;}
 .misstxt{position: absolute; top: 0; left: 0; width: 100%; height: 100%;
     padding: 10px; display: flex; flex-wrap: wrap;
 }
 .misstxt h2{width: 100%; text-align: center; }
-.misstxt p{align-self: flex-end; font-size: 1rem; padding: 0 35px 20px;}
+.misstxt p{align-self: flex-end; font-size: 1rem; padding: 0 35px 20px;
+    font-family: 'IBM Plex Sans KR', sans-serif;}
 
-.misscha .peregrine{width: 45%; position: relative; border-color: #e2e2e2;
-    border-width: 7px; border-style:  none none double double; padding: 10px;
+.missfirst .peregrine{width: 40%; position: relative; border: 7px double #e2e2e2; 
+    padding: 10px; box-shadow: 2px 2px 10px #333;
 }
 .peregrine img{width: 100%; height: 100%;}
 
-.misscha .emma{width: 45%; position: relative; border-color: #e2e2e2;
-    border-width: 7px; border-style: double double none none; padding: 10px;
+
+#section3 .misssecond{width: 100%; display: flex; justify-content: space-around;
+    margin: 100px 0 50px; }
+.misssecond .emma{width: 40%; position: relative; border: 7px double #e2e2e2; 
+    padding: 10px; box-shadow: 2px 2px 10px #333;
 }
 .emma img{width: 100%; height: 100%;}
 
-.misscha .bronwyn{width: 45%; position: relative; border-color: #e2e2e2;
-    border-width: 7px; border-style:  none none double double; padding: 10px;
-}
-.bronwyn img{width: 100%; height: 100%;}
-
-.misscha .olive{width: 45%; position: relative; border-color: #e2e2e2;
-    border-width: 7px; border-style:  none none double double; padding: 10px;
-}
-.olive img{width: 100%; height: 100%;}
-
-.misscha .millard{width: 45%; position: relative; border-color: #e2e2e2;
-    border-width: 7px; border-style:  none none double double; padding: 10px;
-}
-.millard img{width: 100%; height: 100%;}
-
-.misscha .twin{width: 45%; position: relative; border-color: #e2e2e2;
-    border-width: 7px; border-style:  none none double double; padding: 10px;
+.misssecond .twin{width: 40%; position: relative; border: 7px double #e2e2e2; 
+    padding: 10px; box-shadow: 2px 2px 10px #333;
 }
 .twin img{width: 100%; height: 100%;}
 
+
+#section3 .missthird{width: 100%; display: flex; justify-content: space-between;
+    margin: 100px 0 50px; }
+
+.missthird .olive{width: 30%; position: relative; border: 7px double #e2e2e2; 
+    padding: 10px; box-shadow: 2px 2px 10px #333;
+}
+.olive img{width: 100%; height: 100%;}
+
+.missthird .millard{width: 30%; position: relative; border: 7px double #e2e2e2; 
+    padding: 10px; box-shadow: 2px 2px 10px #333;
+}
+.millard img{width: 100%; height: 100%;}
+
+.missthird .bronwyn{width: 30%; position: relative; border: 7px double #e2e2e2; 
+    padding: 10px; box-shadow: 2px 2px 10px #333;
+}
+.bronwyn img{width: 100%; height: 100%;}
+
+#section3 .missfour{width: 100%; display: flex; justify-content: center;
+    margin: 100px 0 50px; }
+
+.missfour .baron{width: 40%; position: relative; border: 7px double #e2e2e2; 
+    padding: 10px; box-shadow: 2px 2px 10px #333;
+}
+.baron img{width: 100%; height: 100%;}
+
+
+
+#section3 #wed{width: 100%; height: auto; margin: 0px 0 150px; text-align: center;}
+#wed> h1{font-size: 9rem; width: 100%;}
+#wed> h1 small{font-size: 4rem;}
+#wed> p{font-size: 1rem; width: 100%; text-align: center; margin: 50px 0 100px;
+    font-family: 'IBM Plex Sans KR', sans-serif;}
+
+#wed > .wednesday{width: 100%; display: flex; justify-content: center;
+    position: relative;
+}
+.wednesday img{ width: 70%; }
+.wednesday > h2{position: absolute;}
+
+#wed .wefirst{width: 100%; display: flex; justify-content: space-evenly;}
+.wefirst .enid{width: 45%; position: relative;}
+.enid img{width: 100%;} 
+.enid h2{position: absolute; bottom: 50%;}
+
+.wefirst .mom{width: 35%; position: relative;}
+.mom img{width: 100%;} 
+.mom h2{position: absolute; top: 0%; right: 0%; }
+
+
+#wed .wesecond{width: 100%; display: flex; justify-content: space-between;}
+.wesecond .thing{width: 30%; position: relative;}
+.thing img{width: 100%;} 
+.thing h2{position: absolute; bottom: 20%; right: 0;}
+
+.wesecond .father{width: 35%; position: relative;}
+.father img{width: 100%;} 
+.father h2{position: absolute; top: 20%; left: 0%; }
+
+.wesecond .brother{width: 25%; position: relative;}
+.brother img{width: 100%;} 
+.brother h2{position: absolute; bottom: 30%; right: 0%; }
+
+#wed .wethird{width: 100%; display: flex; justify-content: space-around;}
+.wethird .xavier{width: 40%; position: relative;}
+.xavier img{width: 100%;} 
+.xavier h2{position: absolute; bottom: 50%;}
+
+.wethird .tyler{width: 35%; position: relative;}
+.tyler img{width: 100%;} 
+.tyler h2{position: absolute; top: 20%; right: 0%; }
 
 
 
