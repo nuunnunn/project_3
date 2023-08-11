@@ -114,7 +114,6 @@
 
 
             //글씨 올라옴
-            // var first = $('#firsttxt p').index();
             var text = $('#full p')
             for (var i in text) {
                 let delay = i * 0.2;
@@ -131,18 +130,70 @@
             });
 
 
-            //img hover circle
-            // $('.stimg').mousemove(function(event){
-            //     var x = event.pageX;
-            //     var y = event.pageY;
-            //     $('.msc').css({
-            //         left: x + 10, 
-            //         top: y - 20,
-            //         'opacity' : 0.8
-            //     })
-            // }).mouseleave(function(){
-            //     $('.msc').css('opacity',0);
-            // });
+            //button click popup modal
+            $('.wednesday > h2')
+            .click(function(){
+                $('.wednesday .hwrap').fadeIn()
+            });
+            $('.wednesday .hwrap p:last-of-type').click(function(){
+                $('.wednesday .hwrap').fadeOut()
+            });
+
+            $('.enid > h2')
+            .click(function(){
+                $('.enid .hwrap').fadeIn()
+            });
+            $('.enid .hwrap p:last-of-type').click(function(){
+                $('.enid .hwrap').fadeOut()
+            });
+
+            $('.mom > h2')
+            .click(function(){
+                $('.mom .hwrap').fadeIn()
+            });
+            $('.mom .hwrap p:last-of-type').click(function(){
+                $('.mom .hwrap').fadeOut()
+            });
+
+            $('.thing > h2')
+            .click(function(){
+                $('.thing .hwrap').fadeIn()
+            });
+            $('.thing .hwrap p:last-of-type').click(function(){
+                $('.thing .hwrap').fadeOut()
+            });
+
+            $('.father > h2')
+            .click(function(){
+                $('.father .hwrap').fadeIn()
+            });
+            $('.father .hwrap p:last-of-type').click(function(){
+                $('.father .hwrap').fadeOut()
+            });
+
+            $('.brother h2')
+            .click(function(){
+                $('.brother .hwrap').fadeIn()
+            });
+            $('.brother .hwrap p:last-of-type').click(function(){
+                $('.brother .hwrap').fadeOut()
+            });
+
+            $('.xavier > h2')
+            .click(function(){
+                $('.xavier .hwrap').fadeIn()
+            });
+            $('.xavier .hwrap p:last-of-type').click(function(){
+                $('.xavier .hwrap').fadeOut()
+            });
+
+            $('.tyler > h2')
+            .click(function(){
+                $('.tyler .hwrap').fadeIn()
+            });
+            $('.tyler .hwrap p:last-of-type').click(function(){
+                $('.tyler .hwrap').fadeOut()
+            });
 
         })
 
@@ -195,19 +246,7 @@
                     <p>T</p>
                     <p>i</p>
                     <p>m</p>
-                    <p>o</p>
-                    <p>t</p>
-                    <p>h</p>
-                    <p>y&nbsp;</p>
-
-                    <p>W</p>
-                    <p>a</p>
-                    <p>l</p>
-                    <p>t</p>
-                    <p>e</p>
-                    <p>r&nbsp;</p>
-
-                    <p>B</p>
+                    <p>b</p>
                     <p>u</p>
                     <p>r</p>
                     <p>t</p>
@@ -746,7 +785,7 @@
 
 
                 <div id="charlie">
-                    <h1><small>2005</small> Charlie And The Chocolate Factory</h1>
+                    <h1> Charlie And <br> The Chocolate Factory <small>2005</small></h1>
     
                     <div id="synopsis4">
                         <h3>Synopsis</h3>
@@ -1151,17 +1190,49 @@
                     <div class="wednesday">
                         <img src="img/wednesday_poster_c.png" alt="wednesday Addams">
                         <h2>Wednesday Addams</h2>
+                        <div class="hwrap">
+                            <p>
+                                언제나 무표정하면서 우울해 보이는 얼굴로 독설을 거침없이 내뱉는 성격의 소유자다. <br>
+                                반면 이러한 성격만 제외한다면 공부, 펜싱, 격투, 사격, 무용, 첼로 연주, 기계 정비, 
+                                외국어,<br> 자물쇠 따기 등 못 하는 것이 없는 만능 캐릭터이다. <br>
+                                심지어 의학적 지식도 풍부해서 부검도 할 줄 알고, 개만 들을 수 있는 초음파도 낸다.
+                            </p>
+
+                            <p>CLOSE</p>
+                        </div>
                     </div>
 
                     <div class="wefirst">
                         <div class="enid">
                             <img src="img/wednesday_enid_two_rd.png" alt="enid">
                             <h2>Enid Sinclair</h2>
+                            <div class="hwrap">
+                                <p>
+                                    성격은 웬즈데이와 정반대로 활발하고 SNS를 좋아한다. <br>
+                                    스스로를 네버모어 가십의 여왕이라 칭하며 교내의 모든 정보와 소문을 알고 있다. <br>
+                                    웬즈데이와는 흑백 vs 컬러풀, 아날로그 vs 디지털,<br> 클래식 vs K팝 등 모든 면에서 대비된다. <br>
+                                    그에 어울리게 손톱마다 알록달록한 색색의 매니큐어를 손톱 전체에 칠해놨다.
+                                </p>
+    
+                                <p>CLOSE</p>
+                            </div>
                         </div>
 
                         <div class="mom">
                             <img src="img/wednesday_adamparent_mr.png" alt="Morticia Addams">
                             <h2>Morticia Addams</h2>
+                            <div class="hwrap">
+                                <p>
+                                    아담스 가의 안주인.<br> 언제나 검은 드레스를 입고 도도한 기품을 풍기고 있으며 
+                                    매사<br> 당황하지 않고 침착한 성격.<br> 남편과 함께 아이들을 매우 아낀다.<br>
+                                
+                                    네버모어 학창 시절 펜싱부 주장이자 에이스였으며 강령회 회장, 
+                                    다크 프롬 퀸 타이틀을 갖고 있었고 포 컵 &#40; Poe cup &#41;에 선장으로 
+                                    참가해 4번 연속으로 우승한 능력자였다.
+                                </p>
+    
+                                <p>CLOSE</p>
+                            </div>
                         </div>
                     </div>
 
@@ -1169,16 +1240,45 @@
                         <div class="thing">
                             <img src="img/wednesday_thing_two_rd.png" alt="thing">
                             <h2>Thing</h2>
+                            <div class="hwrap">
+                                <p>
+                                    아담스 가의 일원으로, 몸은 없고 손만 있는 무언가. <br>
+                                    분명 손만 있는데도 눈과 귀가 있는 마냥 의사소통이 가능하다. 
+                                    &nbsp;피부 관리나 네일 아트 등에 관심이 많아 이니드와도 죽이 잘 맞는다.
+                                </p>
+    
+                                <p>CLOSE</p>
+                            </div>
                         </div>
 
                         <div class="father">
                             <img src="img/wednesday_adamparent_fr.png" alt="Gomez Addams">
                             <h2>Gomez Addams</h2>
+                            <div class="hwrap">
+                                <p>
+                                    아담스 가의 가장. &nbsp;호탕하고 쾌활한 성격에 아이들을 매우 아끼고
+                                    아내 모티시아를 굉장히 사랑하는 애처가이다. <br>
+                                    웬즈데이에게 시킨 조기교육이 비범한데, <br> 5살 때 펜싱 검 주기, 
+                                    상어와 헤엄치기, 방울뱀 껍질 벗기기 등을 가르쳤다고.
+                                </p>
+    
+                                <p>CLOSE</p>
+                            </div>
                         </div>
 
                         <div class="brother">
                             <img src="img/wednesday_family_rp.png" alt="Pugsley Addams">
                             <h2>Pugsley Addams</h2>
+                            <div class="hwrap">
+                                <p>
+                                    낚시할 때 무려 수류탄을 미끼라고 사용했다. 
+                                    그 수류탄을 준비해 놓은 건 아버지 고메즈. <br>
+                                    고메즈가 감옥에 수감되자 아버지를 걱정하는 동시에, 
+                                    가족들 중 가장 먼저 감옥에 들어가는 것은 자신일 거라 생각했다며 아쉬워한다.
+                                </p>
+    
+                                <p>CLOSE</p>
+                            </div>
                         </div>
                     </div>
 
@@ -1186,11 +1286,30 @@
                         <div class="xavier">
                             <img src="img/wednesday_four_rd.png" alt="xavier">
                             <h2>Xavier Thorpe</h2>
+                            <div class="hwrap">
+                                <p>
+                                    누군가가 일부러 가고일 석상을 밀어<br> 웬즈데이를 죽이려 하자 그녀를 구해준다. <br>
+                                    그 후 보건실에서 재회해 구해줄 필요 없었다고 말하는 웬즈데이에게 <br>
+                                    은혜를 갚은 것이라고 말하는데,<br> 어릴 적 제이비어의 대모의 장례식에서 
+                                    웬즈데이가 목숨을 구해주었다.
+                                </p>
+    
+                                <p>CLOSE</p>
+                            </div>
                         </div>
 
                         <div class="tyler">
                             <img src="img/wednesday_six_rd.png" alt="tyler">
                             <h2>Tyler Galpin</h2>
+                            <div class="hwrap">
+                                <p>
+                                    제리코의 보안관 도너번 갤핀의 아들. <br>
+                                    웨더베인이라는 카페에서 아르바이트를 하다가 우연히 웬즈데이를 알게된다. <br>
+                                    그 후 웬즈데이를 도와주며 두 사람은 점점 가까워진다.
+                                </p>
+    
+                                <p>CLOSE</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1202,9 +1321,140 @@
             
 
 
-            <div id="section4">section4</div>
-        </div>
+            <div id="section4">
+                <div class="line3">
+                    <p></p>
+                    <h1>Art</h1>
+                    <p></p>
+                </div>
 
+                
+                <h2>
+                    예술가라면 사물을 새롭게, 이상하게 바라볼 것을 언제나 기억하라. <br>
+                    <small>It's good as an artist to always remember to see 
+                        things in a new,&nbsp; weird way.
+                    </small>
+                </h2>
+
+                <div class="artfirst">
+                    <div><img src="img/exhibit_ten.jpg" alt="exhibit"></div>
+    
+                    <div>
+                        <p>
+                            &nbsp;&nbsp;저는 아주 어릴 때부터 그림을 그리기 시작했습니다. <br>
+                            이후, 학교에 다니기 시작하자, 선생님들이 "이렇게 그리면 안돼, 
+                            저렇게 그리세요"라고 지시하기 시작하더군요.<br>
+                            다른 사람들이 '너는 그림을 잘 못 그리는구나'라고 해도 저는 그림 
+                            그리는 것이 참 좋았습니다.                    
+                        </p>
+                        <img src="img/exhibit_thr.jpg" alt="draw">
+                    </div>
+    
+                    <div>
+                        <img src="img/exhibit_six.jpg" alt="frankenweenie">
+                        <p>&nbsp;&nbsp;운 좋게도 저는 그림 그리는 방식을 억지로 강요하지 않는 선생님을 만났습니다.<br>
+                            제 선생님은 사람들이 각자 가진 장점을 살려서 본인만의 스타일을 창조하고,<br>
+                            각자의 영혼을 담은 작품을 만들어야 한다고 격려해주셨습니다.
+                        </p>
+                    </div>
+    
+                    <div>
+                        <p>그림은 스스로의 환상 속 세계를 탐구하고, 감정의 핵심을 표현하는 방법이니까요. <br>
+                            이렇게, 그림은 항상 제 인생의 중요한 부분이었습니다.
+                        </p>
+                        <img src="img/exhibit_seven.jpg" alt="Fantasy">
+                    </div>
+
+                    <div>
+                        <img src="img/exhibit_four.jpg" alt="beetleJuice">
+                        <p>&nbsp;&nbsp;이번 전시를 통해 지금까지 다시 생각해본 적 없는 작품들을 돌아볼 수 있었습니다.
+                            &nbsp;그런 작업이 제게 활력을 불어넣어주고 있죠.<br><br>
+                            저를 세상에 다시 연결해주고, 내가 누구이며, 내가 무슨 일을 해왔고, 앞으로 무엇을 하고 싶은 지 다시 돌아볼 수 
+                            있었습니다.
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            &nbsp;&nbsp;이렇게 뒤돌아보기 전에는 제가 어떤 특정 주제에 집착하고 있다는 사실을 스스로 깨닫지 못했습니다.
+                            &nbsp;제가 자라온 환경과 어린 시절의 감정들의 영향이 컸죠.<br>
+                            그 때의 고립된 느낌, 혼자라는 생각, 저 혼자만이 이해할 수 있는 감정들을 항상 매우 강렬하게 느꼈습니다.
+                        </p>
+                        <img src="img/exhibit_two.jpg" alt="shadow">
+                        <p>
+                            그래서, 사회에 잘 적응하지 못하는 사람들과의 유대감이 생겼습니다.<br>
+                            저는 '정상적'이라는 단어가 항상 두렵습니다. '정상적'이라는 말은 어떤 면에서 굉장히 선동적이고 두려운 단어기 
+                            때문이죠.
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>&nbsp;&nbsp;어릴 적부터 좋아한 괴물이 등장하는 영화를 보면, 항상 괴물은 사회에서 따돌림을 받고, 일반 사람들이 훨씬 악당 같은 
+                            존재로 등장합니다.
+                            이런 것이 저에게 굉장히 중요한 점이었고, 아직까지도 굉장히 중요한 부분입니다.
+                        </p>
+                        <img src="img/exhibit_trick.jpg" alt="monster">
+                    </div>
+
+                    <div>
+                        <div class="inbox"><img src="img/exhibit_fourte.jpg" alt="circle"></div>
+                        <p>&nbsp;&nbsp;제가 디즈니사의 애니메이터로 일할 당시에는 지금보다 훨씬 더 괴짜였습니다.<br>
+                            그런데, 줄무늬 양말을 신으면 진정이 된다는 사실을 발견했죠. 매우 기묘하게 빙빙 도는 힘이 작용하기 때문이죠. <br>
+                            &nbsp;&nbsp;미친 것 같고, 둥둥 떠다니는 기분이 들다가도 줄무늬 양말을 신기 시작한 이후로는 더 차분하고 진정된 기분이 들었습니다.
+                        </p>
+                        <div class="inbox2"><p>&nbsp;</p><img src="img/exhibit_nine.jpg" alt="exhibit"></div>
+                    </div>
+
+                    <div>
+                        <img src="img/exhibit_five.jpg" alt="door">
+                        <p>동화란 그런 것이죠. 동화는 무섭고 추상적인 이야기라고 생각합니다. <br>
+                            아이들에게 동화는 '삶이란 추상적인 것'임을 알려주고, '내가 잘 이해하지 못하는 것을 어떻게 헤쳐나가야 하는 지'를 
+                            보여줍니다.<br>
+                            그런 부분을 통해 아이들은 동화에 공감하게 되죠. 그래서 이런 기괴하고 무서운 이미지들이 오히려 어린 시절에 굉장히 
+                            중요하다고 생각합니다.<br> 사람들은 나이를 먹어가며 그사실을 잊어버리는 것 같지만요.
+                        </p>
+                        <img src="img/exhibit_ele.jpg" alt="tree">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <footer>
+                <div class="leftbox">
+                    <p>Real Name</p><br>
+                    <p>Birth</p><br><br>
+                    <p>Nationality</p><br>
+                    <p>Profession</p><br>
+                    <p>Education</p><br>
+                </div>
+
+                
+                <div class="rightbox">
+                    <p>Timothy Walter Burton</p><br>
+                    <p>1958 . 08 . 25 <br> Burbank , California</p><br>
+                    <p>United States of America</p><br>
+                    <p>Director , Producer , Scriptwriter , Artist</p><br>
+                    <p>California Institute of the Arts</p>
+                </div>
+
+                
+                <p>Awards<br>
+                    <i>14th Saturn Awards Best Horror, Thriller Award  , 1988</i><br>
+                    <i>17th Saturn Awards Best Fantasy Film Award  , 1991</i><br>
+                    <i>The 10th 金紫荊獎 Top 10 Foreign Language Film Awards  , 2005</i><br>
+                    <i>64th Venice International Film Festival Lifetime Achievement Award  , 2007</i><br>
+                    <i>The 65th Golden Globe Awards Musical Comedy Category Best Picture  , 2008</i><br>
+                    <i>Amsterdam Fantastic Film Festival Achievement Award  , 2008</i><br>
+                    <i>Order of French Art and Literature  , 2010</i><br>
+                    <i>37th Saturn Awards Best Fantasy Film Award  , 2011</i><br>
+                    <i>The 27th Tokyo International Film Festival Samurai Award  , 2014</i>
+                </p>
+            </footer>
+
+        </div>
 
     </div>
 </body>

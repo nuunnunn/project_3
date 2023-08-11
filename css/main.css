@@ -20,7 +20,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 }
 
 #menu .fil{width: 100%; display: none; border-top: 3px solid #333; position: absolute;
-    z-index: 15;
+    z-index: 15; font-family: 'IBM Plex Sans KR', sans-serif;
 }
 .fil > li{width: 100%; background: #e2e2e2; text-align: center; line-height: 40px;}
 .fil > li > a{width: 100%; color: #6b6b6b; display:inline-block; font-size: 1rem;}
@@ -33,12 +33,12 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 #menu .type{background: transparent; border: 1px solid #e2e2e2;  
     padding: 7px 0px 7px 30px; border-radius: 20px; background: url(../img/search_col.png); 
-    background-position: 8px 50%; font-size: 1.3vh;
+    background-position: 8px 50%; font-size: 0.8rem; font-family: 'Bricolage Grotesque', sans-serif;
     background-size: 15px; background-repeat: no-repeat; color: #e2e2e2;
 }
 #menu .type:focus{outline: none;}
 #menu .search{background: #e2e2e2; color: #6b6b6b; padding: 7px 10px; 
-    border-radius: 20px; border: none; font-size: 1rem;}
+    border-radius: 20px; border: none; font-size: 0.9rem; font-family: 'Bricolage Grotesque', sans-serif;}
 #menu .search:hover{cursor: pointer;}
 
 
@@ -50,8 +50,8 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 #section1 {height: auto; margin: 0 auto; padding: 150px 0 0 0;}
 
-#section1 #full{width: 100%; display: flex; justify-content: center;}
-#full p{font-size: 10rem;}
+#section1 #full{width: 100%; display: flex; }
+#full p{font-size: 15rem;}
 
 #full p:first-child{transform: translateY(100px); transition: all 1.5s ease-in-out; 
     opacity: 0;
@@ -190,17 +190,17 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 
 
-#section3 {height: auto; margin: 600px auto 300px;}
-#section3 .line3{width: 100%; display: flex; align-items: center; margin-bottom: 100px;
+#section3 {height: auto; margin: 600px auto 300px; border-bottom: 2px solid #e2e2e2;}
+.line3{width: 100%; display: flex; align-items: center; margin-bottom: 100px;
     justify-content: space-between;}
-.line3 h1{font-size: 2.5rem; width: 18%;}
+.line3 h1{font-size: 2.5rem; width: 18%; text-align: center;}
 .line3 p{width: 35%; height: 2px; background: #e2e2e2;}
 
 
 #section3 #vincent{width: 100%; height: auto; display: flex; justify-content: space-between;
     flex-wrap: wrap;
 }
-#vincent> h1{font-size: 10rem;}
+#vincent> h1{font-size: 12rem;}
 #vincent> h1 small{font-size: 4rem;}
 #vincent> p{width: 100%; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
@@ -220,7 +220,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 #section3 #beetleJuice{width: 100%; height: auto; margin-top: 150px;
 }
-#beetleJuice> h1{font-size: 10rem; text-align: right;}
+#beetleJuice> h1{font-size: 12rem; text-align: right;}
 #beetleJuice> h1 small{font-size: 4rem;}
 #beetleJuice> p{width: 70%; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
@@ -282,7 +282,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 #section3 #scissor{width: 100%; height: auto; margin-top: 150px;
 }
-#scissor> h1{font-size: 9rem; }
+#scissor> h1{font-size: 10rem; }
 #scissor> h1 small{font-size: 4rem;}
 #scissor> p{width: 81%; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
@@ -298,17 +298,19 @@ header{position:fixed; left:0; top:0; width: 100%;
 #scissor .edward{margin-top: 50px; width: 100%; display: flex; flex-direction: row-reverse;
     flex-wrap: wrap; justify-content: space-between;
 }
-.edward h1{width: 100%; text-align: right;}
+.edward h1{width: 100%; text-align: right; }
 .edward> h1:first-of-type{font-size: 4rem; margin-bottom: 20px;}
-.edward> h1:last-of-type{border: 2px solid #e2e2e2; text-align: center; padding: 5px;}
+.edward> h1:last-of-type{border: 2px solid #e2e2e2; text-align: center; padding: 5px;
+    height: 70px; line-height: 55px;
+}
 .edward img{width: 39%; margin-top: 30px;}
 .edward p{width: 60%; align-self: flex-end; font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
 
 #scissor .fam{width: 100%; display: flex; justify-content: space-between; margin-top: 50px;}
 .fam .kim{ width: 49%; display: flex; flex-wrap: wrap; justify-content: center;
 }
-.kim h1{width: 100%; margin-bottom: 20px; border: 2px solid #e2e2e2; 
-    text-align: center; padding: 2px; }
+.kim h1{width: 100%; margin-bottom: 20px; border: 2px solid #e2e2e2; line-height: 55px;
+    text-align: center; padding: 5px; height: 70px;}
 .kim img{width: 90%; margin-top: 10px;}
 .kim p{width: 90%; margin-top: 10px; text-align: center; font-size: 1rem;
     font-family: 'IBM Plex Sans KR', sans-serif;}
@@ -316,9 +318,9 @@ header{position:fixed; left:0; top:0; width: 100%;
 .fam .peg{width: 49%; display: flex; flex-wrap: wrap;
     justify-content: center;
 }
-.peg h1{width: 100%; margin-bottom: 20px; border: 2px solid #e2e2e2; 
-    text-align: center; padding: 5px; }
-.peg img{width: 90%; margin-top: 10px;}
+.peg h1{width: 100%; margin-bottom: 20px; border: 2px solid #e2e2e2; line-height: 55px;
+    text-align: center; padding: 5px; height: 70px; }
+.peg img{width: 85%; margin-top: 10px;}
 .peg p{width: 90%; margin-top: 10px; text-align: center; font-size: 1rem;
     font-family: 'IBM Plex Sans KR', sans-serif;}
 
@@ -335,7 +337,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 .rotate .back{transform: rotateY(-180deg); color: #cfcece; z-index: 1;}
 .rotate:hover .front{transform: rotateY(180deg); z-index: 1;}
 .rotate:hover .back{transform: rotateY(0deg); z-index: 2;}
-#christmas> h1{font-size: 8rem; text-align: center; }
+#christmas> h1{font-size: 10rem; text-align: center; }
 #christmas> h1 small{font-size: 4rem; display: block; }
 #christmas> img{margin-top: 30px; }
 #christmas> p{width: 100%; margin-top: 30px; }
@@ -387,7 +389,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 #section3 #big{width: 100%; height: auto; margin-top: 150px; }
 
-#big> h1{font-size: 10rem; text-align: right;}
+#big> h1{font-size: 12rem; text-align: right;}
 #big> h1 small{font-size: 4rem;}
 
 #big .bigtxt{width: 100%; margin-top: 50px; text-align: center;}
@@ -493,7 +495,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 
 #section3 #charlie{width: 100%; height: auto; margin-top: 150px; }
-#charlie> h1{font-size: 7.8rem; text-align: right; width: 100%; display: flex;}
+#charlie> h1{font-size: 10rem; width: 100%; display: flex;}
 #charlie> h1 small{font-size: 4rem; align-self: flex-end;}
 
 #charlie> #synopsis4{width: 100%; margin-top: 50px; display: flex; flex-wrap: wrap;
@@ -543,7 +545,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 
 #section3 #bride{width: 100%; height: auto; margin-top: 150px; }
-#bride> h1{font-size: 10rem; width: 100%;}
+#bride> h1{font-size: 11rem; width: 100%;}
 #bride> h1 small{font-size: 4rem;}
 #bride> p{margin-top: 50px; font-size: 1rem; width: 84%; font-family: 'IBM Plex Sans KR', sans-serif;}
 #bride> h3{font-size: 4rem; margin: 50px 0 30px;}
@@ -563,7 +565,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 .victor img:first-of-type{border-radius: 130px; width: 50%;}
 .victor img:last-of-type{position: absolute; bottom: -11%; left: 35%; width: 25%;}
 .victor div{width: 40%; border: 2px solid #e2e2e2; padding: 15px; border-radius: 30px;
-    height: 60%; text-align: center; position: absolute; top: 20%; right: 5%;
+    text-align: center; position: absolute; bottom: 20%; right: 5%;
 }
 .gsttxt> h2{font-size: 1.5rem;}
 .gsttxt> p{font-size: 1rem; margin-top: 10px; font-family: 'IBM Plex Sans KR', sans-serif;}
@@ -609,7 +611,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 
 #section3 #weenie{width: 100%; height: auto; margin-top: 500px; }
-#weenie> h1{font-size: 9rem; width: 100%;}
+#weenie> h1{font-size: 10rem; width: 100%;}
 #weenie> h1 small{font-size: 4rem;}
 #weenie> p{font-size: 1rem; width: 84%; font-family: 'IBM Plex Sans KR', sans-serif;}
 #weenie > h3{font-size: 4rem; margin-top: 70px; width: 100%; text-align: right;}
@@ -718,7 +720,7 @@ header{position:fixed; left:0; top:0; width: 100%;
 
 
 #section3 #wed{width: 100%; height: auto; margin: 0px 0 150px; text-align: center;}
-#wed> h1{font-size: 9rem; width: 100%;}
+#wed> h1{font-size: 12rem; width: 100%;}
 #wed> h1 small{font-size: 4rem;}
 #wed> p{font-size: 1rem; width: 100%; text-align: center; margin: 50px 0 100px;
     font-family: 'IBM Plex Sans KR', sans-serif;}
@@ -727,40 +729,227 @@ header{position:fixed; left:0; top:0; width: 100%;
     position: relative;
 }
 .wednesday img{ width: 70%; }
-.wednesday > h2{position: absolute;}
+.wednesday > h2{position: absolute; border: 2px solid #e2e2e2; padding: 5px 10px;
+    border-radius: 30px; color: #fff;
+}
+.wednesday > h2:hover{opacity: 0.8; cursor: pointer;}
+.wednesday .hwrap{width: 100%; height: 98%; background: rgba(0, 0, 0, 0.8); 
+    display: none; position: absolute; top: 0; left: 0;
+}
+.wednesday .hwrap p:first-of-type{font-size: 1rem; width: 100%; position: absolute; top: 50%;
+    left: 50%; transform: translate(-50%, -100%); line-height: 30px; color: #fff;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.wednesday .hwrap p:last-of-type{ border: 2px solid #e2e2e2; width: 10%; height: 40px;
+    line-height: 35px; border-radius: 20px; margin: 50px auto; font-size: 1rem;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) ;
+}
+.wednesday .hwrap p:last-of-type:hover{opacity: 0.8; cursor: pointer;}
 
 #wed .wefirst{width: 100%; display: flex; justify-content: space-evenly;}
 .wefirst .enid{width: 45%; position: relative;}
 .enid img{width: 100%;} 
-.enid h2{position: absolute; bottom: 50%;}
+.enid h2{position: absolute; bottom: 50%; border: 2px solid #e2e2e2; padding: 5px 10px;
+    border-radius: 30px; color: #fff;
+}
+.enid > h2:hover{opacity: 0.8; cursor: pointer;}
+.enid .hwrap{width: 100%; height: 80%; background: rgba(0, 0, 0, 0.8); 
+    display: none; position: absolute; top: 3%; left: 0;
+}
+.enid .hwrap p:first-of-type{font-size: 1rem; width: 100%; position: absolute; 
+    line-height: 30px; color: #fff; top: 20%;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.enid .hwrap p:last-of-type{ border: 2px solid #e2e2e2; width: 20%; height: 40px;
+    line-height: 35px; border-radius: 20px; margin: 50px auto; font-size: 1rem;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -0%) ;
+}
+.enid .hwrap p:last-of-type:hover{opacity: 0.8; cursor: pointer;}
 
 .wefirst .mom{width: 35%; position: relative;}
 .mom img{width: 100%;} 
-.mom h2{position: absolute; top: 0%; right: 0%; }
+.mom h2{position: absolute; top: 10%; right: -10%; border: 2px solid #e2e2e2; padding: 5px 10px;
+    border-radius: 30px; color: #fff;
+}
+.mom > h2:hover{opacity: 0.8; cursor: pointer;}
+.mom .hwrap{width: 100%; height: 95%; background: rgba(0, 0, 0, 0.8); 
+    display: none; position: absolute; top: 0%; left: 0; 
+}
+.mom .hwrap p:first-of-type{font-size: 1rem; width: 90%; position: absolute; 
+    line-height: 30px; color: #fff; top: 20%; left: 5%;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.mom .hwrap p:last-of-type{ border: 2px solid #e2e2e2; width: 20%; height: 40px;
+    line-height: 35px; border-radius: 20px; margin: 50px auto; font-size: 1rem;
+    position: absolute; bottom: 10%; left: 40%; 
+}
+.mom .hwrap p:last-of-type:hover{opacity: 0.8; cursor: pointer;}
 
 
 #wed .wesecond{width: 100%; display: flex; justify-content: space-between;}
 .wesecond .thing{width: 30%; position: relative;}
 .thing img{width: 100%;} 
-.thing h2{position: absolute; bottom: 20%; right: 0;}
+.thing h2{position: absolute; bottom: 20%; right: 0; border: 2px solid #e2e2e2; padding: 5px 10px;
+    border-radius: 30px; color: #fff;
+}
+.thing > h2:hover{opacity: 0.8; cursor: pointer;}
+.thing .hwrap{width: 100%; height: 95%; background: rgba(0, 0, 0, 0.8); 
+    display: none; position: absolute; top: 0%; left: 0; 
+}
+.thing .hwrap p:first-of-type{font-size: 1rem; width: 85%; position: absolute; 
+    line-height: 30px; color: #fff; top: 30%; left: 5%;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.thing .hwrap p:last-of-type{ border: 2px solid #e2e2e2; width: 20%; height: 40px;
+    line-height: 35px; border-radius: 20px; margin: 50px auto; font-size: 1rem;
+    position: absolute; bottom: 20%; left: 40%; 
+}
+.thing .hwrap p:last-of-type:hover{opacity: 0.8; cursor: pointer;}
 
 .wesecond .father{width: 35%; position: relative;}
 .father img{width: 100%;} 
-.father h2{position: absolute; top: 20%; left: 0%; }
+.father h2{position: absolute; top: 15%; left: -7%; border: 2px solid #e2e2e2; padding: 5px 10px;
+    border-radius: 30px; color: #fff;
+}
+.father > h2:hover{opacity: 0.8; cursor: pointer;}
+.father .hwrap{width: 100%; height: 95%; background: rgba(0, 0, 0, 0.8); 
+    display: none; position: absolute; top: 0%; left: 0; 
+}
+.father .hwrap p:first-of-type{font-size: 1rem; width: 84%; position: absolute; 
+    line-height: 30px; color: #fff; top: 28%; left: 5%;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.father .hwrap p:last-of-type{ border: 2px solid #e2e2e2; width: 20%; height: 40px;
+    line-height: 35px; border-radius: 20px; margin: 50px auto; font-size: 1rem;
+    position: absolute; bottom: 18%; left: 40%; 
+}
+.father .hwrap p:last-of-type:hover{opacity: 0.8; cursor: pointer;}
 
 .wesecond .brother{width: 25%; position: relative;}
 .brother img{width: 100%;} 
-.brother h2{position: absolute; bottom: 30%; right: 0%; }
+.brother h2{position: absolute; bottom: 25%; right: -10%; border: 2px solid #e2e2e2; padding: 5px 10px;
+    border-radius: 30px; color: #fff;
+}
+.brother > h2:hover{opacity: 0.8; cursor: pointer;}
+.brother .hwrap{width: 100%; height: 95%; background: rgba(0, 0, 0, 0.8); 
+    display: none; position: absolute; top: 0%; left: 0; 
+}
+.brother .hwrap p:first-of-type{font-size: 1rem; width: 90%; position: absolute; 
+    line-height: 30px; color: #fff; top: 30%; left: 5%;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.brother .hwrap p:last-of-type{ border: 2px solid #e2e2e2; width: 20%; height: 40px;
+    line-height: 35px; border-radius: 20px; margin: 50px auto; font-size: 1rem;
+    position: absolute; bottom: 15%; left: 40%; 
+}
+.brother .hwrap p:last-of-type:hover{opacity: 0.8; cursor: pointer;}
 
 #wed .wethird{width: 100%; display: flex; justify-content: space-around;}
 .wethird .xavier{width: 40%; position: relative;}
 .xavier img{width: 100%;} 
-.xavier h2{position: absolute; bottom: 50%;}
+.xavier h2{position: absolute; top: 25%; left: -15%; border: 2px solid #e2e2e2; 
+    border-radius: 30px; color: #fff; padding: 5px 10px;
+}
+.xavier > h2:hover{opacity: 0.8; cursor: pointer;}
+.xavier .hwrap{width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); 
+    display: none; position: absolute; top: 0%; left: 0; 
+}
+.xavier .hwrap p:first-of-type{font-size: 1rem; width: 100%; position: absolute; 
+    line-height: 30px; color: #fff; top: 30%; left: 0%;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.xavier .hwrap p:last-of-type{ border: 2px solid #e2e2e2; width: 20%; height: 40px;
+    line-height: 35px; border-radius: 20px; margin: 50px auto; font-size: 1rem;
+    position: absolute; bottom: 15%; left: 40%; 
+}
+.xavier .hwrap p:last-of-type:hover{opacity: 0.8; cursor: pointer;}
 
 .wethird .tyler{width: 35%; position: relative;}
 .tyler img{width: 100%;} 
-.tyler h2{position: absolute; top: 20%; right: 0%; }
+.tyler h2{position: absolute; bottom: 5%; right: 10%; border: 2px solid #e2e2e2; padding: 5px 10px;
+    border-radius: 30px; color: #fff;
+}
+.tyler > h2:hover{opacity: 0.8; cursor: pointer;}
+.tyler .hwrap{width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); 
+    display: none; position: absolute; top: 0%; left: 0; 
+}
+.tyler .hwrap p:first-of-type{font-size: 1rem; width: 80%; position: absolute; 
+    line-height: 30px; color: #fff; top: 30%; left: 9%;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.tyler .hwrap p:last-of-type{ border: 2px solid #e2e2e2; width: 20%; height: 40px;
+    line-height: 35px; border-radius: 20px; margin: 50px auto; font-size: 1rem;
+    position: absolute; bottom: 15%; left: 40%; 
+}
+.tyler .hwrap p:last-of-type:hover{opacity: 0.8; cursor: pointer;}
 
 
 
-#section4 {background-color: tomato; height: 960px;}
+#section4 {height: auto; margin: 200px auto 100px; border-bottom: 2px solid #e2e2e2;
+    padding-bottom: 100px;
+}
+#section4 > h2{text-align: center;  font-family: 'IBM Plex Sans KR', sans-serif; 
+    margin-bottom: 100px; width: 100%;
+}
+#section4 > h2 small{font-size: 1.2rem; font-family: 'Bricolage Grotesque', sans-serif;}
+
+
+#section4 > .artfirst{width: 100%; display: flex; flex-wrap: wrap; }
+.artfirst> div:first-of-type{width: 100%; display: flex; justify-content: center;}
+.artfirst> div:first-of-type img{width: 40%;}
+.artfirst p{font-size: 1rem; font-family: 'IBM Plex Sans KR', sans-serif;}
+
+.artfirst div:nth-of-type(2){width: 100%; margin: 100px 0 0px; display: flex; 
+    justify-content: space-between;}
+.artfirst div:nth-of-type(2) p{width: 55%;}
+.artfirst div:nth-of-type(2) img{width: 30%;}
+
+.artfirst div:nth-of-type(3){width: 100%; margin: 100px 0 0px; display: flex; 
+    justify-content: space-around;}
+.artfirst div:nth-of-type(3) p{width: 40%;}
+.artfirst div:nth-of-type(3) img{width: 20%;}
+
+.artfirst div:nth-of-type(4){width: 100%; margin: 100px 0 0px; display: flex; 
+    justify-content: center; align-items: center; }
+.artfirst div:nth-of-type(4) p{width: 50%; text-align: center;}
+.artfirst div:nth-of-type(4) img{width: 25%;}
+
+.artfirst div:nth-of-type(5){width: 100%; margin: 100px 0 0px; display: flex; 
+    justify-content: space-evenly; align-items: center; }
+.artfirst div:nth-of-type(5) p{width: 65%;}
+.artfirst div:nth-of-type(5) img{width: 30%;}
+
+.artfirst div:nth-of-type(6){width: 100%; margin: 100px 0 0px; display: flex; 
+    flex-wrap: wrap; justify-content: center;}
+.artfirst div:nth-of-type(6) p{width: 100%; margin: 50px 0;}
+.artfirst div:nth-of-type(6) p:last-of-type{text-align: right; margin: 50px 0 0;}
+.artfirst div:nth-of-type(6) img{width: 30%;}
+
+.artfirst div:nth-of-type(7){width: 100%; margin: 100px 0 0px; display: flex; 
+    justify-content: space-between; align-items: center; }
+.artfirst div:nth-of-type(7) p{width: 69%;}
+.artfirst div:nth-of-type(7) img{width: 30%;}
+
+.artfirst div:nth-of-type(8){width: 100%; margin: 100px 0 0px; display: flex; 
+    flex-wrap: wrap;}
+.artfirst div:nth-of-type(8) p{width: 100%; text-align: center;}
+.artfirst div:nth-of-type(8) > .inbox{width: 100%; margin: 50px 0; }
+.artfirst div:nth-of-type(8) > .inbox img{width: 25%; }
+.artfirst div:nth-of-type(8) > .inbox2{width: 100%; margin: 50px 0;}
+.artfirst div:nth-of-type(8) > .inbox2 img{width: 25%; }
+
+.artfirst div:nth-of-type(9){width: 100%; margin: 100px 0 0px; display: flex; 
+    justify-content: space-between; align-items: center; }
+.artfirst div:nth-of-type(9) p{width: 40%; text-align: center;}
+.artfirst div:nth-of-type(9) img{width: 30%;}
+.artfirst div:nth-of-type(9) img:last-of-type{width: 23%;}
+
+
+
+footer{padding-bottom: 100px; display: flex; flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .leftbox{width: 47%; text-align: right; }
+footer .rightbox{width: 49%; }
+footer > p{width: 100%; text-align: center; margin-top: 100px;}
+footer > p i{font-size: 0.9rem; }
