@@ -13,191 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,800&family=Grandiflora+One&family=Hahmlet:wght@100&family=IBM+Plex+Sans+KR:wght@300&family=Nanum+Gothic:wght@700&family=Noto+Sans+KR:wght@500&family=Noto+Serif+KR:wght@200;900&family=Orbit&display=swap" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script>
 
-        $(function () {
-
-            //첫 방문 시 보임
-            $('#about').css({
-                'opacity': '1', 'transition-delay': '1.5s',
-                "transform": "translateX(0px)"
-            });
-            $('#imgbox').css({
-                'opacity': '1', 'transition-delay': '2s',
-                "transform": "translateX(0px)"
-            })
-
-            //menu hover 하면 slide
-            $('#menu > ul > li').eq(2).hover(function(){
-                $(this).children('.fil').stop().slideDown();
-            },function(){
-                $('.fil').stop().slideUp();
-            });
-
-            //section 찾아가기
-            var nav = $("#menu > ul > li");
-            var contents = $("#contents > div");
-
-            nav.click(function () {
-                var target = $(this);
-                var index = target.index();
-                var section = contents.eq(index);
-                var offset = section.offset().top;
-
-                $("html, body").animate({ scrollTop: offset }, 400);
-            });
-
-
-            //스크롤 내리면 해당 메뉴에 원 생김
-            $(window).scroll(function () {
-                var wScroll = $(this).scrollTop();
-
-                
-
-                for (i = 0; i < nav.length; i++) {
-                    if (wScroll >= contents.eq(i).offset().top) {
-                        nav.find('.circle').removeClass("active");
-                        nav.eq(i).find('.circle').addClass("active");
-                    }
-                };
-
-                
-
-
-                //scroll event
-                var currentScrollTop = $(this).scrollTop();
-                //vincent 사라짐
-                var section1 = $('#section1').offset().top;
-                var section2 = $('#section2').offset().top;
-               
-                if(0 < currentScrollTop < section2){
-                    $('#vincent div:first-of-type').css("transform","translateX(-200px)").css("opacity","0");
-                    $('#vincent div:nth-of-type(2)').css("transform","translateY(200px)").css("opacity","0");
-                    $('#vincent div:nth-of-type(3)').css("transform","translateX(200px)").css("opacity","0");
-                }
-
-                //vincent 나타남
-                var vincent = $('#vincent').offset().top;
-                if(currentScrollTop > vincent - 700){
-                    $('#vincent div:first-of-type').css("transform","translateX(0px)").css("opacity","1");
-                    $('#vincent div:nth-of-type(2)').css("transform","translateY(0px)").css("opacity","1");
-                    $('#vincent div:nth-of-type(3)').css("transform","translateX(0px)").css("opacity","1");
-                }console.log(vincent-700)
-            });
-
-
-
-            //메뉴 바 누르면 사이드 메뉴 보임
-            $('.menu_trigger').on('click', function (e) {
-                e.preventDefault();
-                $(this).toggleClass('push');
-                $('#mynav').toggleClass('right');
-                $('.menu_trigger span').toggleClass('spanch');
-            });
-
-
-            //hover 하면 메뉴 원 보임
-            $('#menu li a').hover(function () {
-                $(this).prev().css('opacity', '1')
-            }, function () {
-                $(this).prev().css('opacity', '0')
-            });
-
-
-            //검색창 focus,blur
-            $('.type').focus(function () {
-                $(this).val('')
-            });
-            $('.type').blur(function () {
-                $(this).val('Type something')
-            });
-
-
-            //글씨 올라옴
-            var text = $('#full p')
-            for (var i in text) {
-                let delay = i * 0.2;
-                text.eq(i).css({ "transform": "translateY(0px)", "opacity": "1", 'transition-delay': delay + 's' });
-            };
-
-
-            //span 누르면 텍스트 바뀜
-            $('#change p').click(function () {
-                let idx = $(this).index();
-                $(this).parent().next().children().slideUp();
-                $(this).parent().next().children().eq(idx).slideDown('slow');                
-                
-            });
-
-
-            //button click popup modal
-            $('.wednesday > h2')
-            .click(function(){
-                $('.wednesday .hwrap').fadeIn()
-            });
-            $('.wednesday .hwrap p:last-of-type').click(function(){
-                $('.wednesday .hwrap').fadeOut()
-            });
-
-            $('.enid > h2')
-            .click(function(){
-                $('.enid .hwrap').fadeIn()
-            });
-            $('.enid .hwrap p:last-of-type').click(function(){
-                $('.enid .hwrap').fadeOut()
-            });
-
-            $('.mom > h2')
-            .click(function(){
-                $('.mom .hwrap').fadeIn()
-            });
-            $('.mom .hwrap p:last-of-type').click(function(){
-                $('.mom .hwrap').fadeOut()
-            });
-
-            $('.thing > h2')
-            .click(function(){
-                $('.thing .hwrap').fadeIn()
-            });
-            $('.thing .hwrap p:last-of-type').click(function(){
-                $('.thing .hwrap').fadeOut()
-            });
-
-            $('.father > h2')
-            .click(function(){
-                $('.father .hwrap').fadeIn()
-            });
-            $('.father .hwrap p:last-of-type').click(function(){
-                $('.father .hwrap').fadeOut()
-            });
-
-            $('.brother h2')
-            .click(function(){
-                $('.brother .hwrap').fadeIn()
-            });
-            $('.brother .hwrap p:last-of-type').click(function(){
-                $('.brother .hwrap').fadeOut()
-            });
-
-            $('.xavier > h2')
-            .click(function(){
-                $('.xavier .hwrap').fadeIn()
-            });
-            $('.xavier .hwrap p:last-of-type').click(function(){
-                $('.xavier .hwrap').fadeOut()
-            });
-
-            $('.tyler > h2')
-            .click(function(){
-                $('.tyler .hwrap').fadeIn()
-            });
-            $('.tyler .hwrap p:last-of-type').click(function(){
-                $('.tyler .hwrap').fadeOut()
-            });
-
-        })
-
-    </script>
 </head>
 
 <body>
@@ -255,11 +71,6 @@
                 </div>
 
                 <div id="at">
-                    <div id="about">
-                        <p>“누군가에게 정상인 것이 다른 누군가에게는 비정상일 수 있으니까요.” </p>
-                        <p>&lt; 팀 버튼이 말하는 팀 버튼 &gt;</p>
-                    </div>
-
                     <div id="imgbox">
                         <div class="line">
                             <span>◆</span>
@@ -268,6 +79,11 @@
                         </div>
 
                         <img src="img/timburton.jpg" alt="timburton">
+                    </div>
+                    
+                    <div id="about">
+                        <p>“누군가에게 정상인 것이 다른 누군가에게는 비정상일 수 있으니까요.” </p>
+                        <p>&lt; 팀 버튼이 말하는 팀 버튼 &gt;</p>
                     </div>
                 </div>
 
@@ -401,9 +217,9 @@
 
                     <p>팀 버튼의 첫 단편 영화이자 데뷔작. 6분 짜리 스톱모션 애니메이션이다. </p>
 
-                    <div><img src="img/vincent_thr.jfif" alt="vincent"></div>
-                    <div><img src="img/vincent_four.jfif" alt="vincent"></div>
-                    <div><img src="img/vincent_five.jfif" alt="vincent"></div>
+                    <div><p>◆</p><img src="img/vincent_thr.jfif" alt="vincent"><p>◆</p></div>
+                    <div><p>◆</p><img src="img/vincent_four.jfif" alt="vincent"><p>◆</p></div>
+                    <div><p>◆</p><img src="img/vincent_five.jfif" alt="vincent"><p>◆</p></div>
                 </div>
 
 
@@ -430,8 +246,8 @@
                                 그로테스크한 인테리어로 개조해 분노한 부부는 찰스 가족을 겁주어서 쫓아낼 궁리를 한다.<br>
                                 
                                 &nbsp;&nbsp;여러 차례의 귀신 소동이 다 실패로 돌아가 사후 세계의 쥬노라는 상담가에게 도움을 청하지만,
-                                귀신은 사람들의 눈에 보이지 않기에 모든 노력이 헛수고로 돌아간다.<br>
-                                그 와중에 유령을 볼 수 있는 능력을 가진 찰스의 딸 리디아가 아담 부부가 살고 있다는 것을 알게 되고
+                                귀신은 사람들의 눈에 보이지 않기에 모든 노력이 헛수고로 돌아간다.&nbsp;
+                                그러던 중, 유령을 볼 수 있는 능력을 가진 찰스의 딸 리디아가 아담 부부가 살고 있다는 것을 알게 되고
                                 친해지게 된다.<br><br>
     
                                 &nbsp;&nbsp;한편, 낙담한 아담 부부에게 사악한 미치광이 악령 비틀쥬스가 나타나 도와주겠다고 하지만 거절한다.<br>
@@ -460,14 +276,14 @@
                             <div class="cover">
                                 <p>아담 부부</p>
                                 <p>
-                                    &nbsp;&nbsp;평범하고 선량한 사람들로, 유령이기는 하지만 외모나 성격은 산 사람과 크게 
+                                    &nbsp;&nbsp;평범하고 선량한 사람들로 유령이기는 하지만 외모나 성격은 산 사람과 크게 
                                     다를 바가 없는 새내기 유령들이다. 아직 유령이 된지 얼마되지 않은 신입인지라 
                                     유령 생활에 적응하지 못하는 등 여러모로 미숙한 모습을 보여준다.
-                                </p><br><br>
+                                </p><br>
                                 <p>
                                     &nbsp;&nbsp;사망하기 전 이 부부의 취미는 해리 벨라폰테의 노래를 듣는 것과 집의 꼭대기에 위치한 높은 
                                     다락방에서 마을 전체의 미니어쳐를 만드는 일이었다.
-                                    &nbsp;&nbsp;다락방은 그들이 유령이 된 후에 아지트가 되기도 한다. 그러나 이 미니어쳐 마을 묘지의 관이 
+                                    다락방은 그들이 유령이 된 후에 아지트가 되기도 한다. 그러나 이 미니어쳐 마을 묘지의 관이 
                                     비틀쥬스가 잠든 은신처이다.
                                 </p>
                             </div>
@@ -478,7 +294,7 @@
                             <div class="cover">
                                 <p>리디아</p>
                                 <p>
-                                    &nbsp;&nbsp;본작의 히로인. 아담과 바바라 부부가 죽은 후에 저택에 새로 이사온 가족의 딸로, 
+                                    &nbsp;&nbsp;본작의 히로인. 아담과 바바라 부부가 죽은 후에 저택에 새로 이사온 가족의 딸로
                                     우울증에 걸려 있으며 창백한 인상에 검은 계통의 옷을 고집하는 고스족 소녀. <br><br>
                                     &nbsp;&nbsp;우연히 아담과 바바라 부부가 방치한 책 초보 유령들을 위한 지침서를 접하게 되면서 사후세계에 
                                     대한 지식을 습득한다. 또한 선천적으로 유령을 보거나 들을 수 있는 신기를 지녔다. 
@@ -525,15 +341,15 @@
                         <img src="img/Scissorhand_four.jpg" alt="town">
                         <div class="synopsistxt2">
                             <h3>Synopsis</h3>
-                            <p>&nbsp;&nbsp;어느 눈 오는 밤, 할머니가 손녀딸에게 외딴 성에 관한 이야기를 들려준다.                                  
+                            <p>&nbsp;&nbsp;어느 눈 오는 밤, 할머니가 손녀딸에게 외딴 성에 관한 이야기를 들려준다.&nbsp;                                 
                                 성에 사는 외로운 과학자는 제작된 채소 써는 기계를 만들어 몇 번의 개조를 거친 결과 
-                                인간의 용모와 마음을 가진 인조인간 에드워드가 되었다. 
+                                인간의 용모와 마음을 가진 인조인간 에드워드가 되었다.&nbsp; 
                                 크리스마스 선물로 발명가가 그에게 평범한 손을 선물해 주었으나 에드워드의 손을 교체하려던 순간 
                                 발명가가 심장 마비로 사망한다.
                                 그 후 에드워드는 가위로 된 손을 한 채 성에서 혼자 외롭게 살아간다.<br><br>
 
                                 &nbsp;&nbsp;화장품 외판원 펙은 마을 언덕 외딴 성에서 상처투성이 창백한 얼굴과 날카로운
-                                가위손 때문에 외롭게 살고 있는 에드워드를 만나 자신의 집으로 데려온다. 
+                                가위손 때문에 외롭게 살고 있는 에드워드를 만나 자신의 집으로 데려온다.&nbsp; 
                                 평범한 일상에 무료해하던 마을 사람들에게 큰 관심거리가 된 에드워드.<br><br>
 
                                 &nbsp;&nbsp;가위손 때문에 펙의 딸 킴과의 첫 대면은 순탄치 않았지만 에드워드는 순수하고 아름다운 
@@ -545,17 +361,18 @@
 
                     <div class="edward">
                         <h1>Character</h1>
-                        <h1>Edward</h1>
-                        <img src="img/Scissorhand.jpg" alt="edward">
+                        <h1><small>◆</small> Edward <small>◆</small></h1>
                         <p>                        
                             &nbsp;&nbsp;미완성된 손으로 인해 뭐든 손에 닿는 것에 
                             상처를 내는 불운한 운명을 타고나 겁도 많고 오랫동안 사람과 떨어져 있어서 그런지 말수가 거의 없고
                             상당히 소극적인 성격이다. <br><br>
-                            
+                        </p>
+                        <img src="img/Scissorhand.jpg" alt="edward">
+                        <p>                             
                             &nbsp;&nbsp;창백하고 기괴한 복장에 무섭게 생긴 외모와 달리 착하고 순수한 심성을 지녔다.
                             세상 물정을 잘 모르기도 하고 손끝의 가위 때문에 생긴 갖은 해프닝에 
                             쩔쩔매기도 한다.<br><br>
-                        
+
                             &nbsp;&nbsp;특기는 가위손을 이용한 주민들 헤어
                             손질, 얼음 조각, 정원 손질, 애견 트리밍 등이 있다.
                             그러나 결국 이 가위손 때문에 인간 사회에 흡수되지 못하고 다시 은둔의 삶으로 되돌아와야 했다.
@@ -564,20 +381,20 @@
 
                     <div class="fam">
                         <div class="kim">
-                            <h1>Kim Boggs</h1>
+                            <h1><small>◆</small> Kim Boggs <small>◆</small></h1>
                             <img src="img/Scissorhand_kim.png" alt="kim">
                             <p>                        
-                                금발의 아름다운 미녀. 에드워드의 진심을 알게 되고 그를 사랑하게 된다. <br>
+                                &nbsp;&nbsp;금발의 아름다운 미녀. 에드워드의 진심을 알게 되고 그를 사랑하게 된다. <br>
                                 결국 둘의 사랑은 이루어지지 못했지만, 킴은 세월이 흘러 할머니가 된 뒤에도 
                                 그와의 짧은 사랑을 그리워한다.
                             </p>
                         </div>
     
                         <div class="peg">
-                            <h1>Peg Boggs</h1>
+                            <h1><small>◆</small> Peg Boggs <small>◆</small></h1>
                             <img src="img/Scissorhand_peg.png" alt="peg">
                             <p>                        
-                                화장품 외판원이자 킴의 어머니. 가위손 때문에 온통 상처투성이인 채 성에서 쓸쓸하게 
+                                &nbsp;&nbsp;화장품 외판원이자 킴의 어머니. 가위손 때문에 온통 상처투성이인 채 성에서 쓸쓸하게 
                                 살고 있는 에드워드에게 연민을 느끼고 자신의 집으로 데려오는 마음씨 착한 여성이다.
                             </p>
                         </div>
@@ -599,20 +416,18 @@
 
                     <h3>Production method</h3>
                     <p>&nbsp;&nbsp;스톱모션 방식으로 제작해 큰 화제와 성공을 이끌었다.
-                        기존의 전통적 스톱 모션 애니메이션 기법과 함께 당대의 최신 디지털 영상기법을 접목해 제작됐다. 
+                        기존의 전통적 스톱 모션 애니메이션 기법과 함께 당대의 최신 디지털 영상기법을 접목해 제작됐다. <br>
                         마치 인형이라고 생각할 수 없는 사실적인 존재감이 이 영화의 큰 매력 중 하나다. 
                         또 영화 세트가 펜화의 느낌을 갖도록 하기 위해 세트 표면에 선을 새겨 넣는 방법을 고안했다.
                     </p>
 
                     <div id="synopsis3">
                         <h3>Synopsis</h3>
-                        <p>&nbsp;&nbsp;영화가 시작되면 이상하고 기묘한 노래에 의해 할로윈타운으로 인도된다. <br><br>
-
-                            &nbsp;&nbsp;이 괴상한 마을은 사람들을 놀라게 하는 선한 방법을 연구하는 연례 행사에 열중하고 있지만, <br>
-                            이 마을의 지도자 잭 스켈링튼은 전해내려오는 방법들에 싫증을 느끼고 뭔가 새로은 방법 찾기에 골몰한다.<br><br>
-
-                            &nbsp;&nbsp;어느날 숲을 지나 크리스마스타운에 간 잭은 기쁨에 가득차 크리스마스를 준비하는 사람들을 발견한 잭은 
-                            산타를 납치해 크리스마스의 주인이 될 계획을 세운다. <br><br>
+                        <p>&nbsp;&nbsp;영화가 시작되면 이상하고 기묘한 노래에 의해 할로윈타운으로 인도된다. <br>
+                            이 괴상한 마을은 사람들을 놀라게 하는 선한 방법을 연구하는 연례 행사에 열중하고 있지만, 
+                            이 마을의 지도자 잭 스켈링튼은 전해내려오는 방법들에 싫증을 느끼고 뭔가 새로은 방법 찾기에 골몰한다.<br>
+                            어느날 숲을 지나 크리스마스타운에 간 잭은 기쁨에 가득차 크리스마스를 준비하는 사람들을 발견한 잭은 
+                            산타를 납치해 크리스마스의 주인이 될 계획을 세운다. 
                         </p>
                     </div>
 
@@ -622,9 +437,9 @@
                         <div class="jasl">
                             <div class="sally">
                                 <h2>Sally</h2>
-                                <p>&nbsp;핀클스타인 박사가 창조해낸 누더기 인형. 
-                                    자신을 곁에 두려는 핀클스타인 박사에게 독초를 먹여 자주 도망나온다. 
-                                    잭을 사랑하지만 마음을 전하지는 못했다. 
+                                <p>&nbsp;&nbsp;핀클스타인 박사가 창조해낸 누더기 인형. <br>
+                                    자신을 곁에 두려는 핀클스타인 박사에게 독초를 먹여 자주 도망나온다. <br><br>
+                                    &nbsp;&nbsp;잭을 사랑하지만 마음을 전하지는 못했다. 
                                     핼러윈 마을에서 가장 이성적이어서, 잘못된 크리스마스를 바로잡고 잭을 돕기 위해 노력한다.</p>
                             </div>
 
@@ -636,9 +451,9 @@
 
                             <div class="sally">
                                 <h2>Jack Skellington</h2>
-                                <p>&nbsp;오싹하고 무시무시한 핼러윈 축제를 주관하는 핼러윈 마을의 주요 인물. 
-                                    되풀이되는 핼러윈에 지겨움을 느끼던 차에 우연히 크리스마스를 알게 된 후, 크
-                                    리스마스를 자신의 것으로 만들 계획을 세운다.</p>
+                                <p>&nbsp;&nbsp;오싹하고 무시무시한 핼러윈 축제를 주관하는 핼러윈 마을의 주요 인물.<br> <br> 
+                                    &nbsp;&nbsp;되풀이되는 핼러윈에 지겨움을 느끼던 차에 우연히 크리스마스를 알게 된 후, 
+                                    크리스마스를 자신의 것으로 만들 계획을 세운다.</p>
                             </div>
                         </div>
 
@@ -647,9 +462,9 @@
                                 <div class="duck">
                                     <img src="img/chrismas_duck_two.png" alt="duck">
                                     <h1>Dr. Finkelstein</h1>
-                                    <p>&nbsp;핼러윈 마을의 괴짜 박사로 샐리를 만들어냈다. 
-                                        생명을 창조해내는 건 식은 죽 먹기일 정도로 뛰어난 두뇌를 가졌으나 번번이 샐리에게 당한다. 
-                                        영화 &lt; 프랑켄슈타인 &gt;의 프랑켄슈타인을 본떠서 만들어진 인물이다.
+                                    <p>&nbsp;&nbsp;핼러윈 마을의 괴짜 박사로 샐리를 만들어냈다. 
+                                    생명을 창조해내는 건 식은 죽 먹기일 정도로 뛰어난 두뇌를 가졌으나 번번이 샐리에게 당한다. 
+                                    <br>영화 &lt; 프랑켄슈타인 &gt;의 프랑켄슈타인을 본떠서 만들어진 인물이다.
                                     </p>
     
                                 </div>
@@ -657,7 +472,7 @@
                                 <div class="boogie">
                                     <img src="img/chrismas_boogie.jpg" alt="boogie">
                                     <h1>Woogie Boogie</h1>
-                                    <p>&nbsp;핼러윈 마을의 최고 악당. 로크, 쇼크, 배럴이 잡아다주는 희생물을 먹고 산다. 
+                                    <p>&nbsp;&nbsp;핼러윈 마을의 최고 악당.&nbsp; 로크, 쇼크, 배럴이 잡아다주는 희생물을 먹고 산다. 
                                         도박을 즐기고 희생물을 난폭하게 다루는 잔인한 성격에 비겁한 수를 쓰는 것도 부지기수다.
                                     </p>
                                     
@@ -794,11 +609,11 @@
                             사람을 본 적이 없는 비밀의 공간이다. <br><br>
 
                             &nbsp;&nbsp;어느 날, 공장장 '윌리 웡카'가 5개의 웡카 초콜릿에 감춰진 행운의 황금티켓을 찾은 어린이 
-                            다섯 명에게 자신의 공장을 공개하고 그 모든 제작과정의 비밀을 보여주겠다는 선언을 한다. 
+                            다섯 명에게 자신의 공장을 공개하고 그 모든 제작과정의 비밀을 보여주겠다는 선언을 한다. <br>
                             이제 전 세계 어린이들은 황금티켓을 찾기 위한 노력을 시작한다. <br><br>
 
                             &nbsp;&nbsp;초콜릿 공장 바로 옆, 다 쓰러져 갈듯한 작은 오두막집에서 살고 있는 찰리 역시 초콜릿 공장에 가고 싶은 건 마찬가지. 
-                            찰리는 매일 밤 잠들기 전 공장 안이 어떻게 생겼을 지를 상상하며 잠이 들곤 했다. <br> 
+                            찰리는 매일 밤 잠들기 전 공장 안이 어떻게 생겼을 지를 상상하며 잠이 들곤 했다.  
                             찰리는 1년에 단 한번, 자신의 생일에 딱 한 개의 웡카 초콜릿을 먹을 수 있기 때문에 당첨될 확률은 거의 희박했다. <br>
                             하지만, 눈 쌓인 거리에서 우연히 돈을 주워 웡카 초콜릿을 산 찰리가 다섯 번째 황금 티켓을 발견한 주인공이 되었다!! <br><br>
                             &nbsp;&nbsp;웡카의 초콜릿 공장에 들어간 찰리는 눈앞에 펼쳐지는 놀라운 광경들에 입을 다물지 못한다. <br>
@@ -814,7 +629,7 @@
                             <div>
                                 <img src="img/charlie_wonka.jfif" alt="Wonka">
                                 <h2>Willy Wonka</h2>
-                                <p>공장보다 더 신비로운 수수께끼는 초콜릿 공장의 공장장인 윌리 웡카(조니 뎁)라는 인물. 
+                                <p>&nbsp;&nbsp;공장보다 더 신비로운 수수께끼는 초콜릿 공장의 공장장인 윌리 웡카라는 인물. 
                                     들리는 소문에 의하면 웡카는 몇 년 동안 공장 밖으로 나가본 적도 없다고 한다. 
                                     그가 어떤 사람이고, 왜 초콜릿 만드는 일에 모든 것을 걸고 있는지 모두들 궁금해 할 뿐이다.
                                 </p>
@@ -823,14 +638,14 @@
                             <div>
                                 <img src="img/charlie_six.jfif" alt="Charlie">
                                 <p>
-                                    가정 형편은 어렵지만, 서로를 따뜻하게 보듬는 가족들 품안에서 사랑받으며 자라 마음이 착하고 순수한 아이.
+                                    &nbsp;&nbsp;가정 형편은 어렵지만, 서로를 따뜻하게 보듬는 가족들 품안에서 사랑받으며 자라 마음이 착하고 순수한 아이.
                                 </p>
                             </div>
         
                             <div>
                                 <img src="img/charlie.jfif" alt="Augustus">
                                 <p>
-                                    첫 번째 당첨자인 독일의 먹보 소년. 언제나 초콜릿을 입에 달고 사는 소년이다.
+                                    &nbsp;&nbsp;첫 번째 당첨자인 독일의 먹보 소년. <br> 언제나 초콜릿을 입에 달고 사는 소년이다.
                                 </p>
                             </div>
                         </div>
@@ -1423,40 +1238,50 @@
 
 
             <footer>
-                <div class="leftbox">
-                    <p>Real Name</p><br>
-                    <p>Birth</p><br><br>
-                    <p>Nationality</p><br>
-                    <p>Profession</p><br>
-                    <p>Education</p><br>
+                <div id="footerwrap">
+                    <div id="boxwrap">
+                        <div class="leftbox">
+                            <p>Real Name</p><br>
+                            <p>Birth</p><br><br>
+                            <p>Nationality</p><br>
+                            <p>Profession</p><br>
+                            <p>Education</p><br>
+                        </div>
+        
+                        
+                        <div class="rightbox">
+                            <p>Timothy Walter Burton</p><br>
+                            <p>1958 . 08 . 25 <br> Burbank , California</p><br>
+                            <p>United States of America</p><br>
+                            <p>Director , Producer , Scriptwriter , Artist</p><br>
+                            <p>California Institute of the Arts</p>
+                        </div>
+                    </div>
+    
+                    
+                    <div id="award">
+                        <p>Awards</p><br>
+                        <i>14th Saturn Awards Best Horror, Thriller Award  , 1988</i><br>
+                        <i>17th Saturn Awards Best Fantasy Film Award  , 1991</i><br>
+                        <i>The 10th 金紫荊獎 Top 10 Foreign Language Film Awards  , 2005</i><br>
+                        <i>64th Venice International Film Festival Lifetime Achievement Award  , 2007</i><br>
+                        <i>The 65th Golden Globe Awards Musical Comedy Category Best Picture  , 2008</i><br>
+                        <i>Amsterdam Fantastic Film Festival Achievement Award  , 2008</i><br>
+                        <i>Order of French Art and Literature  , 2010</i><br>
+                        <i>37th Saturn Awards Best Fantasy Film Award  , 2011</i><br>
+                        <i>The 27th Tokyo International Film Festival Samurai Award  , 2014</i>
+                    </div>
                 </div>
-
-                
-                <div class="rightbox">
-                    <p>Timothy Walter Burton</p><br>
-                    <p>1958 . 08 . 25 <br> Burbank , California</p><br>
-                    <p>United States of America</p><br>
-                    <p>Director , Producer , Scriptwriter , Artist</p><br>
-                    <p>California Institute of the Arts</p>
-                </div>
-
-                
-                <p>Awards<br>
-                    <i>14th Saturn Awards Best Horror, Thriller Award  , 1988</i><br>
-                    <i>17th Saturn Awards Best Fantasy Film Award  , 1991</i><br>
-                    <i>The 10th 金紫荊獎 Top 10 Foreign Language Film Awards  , 2005</i><br>
-                    <i>64th Venice International Film Festival Lifetime Achievement Award  , 2007</i><br>
-                    <i>The 65th Golden Globe Awards Musical Comedy Category Best Picture  , 2008</i><br>
-                    <i>Amsterdam Fantastic Film Festival Achievement Award  , 2008</i><br>
-                    <i>Order of French Art and Literature  , 2010</i><br>
-                    <i>37th Saturn Awards Best Fantasy Film Award  , 2011</i><br>
-                    <i>The 27th Tokyo International Film Festival Samurai Award  , 2014</i>
-                </p>
             </footer>
 
         </div>
 
     </div>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/section.js"></script>
 </body>
 
 </html>
