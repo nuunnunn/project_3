@@ -1,6 +1,6 @@
 //span 누르면 텍스트 바뀜
 $('#change p').click(function () {
-    let idx = $(this).index();
+    var idx = $(this).index();
     $(this).parent().next().children().slideUp();
     $(this).parent().next().children().eq(idx).slideDown('slow');                
     

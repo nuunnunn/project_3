@@ -17,7 +17,6 @@ $(window).scroll(function () {
     //scroll event
     var currentScrollTop = $(this).scrollTop();
     //vincent 사라짐
-    var section1 = $('#section1').offset().top;
     var section2 = $('#section2').offset().top;
    
     if(0 < currentScrollTop < section2){
